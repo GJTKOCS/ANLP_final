@@ -1,0 +1,28 @@
+# Ordered stages. {R}/{prev} etc. are expanded by pipeline.py. 'out' = artifact (or runs/ file) whose manifest must say complete.
+stages:
+  - {name: data,          priority: must,     est_h: 1.25, cmd: "data build",                         out: episodes, check: G1}
+  - {name: warmstart,     priority: must,     est_h: 1.5,  cmd: "data warmstart",                     out: warmstart_convs, check: G2}
+  - {name: judge,         priority: must,     est_h: 0.2,  cmd: "judge calibrate",                    out: judge_calibration}
+  - {name: listeners_r0,  priority: must,     est_h: 0.8,  cmd: "listeners train --round 0",          out: listeners_r0, check: G3}
+  - {name: sft,           priority: must,     est_h: 0.5,  cmd: "speaker sft",                        out: speaker_sft}
+  - {name: s0,            priority: must,     est_h: 0.5,  cmd: "transcripts --cond S0",              out: convs_S0, check: G4}
+  - {name: grpo_r1,       priority: must,     est_h: 3.0,  cmd: "speaker grpo --round 1 --lam 1.0",   out: speaker_r1_lam1.0, check: G5}
+  - {name: trans_r1,      priority: must,     est_h: 0.5,  cmd: "transcripts --cond A1",              out: convs_A1}
+  - {name: listeners_r1,  priority: must,     est_h: 0.8,  cmd: "listeners train --round 1",          out: listeners_r1}
+  - {name: grpo_r2,       priority: should,   est_h: 3.0,  cmd: "speaker grpo --round 2 --lam 1.0",   out: speaker_r2_lam1.0}
+  - {name: trans_r2,      priority: should,   est_h: 0.5,  cmd: "transcripts --cond A2",              out: convs_A2}
+  - {name: listeners_r2,  priority: should,   est_h: 0.8,  cmd: "listeners train --round 2",          out: listeners_r2}
+  - {name: eval_s1,       priority: must,     est_h: 1.0,  cmd: "eval run --cond S1",                 out: evalpair_S1}
+  - {name: eval_s0,       priority: must,     est_h: 0.8,  cmd: "eval run --cond S0",                 out: evalpair_S0}
+  - {name: eval_s3,       priority: must,     est_h: 0.8,  cmd: "eval run --cond S3",                 out: evalpair_S3}
+  - {name: s2,            priority: should,   est_h: 1.5,  cmd: "transcripts --cond S2",              out: convs_S2}
+  - {name: eval_s2,       priority: should,   est_h: 0.8,  cmd: "eval run --cond S2",                 out: evalpair_S2}
+  - {name: armsrace,      priority: should,   est_h: 0.3,  cmd: "eval armsrace",                      out: armsrace}
+  - {name: s4,            priority: optional, est_h: 2.0,  cmd: "transcripts --cond S4",              out: convs_S4}
+  - {name: eval_s4,       priority: optional, est_h: 0.8,  cmd: "eval run --cond S4",                 out: evalpair_S4}
+  - {name: lam05,         priority: optional, est_h: 1.8,  cmd: "speaker grpo --round 1 --lam 0.5 --half", out: speaker_r1_lam0.5}
+  - {name: lam2,          priority: optional, est_h: 1.8,  cmd: "speaker grpo --round 1 --lam 2.0 --half", out: speaker_r1_lam2.0}
+  - {name: strongc,       priority: optional, est_h: 1.0,  cmd: "eval strongc",                       out: strongc}
+  - {name: eval_s3a,      priority: optional, est_h: 1.0,  cmd: "eval run --cond S3a",                out: evalpair_S3a}
+  - {name: eval_s3b,      priority: optional, est_h: 1.0,  cmd: "eval run --cond S3b",                out: evalpair_S3b}
+  - {name: report,        priority: must,     est_h: 0.25, cmd: "eval report",                        out: results, cpu: true}

@@ -1,0 +1,5 @@
+\section{Challenges, Limitations and Future Work}
+This section contains no results from the project. \emph{Scope of the claim.} The channel is described as hidden only relative to the outsiders we train or prompt; we do not claim it is secure.
+\emph{Synthetic setting.} Memories, people, places and topics are fictional and drawn from small inventories (10 people, 10 places), and memories are LLM-written; transfer to open-ended settings is untested.
+\emph{Outsider strength.} Our trained C uses a small backbone with the same data as B; a stronger or differently trained outsider could succeed. \emph{Sense judge.} Coherence is judged by a small model with a calibrated threshold and a small human check; it may accept stilted text.
+\emph{Compute.} One GPU and two days limit the number of rounds, seeds and $\lambda$ values; we did not repeat runs over seeds. \emph{Future work:} larger inventories, free-form secrets, paraphrasing defences, stronger overseers, and multiple seeds.

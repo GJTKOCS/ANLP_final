@@ -1,0 +1,5 @@
+profile: cpu_debug
+data: {n_train: 24, n_dev: 8, n_test: 10, n_showcase: 4, jaccard_split: 1.01, warm_k_train: 2, warm_k_dev: 1}
+listeners: {epochs: 1, max_len: 640}
+speaker: {sft_epochs: 1, rounds: 2, save_every: 2, dev_every: 2, max_new_tokens: 16}
+eval: {bootstrap: 50, best_of_n: 2, strong_c: false}

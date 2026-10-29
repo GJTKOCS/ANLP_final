@@ -1,0 +1,6 @@
+# Index order defines classifier label order. NEVER reorder.
+people: [Ravi, Priya, Arjun, Meera, Kabir, Sana, Dev, Ishita, Rohan, Tara]
+places: [rooftop cafe, beach shack, bowling alley, karaoke bar, night market, lakeside park, old cinema hall, food court, botanical garden, community hall]
+# Distinctive place keywords banned after the switch. Generic words (bowling, park, market,
+# garden, cafe, bowler) are deliberately NOT banned: they are public clues, catching them is C's job.
+place_keywords: [rooftop, shack, alley, karaoke, night market, lakeside, cinema hall, food court, botanical, community hall]

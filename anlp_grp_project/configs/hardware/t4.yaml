@@ -1,0 +1,15 @@
+name: t4
+policy_model: Qwen/Qwen2.5-1.5B-Instruct
+listener_model: Qwen/Qwen2.5-0.5B
+dtype: float16
+big_gen_models: [[0, "Qwen/Qwen2.5-7B-Instruct"]]
+big_gen_bs: 8
+use_vllm: false
+grad_ckpt: true
+gen_bs: 16
+score_bs: 8
+listener_mb: 4
+listener_ga: 8
+sft_mb: 4
+grpo_mb: 4
+grpo: {P: 4, G: 4, steps: 80, dev_n: 30}

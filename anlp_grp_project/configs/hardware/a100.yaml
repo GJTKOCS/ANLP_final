@@ -1,0 +1,17 @@
+name: a100
+policy_model: Qwen/Qwen2.5-3B-Instruct
+listener_model: Qwen/Qwen2.5-1.5B
+dtype: bfloat16
+# ASSUMPTION: 14B bf16 by default (no autoawq dependency, fast under plain HF generate). For the 32B model override:
+#   hw.big_gen_models='[[0, "Qwen/Qwen2.5-32B-Instruct-AWQ"]]' hw.big_gen_bs=12   (needs `pip install autoawq`)
+big_gen_models: [[38, "Qwen/Qwen2.5-14B-Instruct"], [0, "Qwen/Qwen2.5-7B-Instruct"]]
+big_gen_bs: 24
+use_vllm: false          # not implemented in this build; plain HF generate is used everywhere
+grad_ckpt: true
+gen_bs: 48
+score_bs: 16
+listener_mb: 8
+listener_ga: 4
+sft_mb: 8
+grpo_mb: 8
+grpo: {P: 8, G: 6, steps: 150, dev_n: 50}

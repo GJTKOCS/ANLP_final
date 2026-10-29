@@ -1,0 +1,13 @@
+# Version ranges (torch usually comes preinstalled on Jarvislabs PyTorch images; do not reinstall it)
+torch>=2.2
+transformers>=4.44
+peft>=0.12
+accelerate>=0.30
+huggingface_hub
+wandb
+pyyaml
+numpy
+pandas
+matplotlib
+tqdm
+pytest

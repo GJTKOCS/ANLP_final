@@ -1,0 +1,16 @@
+name: cpu_debug
+policy_model: toy-tiny          # random tiny Qwen2 + Qwen tokenizer (tokenizer must be cached / downloadable)
+listener_model: toy-tiny
+toy_tokenizer: Qwen/Qwen2.5-1.5B-Instruct
+dtype: float32
+big_gen_models: [[0, "toy-tiny"]]
+big_gen_bs: 16
+use_vllm: false
+grad_ckpt: false
+gen_bs: 16
+score_bs: 8
+listener_mb: 8
+listener_ga: 1
+sft_mb: 8
+grpo_mb: 8
+grpo: {P: 2, G: 3, steps: 3, dev_n: 4}

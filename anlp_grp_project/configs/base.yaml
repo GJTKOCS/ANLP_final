@@ -1,0 +1,51 @@
+seed: 1234
+profile: auto            # auto picks a100 (>=30GB GPU) or t4 (<30GB) from the detected GPU; or force a100|t4|cpu_debug
+team_name: 5MinsBoss     # ZIP is <team_name>-Final.zip
+paths: {artifacts: artifacts, runs: runs, results: results, data: data}
+hub: {push: true, org: GJTKOCS}       # pushes (private repos) only if HF_TOKEN is set in the environment
+wandb: {enabled: true, entity: gjai2006-iiit-hyderabad, project: ANLP_final}   # logs only if WANDB_API_KEY is set
+data:
+  n_train: 1500
+  n_dev: 200
+  n_test: 300
+  n_showcase: 20
+  n_turns: 4                 # 3 or 4
+  warm_k_train: 4
+  warm_k_dev: 1
+  mem_words: [15, 50]
+  jaccard_mem: 0.5
+  jaccard_split: 0.6
+  writer_retries: 3
+listeners:
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  epochs: 2
+  lr: 1.0e-4
+  warmup: 0.05
+  max_len: 768
+  seed: 7
+speaker:
+  sft_epochs: 2
+  sft_lr: 1.0e-4
+  rounds: 2
+  lam: 1.0
+  tau: 0.5                   # overwritten by judge calibration artifact if present
+  reward_mode: prob          # prob | logprob
+  temp_a: 0.9
+  top_p: 0.95
+  temp_b: 0.7
+  max_new_tokens: 60
+  b_resample: 3
+  clip_eps: 0.2
+  beta: 0.04
+  lr: 1.0e-5
+  inner_epochs: 1
+  save_every: 25
+  dev_every: 25
+  transcript_temp: 0.8
+  init: sft                  # sft | fresh
+eval:
+  bootstrap: 1000
+  best_of_n: 8
+  strong_c: true

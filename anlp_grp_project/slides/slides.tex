@@ -1,0 +1,49 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+\usepackage{graphicx,xcolor}
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{TODO} #1}}
+\newcommand{\fig}[2]{\IfFileExists{figures/#1.png}{\includegraphics[width=#2\linewidth]{figures/#1.png}}{\TODO{figure #1 (copy from paper/figures/*.png after the run)}}}
+\title{Speaking Privately in Public}
+\subtitle{Training language-model agents to hide plans in shared history}
+\author{5MinsBoss: Jai Aakash Gopalakrishnan, Aditya Nair, Chiranjeevi K, Rashmiraj Patra}
+\date{ANLP, IIIT Hyderabad}
+\begin{document}
+\frame{\titlepage}
+\begin{frame}{1. You are C}
+One real coded conversation from the showcase set (\texttt{viewer/showcase.json}). Rules: two friends hide a \emph{helper} and a \emph{venue} by referring to private memories; nobody names anything.\\[4pt]
+\TODO{paste one showcase conversation (chat only)}\\ Options: 10 people, 10 places. Guess!
+\end{frame}
+\begin{frame}{2. The reveal}
+The memories, with the matching phrases highlighted. \TODO{showcase memories + highlight (viewer's ``reveal memories'' toggle)}
+\end{frame}
+\begin{frame}{3. Why it matters}
+\begin{itemize}\item Shared context lets agents talk privately in public.\item A monitor that reads only the visible chat can be bypassed.\item We study this as a safety-relevant phenomenon, with fictional content only.\end{itemize}
+\end{frame}
+\begin{frame}{4. The system}
+\begin{itemize}\item \textbf{A} (trained, LoRA): knows memories and secret.\item \textbf{B speaker} (frozen): has memories, not the secret.\item \textbf{B listener}: memories + chat $\to$ helper, venue.\item \textbf{C}: chat only; same architecture, data, training as B's listener.\item \textbf{Judge} (coherence) and \textbf{leak checker}.\end{itemize}
+\end{frame}
+\begin{frame}{5. Training loop and arms race}
+Rollouts $\to$ listeners + judge + leak check $\to$ reward $=\overline{p_B}-\lambda\overline{p_C}$ $\to$ GRPO $\to$ retrain B, C on all transcripts $\to$ repeat.\\
+Fresh memories every episode: the only trick C cannot copy is using the shared history.
+\end{frame}
+\begin{frame}{6. Replay: one episode across rounds}
+\TODO{static frames from the viewer: conversation + B/C probability bars for S0, S1, A1, A2}
+\end{frame}
+\begin{frame}{7. The arms-race moment}
+\TODO{a public clue C caught in one round and A dropped in the next (from \texttt{results/public\_clues.json})}
+\end{frame}
+\begin{frame}{8. Scoreboard}
+\fig{scoreboard}{0.6}\\ \TODO{S3 vs S0, S1, S2, S4: B acc, C acc, sense, leak (from results/results.md)}
+\end{frame}
+\begin{frame}{9. The $\lambda$ dial}
+\TODO{same plan at $\lambda=0.5$ and $2$; trade-off curve (only if those runs completed)}
+\end{frame}
+\begin{frame}{10. Blooper reel}
+\TODO{tagged bloopers from runs/bloopers.jsonl (leaks, sense failures, C right)}
+\end{frame}
+\begin{frame}{11. Limitations and next steps}
+Synthetic, small inventories; small outsider; one seed; coherence judged by a small model. Next: larger inventories, stronger overseers, paraphrasing defences, multiple seeds.
+\end{frame}
+\begin{frame}{12.}
+\Large Train a small model against an outsider who keeps learning, and it discovers the one trick the outsider can't copy: speaking through shared history.
+\end{frame}
+\end{document}

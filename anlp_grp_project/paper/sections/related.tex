@@ -1,0 +1,12 @@
+\section{Related Work}
+\paragraph{Hidden communication between neural agents.}
+Abadi and Andersen trained neural networks to protect communications against an adversary with adversarial training~\cite{abadi2016learning}.
+Linguistic steganography hides messages in fluent text~\cite{ziegler2019neural,kaptchuk2021meteor}; these methods rely on a shared secret key and a coding scheme,
+whereas our key is naturally occurring shared history and nothing is encoded. Motwani et al.\ study secret collusion among AI agents via steganography~\cite{motwani2024secret}.
+Roger and Greenblatt study models hiding reasoning in their outputs and defences such as paraphrasing~\cite{roger2023preventing}.
+The closest work is Mathew et al.~\cite{mathew2024hidden} (arXiv:2410.03768), who train a sender and receiver with reinforcement learning against an overseer that flags suspicious text, with an optional paraphraser.
+We differ in three ways: (i) the outsider is a decoder \emph{retrained every round} with the same architecture and data as the insider listener, rather than a fixed overseer;
+(ii) the key is a freshly generated shared history per episode, written before the secret is drawn; and (iii) the exchange is a two-sided multi-turn dialogue in which the replying insider does not know the secret and must decode it live.
+\paragraph{Emergent communication.} Lazaridou et al.\ and Foerster et al.\ study how agents develop communication protocols by reinforcement learning~\cite{lazaridou2017multi,foerster2016learning};
+we instead start from natural language and ask what protocol is hidden inside it.
+\paragraph{Training methods.} We use GRPO~\cite{shao2024deepseekmath} without a value model and LoRA adapters~\cite{hu2021lora}; a supervised warm start on filtered samples resembles rejection-sampling approaches such as STaR~\cite{zelikman2022star}.

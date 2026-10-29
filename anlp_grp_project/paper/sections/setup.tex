@@ -1,0 +1,7 @@
+\section{Experimental Setup}
+\paragraph{Models.} Speaker: Qwen2.5-3B-Instruct with LoRA ($r{=}16,\alpha{=}32$); listeners: Qwen2.5-1.5B with LoRA; B speaker and sense judge: the base speaker model with adapters disabled; generator for memories, warm-start conversations and prompted listeners:
+\TODO{big\_gen model actually used, from \texttt{artifacts/warmstart\_convs/manifest.json}}. Hardware profile and GPU: \TODO{from manifests}.
+\paragraph{Data.} 1500 train, 200 dev, 300 test episodes (configurable); warm start uses $K{=}4$ conversations per train episode. \TODO{fallback and validation counts from the data manifest}.
+\paragraph{Conditions.} S0 base prompted; S1 SFT warm start; S2 best-of-8 from S0 under the round-0 reward; S3 final GRPO ($\lambda{=}1$); S3a/S3b $\lambda\in\{0.5,2\}$ (if run); S4 a larger prompted model (if run).
+\paragraph{Metrics.} B and C accuracy per slot and both-correct; insider advantage (B both minus C both); joint success (B both correct, C at most one correct) and its strict version; leak rate; sense pass rate; mean reward. All with 95\% bootstrap intervals over test episodes (1000 resamples). Chance: 10\% per slot, 1\% both.
+\paragraph{Training details.} See Appendix; all hyperparameters are config values recorded in each manifest.

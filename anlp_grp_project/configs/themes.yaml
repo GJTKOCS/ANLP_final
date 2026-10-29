@@ -1,0 +1,43 @@
+# Past-tense predicates. 'train' used for train/dev, 'test' only for test split.
+train:
+  - fell asleep at the wrong moment
+  - got a small injury on a night out
+  - had a performance go badly wrong
+  - made a bargain that went wrong
+  - got caught in the rain
+  - had a cooking disaster
+  - lost something important
+  - took the wrong bus
+  - pulled off a prank
+  - lost a silly bet
+  - had a pet cause chaos
+  - sat through a power cut
+  - got hopelessly lost
+  - got a terrible haircut
+  - missed the last train home
+  - locked themselves out
+  - got stuck in a lift
+  - forgot a friend's birthday
+  - broke a borrowed phone
+  - burned the dinner
+  - sang off-key in public
+  - got sunburnt
+  - tripped in front of everyone
+  - ordered the wrong food
+  - was chased by a stray dog
+  - misread the map completely
+  - lost a wallet and found it later
+  - arrived a day early
+  - fell into a puddle
+  - cried at a movie and denied it
+test:
+  - got stuck behind a wedding procession
+  - mixed up two identical bags
+  - waited an hour for a friend who never came
+  - accidentally walked into the wrong party
+  - dropped a cake just before serving
+  - got a bad sunburn on one arm only
+  - lost a bet on a coin toss
+  - sneezed during a quiet ceremony
+  - mistook a stranger for a friend
+  - got trapped by a sudden festival crowd

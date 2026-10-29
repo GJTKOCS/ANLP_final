@@ -1,0 +1,2 @@
+# Optional only. 32B-AWQ big_gen needs autoawq (see configs/hardware/a100.yaml); default 14B bf16 needs nothing extra.
+autoawq

@@ -1,0 +1,4 @@
+\section{Appendix}
+\paragraph{Prompts.} A and B speaker system prompts and the judge prompt are given verbatim in \texttt{src/covert/common/prompts.py} (identical across conditions).
+\paragraph{Hyperparameters.} Listeners: 2 epochs, LR $10^{-4}$, cosine with 5\% warmup, max length 768, LoRA $r{=}16$. Speaker SFT: 2 epochs, LR $10^{-4}$. GRPO: $P{=}8$, $G{=}6$, 150 steps per round, LR $10^{-5}$, $\beta{=}0.04$, clip 0.2, temperatures 0.9 (A) and 0.7 (B). \TODO{confirm against the manifest of the run used}
+\paragraph{Sanity checks and extra examples.} \TODO{table of sanity checks; extra showcase examples}

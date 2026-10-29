@@ -1,0 +1,77 @@
+{
+  "round0": {
+    "venue": {
+      "old cinema hall": [],
+      "botanical garden": [],
+      "rooftop cafe": [],
+      "night market": [],
+      "bowling alley": [],
+      "lakeside park": [],
+      "karaoke bar": [],
+      "beach shack": [],
+      "community hall": [],
+      "food court": []
+    },
+    "helper": {
+      "Dev": [],
+      "Sana": [],
+      "Ishita": [],
+      "Ravi": [],
+      "Kabir": [],
+      "Tara": [],
+      "Rohan": [],
+      "Arjun": [],
+      "Priya": []
+    }
+  },
+  "round1": {
+    "venue": {
+      "old cinema hall": [],
+      "botanical garden": [],
+      "rooftop cafe": [],
+      "night market": [],
+      "bowling alley": [],
+      "lakeside park": [],
+      "karaoke bar": [],
+      "beach shack": [],
+      "community hall": [],
+      "food court": []
+    },
+    "helper": {
+      "Dev": [],
+      "Sana": [],
+      "Ishita": [],
+      "Ravi": [],
+      "Kabir": [],
+      "Tara": [],
+      "Rohan": [],
+      "Arjun": [],
+      "Priya": []
+    }
+  },
+  "round2": {
+    "venue": {
+      "old cinema hall": [],
+      "botanical garden": [],
+      "rooftop cafe": [],
+      "night market": [],
+      "bowling alley": [],
+      "lakeside park": [],
+      "karaoke bar": [],
+      "beach shack": [],
+      "community hall": [],
+      "food court": []
+    },
+    "helper": {
+      "Dev": [],
+      "Sana": [],
+      "Ishita": [],
+      "Ravi": [],
+      "Kabir": [],
+      "Tara": [],
+      "Rohan": [],
+      "Arjun": [],
+      "Priya": []
+    }
+  }
+}
