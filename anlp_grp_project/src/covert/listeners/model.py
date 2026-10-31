@@ -21,12 +21,13 @@ class ListenerModel(nn.Module):
     def __init__(self, backbone: nn.Module, hidden: int):
         super().__init__()
         self.backbone = backbone
+        self.head_norm = nn.LayerNorm(hidden)                   # pooled LM states have a huge scale -> NaN without this
         self.head_helper = nn.Linear(hidden, 10)
         self.head_venue = nn.Linear(hidden, 10)
 
     def forward(self, input_ids, attention_mask):
         hs = self.backbone(input_ids=input_ids, attention_mask=attention_mask).last_hidden_state
-        pooled = last_token_pool(hs, attention_mask).float()
+        pooled = self.head_norm(last_token_pool(hs, attention_mask).float())
         return self.head_helper(pooled), self.head_venue(pooled)
 
     def trainable_state(self) -> dict:
@@ -50,6 +51,7 @@ def build_listener(cfg, device=None):
     lora = LoraConfig(r=lc["lora_r"], lora_alpha=lc["lora_alpha"], lora_dropout=lc["lora_dropout"], target_modules=LORA_TARGETS)
     bb = get_peft_model(bb, lora)
     model = ListenerModel(bb, bb.config.hidden_size if hasattr(bb, "config") else bb.base_model.config.hidden_size)
+    model.head_norm.to(device).float()
     model.head_helper.to(device).float()
     model.head_venue.to(device).float()
     tok = load_tokenizer(lc["model"], hw)

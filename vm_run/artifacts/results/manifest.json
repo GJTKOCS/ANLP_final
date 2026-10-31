@@ -1,0 +1,141 @@
+{
+  "run_id": "results",
+  "stage": "report",
+  "command": "eval report",
+  "inputs": [
+    "evalpair_S0",
+    "evalpair_S0_trained",
+    "evalpair_S1",
+    "evalpair_S1_trained",
+    "evalpair_S3",
+    "evalpair_S3_trained"
+  ],
+  "models": {},
+  "outputs": [
+    "results"
+  ],
+  "seeds": {
+    "seed": 1234
+  },
+  "extra": {
+    "conditions": [
+      "S0",
+      "S0_trained",
+      "S1",
+      "S1_trained",
+      "S3",
+      "S3_trained"
+    ]
+  },
+  "status": "complete",
+  "created_at": "2026-10-29T23:02:51.003084+00:00",
+  "git_commit": "5bb3682",
+  "config_hash": "c288b34e39",
+  "profile": "cpu_debug",
+  "gpu_type": "mps",
+  "gpu_hours": 0.0,
+  "wall_hours": 0.0003,
+  "config": {
+    "seed": 1234,
+    "profile": "cpu_debug",
+    "team_name": "5MinsBoss",
+    "paths": {
+      "artifacts": "/Users/jaiaakash/Documents/ANLP_Final/vm_run/artifacts",
+      "runs": "/Users/jaiaakash/Documents/ANLP_Final/anlp_grp_project/runs",
+      "results": "/Users/jaiaakash/Documents/ANLP_Final/anlp_grp_project/results",
+      "data": "/Users/jaiaakash/Documents/ANLP_Final/anlp_grp_project/data"
+    },
+    "hub": {
+      "push": true,
+      "org": "GJTKOCS"
+    },
+    "wandb": {
+      "enabled": true,
+      "entity": "gjai2006-iiit-hyderabad",
+      "project": "ANLP_final"
+    },
+    "data": {
+      "n_train": 1500,
+      "n_dev": 200,
+      "n_test": 300,
+      "n_showcase": 20,
+      "n_turns": 4,
+      "warm_k_train": 4,
+      "warm_k_dev": 1,
+      "warm_a_resample": 8,
+      "mem_words": [
+        15,
+        50
+      ],
+      "jaccard_mem": 0.5,
+      "jaccard_split": 0.6,
+      "writer_retries": 3
+    },
+    "listeners": {
+      "lora_r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "epochs": 2,
+      "lr": 0.0001,
+      "warmup": 0.05,
+      "max_len": 768,
+      "seed": 7,
+      "mode": "prompted"
+    },
+    "speaker": {
+      "sft_epochs": 2,
+      "sft_lr": 0.0001,
+      "rounds": 2,
+      "lam": 1.0,
+      "tau": 0.5,
+      "reward_mode": "prob",
+      "temp_a": 0.9,
+      "top_p": 0.95,
+      "temp_b": 0.7,
+      "max_new_tokens": 60,
+      "b_resample": 3,
+      "clip_eps": 0.2,
+      "beta": 0.04,
+      "lr": 1e-05,
+      "inner_epochs": 1,
+      "save_every": 25,
+      "dev_every": 25,
+      "transcript_temp": 0.8,
+      "init": "sft"
+    },
+    "eval": {
+      "bootstrap": 1000,
+      "best_of_n": 8,
+      "strong_c": true
+    },
+    "hw": {
+      "name": "cpu_debug",
+      "policy_model": "toy-tiny",
+      "listener_model": "toy-tiny",
+      "toy_tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+      "dtype": "float32",
+      "big_gen_models": [
+        [
+          0,
+          "toy-tiny"
+        ]
+      ],
+      "big_gen_bs": 16,
+      "use_vllm": false,
+      "grad_ckpt": false,
+      "gen_bs": 16,
+      "score_bs": 8,
+      "listener_mb": 8,
+      "listener_ga": 1,
+      "sft_mb": 8,
+      "grpo_mb": 8,
+      "grpo": {
+        "P": 2,
+        "G": 3,
+        "steps": 3,
+        "dev_n": 4
+      }
+    },
+    "toy": false
+  }
+}

@@ -1,0 +1,85 @@
+=== STEP0 (CPU) start 22:23:14
+== 1. A-turn leak re-sampling call sites ==
+  src/covert/data/warmstart.py:64  a_resample=int(cfg.data.get("warm_a_resample"
+  src/covert/speaker/grpo.py:42  a_resample=0 (default)
+  src/covert/speaker/grpo.py:79  a_resample=0 (default)
+  src/covert/stages.py:318  a_resample=0 (default)
+  src/covert/stages.py:329  a_resample=0 (default)
+  RESULT: OK - only warm start re-samples A turns
+
+== 2. Per-slot accuracy per condition (% , 95% bootstrap CI over test episodes) ==
+  cond               B_helper                B_venue                 B_both               C_helper                C_venue                 C_both
+  S0      40.5 [ 34.0,  47.5]    36.5 [ 30.0,  43.5]    17.5 [ 12.5,  23.5]    36.5 [ 30.0,  43.0]    36.5 [ 30.5,  43.5]    20.0 [ 15.0,  25.5]   (n=200, S0)
+  S1      37.0 [ 30.5,  43.5]    35.5 [ 29.0,  42.5]    13.5 [  9.0,  18.0]    10.0 [  6.0,  14.5]    31.0 [ 24.5,  37.5]     2.5 [  0.5,   5.0]   (n=200, S1)
+  S3      29.5 [ 23.5,  35.5]    36.0 [ 29.5,  43.0]    10.5 [  6.5,  14.5]    10.5 [  6.5,  15.0]    30.0 [ 23.5,  36.5]     3.5 [  1.0,   6.0]   (n=200, A1)
+
+== 4. Sense pass and A-turn leak rate on test ==
+  S0    sense pass  41.5 [ 34.5,  48.5]   A leak  60.5 [ 54.0,  67.0]   B with wrong memories (both)  13.5 [  9.0,  18.5]
+  S1    sense pass  51.5 [ 44.5,  58.0]   A leak   6.5 [  3.5,  10.0]   B with wrong memories (both)   3.5 [  1.0,   6.0]
+  S3    sense pass  59.0 [ 52.0,  65.5]   A leak   6.5 [  3.5,  10.0]   B with wrong memories (both)   2.0 [  0.5,   4.0]
+
+== 3. Reward decomposition (GRPO round 1, lambda=1) ==
+  first 20 steps: penalised leak 0.067  sense 0.425  mean(pB)-mean(pC) on unpenalised 0.191
+  last 20 steps: penalised leak 0.042  sense 0.231  mean(pB)-mean(pC) on unpenalised 0.186
+  overall (n=4800, tau=0.5): penalised by leak 0.053, by sense 0.323; gap on unpenalised = (0.18380928184238254, 0.17264318084581015, 0.19333660794065716)
+  plot: /home/ubuntu/ANLP_final/anlp_grp_project/results/step0/reward_decomposition.png
+
+== 5. Prompted pair on dev (listeners_r0, listeners_r1) ==
+  listeners_r0: status complete  {'listener_cfg_B': {'model': 'Qwen/Qwen2.5-1.5B', 'lora_r': 16, 'lora_alpha': 32, 'lora_dropout': 0.05, 'epochs': 5, 'lr': 0.0002, 'warmup': 0.05, 'max_len': 768, 'seed': 7}, 'listener_cfg_C': {'model': 'Qwen/Qwen2.5-1.5B', 'lora_r': 16, 'lora_alpha': 32, 'lora_dropout': 0.05, 'epochs': 5, 'lr': 0.0002, 'warmup': 0.05, 'max_len': 768, 'seed': 7}, 'n_train': 3000, 'n_dev': 150, 'dev_both': {'B': 0.02666666666666667, 'C': 0.05333333333333334}}
+  listeners_r1: status complete  {'mode': 'prompted', 'dev_both': {'B': 0.2, 'C': 0.02666666666666667}, 'n_dev': 150}
+
+wrote /home/ubuntu/ANLP_final/anlp_grp_project/results/step0/summary.json
+=== took 0 min
+=== STEP1 (GPU ~3-5 min) start 22:23:15
+estimated runtime: 3-5 min (loads Qwen2.5-1.5B twice)
+
+== (a) truncation ==  tokenizer truncation_side='left' padding_side='right' max_len=768
+  B-view length: min 451  median 545  p90 599  max 635  fraction > 768: 0.000
+  C-view length: median 218  max 265
+
+== (b) prediction distribution of the saved trained listeners on dev ==
+  B: dev both 0.027; distinct predicted helpers 1/10, venues 1/10; mean max-prob helper nan venue nan
+     predicted helpers: {'Ravi': 150}  gold: {'Arjun': 21, 'Ravi': 19, 'Priya': 17, 'Kabir': 17}
+     predicted venues:  {'rooftop cafe': 150}  gold: {'rooftop cafe': 20, 'botanical garden': 19, 'night market': 17, 'beach shack': 17}
+  C: dev both 0.053; distinct predicted helpers 10/10, venues 10/10; mean max-prob helper 0.20 venue 0.25
+     predicted helpers: {'Ravi': 64, 'Arjun': 37, 'Dev': 22, 'Kabir': 8}  gold: {'Arjun': 21, 'Ravi': 19, 'Priya': 17, 'Kabir': 17}
+     predicted venues:  {'night market': 45, 'community hall': 17, 'botanical garden': 17, 'lakeside park': 17}  gold: {'rooftop cafe': 20, 'botanical garden': 19, 'night market': 17, 'beach shack': 17}
+
+== (c) gradient flow (fresh model, one batch of 8 B-view examples) ==
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  lora_A           tensors  196  with grad  196  non-zero    0  total norm 0
+  lora_B           tensors  196  with grad  196  non-zero  196  total norm 28.17
+  head_helper      tensors    2  with grad    2  non-zero    2  total norm 192.5
+  head_venue       tensors    2  with grad    2  non-zero    2  total norm 168.7
+  other_trainable  tensors    0  with grad    0  non-zero    0  total norm 0
+  note: lora_B starts at zero, so lora_A gradients are exactly zero at step 1 by construction; lora_B and heads must be non-zero.
+  loss at init: 13.236 (2*ln(10) = 4.605 for uniform predictions)
+
+wrote /home/ubuntu/ANLP_final/anlp_grp_project/results/step1/diag.json  (0.16 min)
+=== took 0 min
+=== STEP2 C_alt (GPU, estimate printed, cap 45 min) start 22:23:27
+22:23:28 covert profile=a100 toy=False
+[calt] conditions ['S0', 'S1', 'S3'], 600 test conversations, 2400 scoring prompts; estimated runtime ~6 min (model load + scoring)
+22:23:30 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+[calt] S0: C_alt both 0.190  B(mismatched memories) both 0.135  (0.7 min elapsed)
+[calt] S1: C_alt both 0.025  B(mismatched memories) both 0.035  (1.4 min elapsed)
+[calt] S3: C_alt both 0.045  B(mismatched memories) both 0.020  (2.0 min elapsed)
+=== took 2 min
+=== STEP4 human form (CPU) start 22:25:33
+22:25:35 covert profile=a100 toy=False
+wrote /home/ubuntu/ANLP_final/anlp_grp_project/results/human/human_form.csv and google_form.txt (60 items). Give raters the CSV or the text; keep key_DO_NOT_SHARE.json private.
+=== took 0 min
+=== STEP5 report+audit (CPU) start 22:25:37
+22:25:38 covert profile=a100 toy=False
+Values in % with 95% bootstrap CI (1000 resamples over test episodes); chance: 10% per slot, 1% both. Reward is in [-1,1] (mean).
+
+| Cond | B both | C both | Insider adv | Joint succ | Leak | Sense pass | Reward | strong-C both | C_alt both (held-out) |
+|---|---|---|---|---|---|---|---|---|---|
+| S0 | 17.5 [12.5, 23.5] | 20.0 [15.0, 25.5] | -2.5 [-7.0, 2.0] | 3.5 [1.0, 6.0] | 60.5 [54.0, 67.0] | 41.5 [34.5, 48.5] | -0.794 | TODO | 19.0 [14.0, 25.0] |
+| S1 | 13.5 [9.0, 18.0] | 2.5 [0.5, 5.0] | 11.0 [5.5, 16.5] | 13.5 [9.0, 18.0] | 6.5 [3.5, 10.0] | 51.5 [44.5, 58.0] | -0.429 | TODO | 2.5 [0.5, 5.0] |
+| S3 | 10.5 [6.5, 14.5] | 3.5 [1.0, 6.0] | 7.0 [2.0, 12.0] | 10.5 [6.5, 14.5] | 6.5 [3.5, 10.0] | 59.0 [52.0, 65.5] | -0.381 | TODO | 4.5 [2.0, 7.5] |
+
+22:25:42 covert profile=a100 toy=False
+AUDIT
+  PASS
+=== took 0 min

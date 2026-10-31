@@ -1,0 +1,16 @@
+\section{Introduction}
+People routinely say things in public that only their friends understand. A reference to ``the ER saga'' means nothing to a stranger and everything to
+the person who was in the waiting room with you. Clark and Schaefer showed that speakers shape what they say so that overhearers cannot follow it
+while addressees can~\cite{clark1987concealing}, and Clark and Wilkes-Gibbs framed reference itself as a collaborative process grounded in shared history~\cite{clark1986referring}.
+Language-model agents increasingly share context with each other (memory, tools, earlier turns), so the same phenomenon is a safety concern: a monitor that
+reads only the visible messages may fail to understand a coordinated exchange~\cite{motwani2024secret,mathew2024hidden}.
+
+We ask: \emph{can a small model be trained to speak privately in public, using shared history as the key?}
+In our game (Section~\ref{sec:task}) A must convey a helper and a venue to B in a short, natural conversation about a cover topic, in the presence of C.
+The shared history is a bank of eight memories generated for every episode \emph{before} the secret is drawn from the people and places it mentions,
+so any hint that does not depend on the memories is equally available to C.
+
+\paragraph{Contributions.} (i) A task and data generator for covert dialogue over fresh shared history, with information boundaries enforced in one module and tested.
+(ii) A training pipeline: supervised warm start on filtered conversations, then multi-turn GRPO with a reward that contrasts a memory-aware and a memory-blind listener built from the same model, following Kerckhoffs's principle~\cite{kerckhoffs1883} (the outsider knows the rules and sees solved examples).
+(iii) An evaluation in which only the speaker changes between conditions, with a held-out outsider prompt and a mismatched-memory control.
+(iv) Findings, reported with bootstrap intervals: the warm start creates a measurable insider advantage that the untrained speaker lacks; GRPO mainly reduces penalties (incoherence, leaks) rather than improving the advantage; the advantage lives in the helper slot, while venue hints are largely readable by the outsider; and small trained listeners failed to learn the decoding task at our data scale. Section~\ref{sec:journey} documents the planned design and how the executed study departs from it.

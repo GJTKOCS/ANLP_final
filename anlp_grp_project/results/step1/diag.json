@@ -1,0 +1,137 @@
+{
+  "max_len": 768,
+  "truncation": {
+    "side": "left",
+    "len_min": 451,
+    "len_median": 545.0,
+    "len_p90": 599.0,
+    "len_max": 635,
+    "frac_over": 0.0
+  },
+  "pred_B": {
+    "helper_pred": {
+      "Ravi": 150
+    },
+    "venue_pred": {
+      "rooftop cafe": 150
+    },
+    "helper_gold": {
+      "Arjun": 21,
+      "Ravi": 19,
+      "Priya": 17,
+      "Kabir": 17,
+      "Rohan": 17,
+      "Meera": 15,
+      "Sana": 15,
+      "Ishita": 12,
+      "Tara": 9,
+      "Dev": 8
+    },
+    "venue_gold": {
+      "rooftop cafe": 20,
+      "botanical garden": 19,
+      "night market": 17,
+      "beach shack": 17,
+      "food court": 16,
+      "bowling alley": 16,
+      "community hall": 15,
+      "karaoke bar": 12,
+      "lakeside park": 10,
+      "old cinema hall": 8
+    },
+    "mean_max_prob_helper": NaN,
+    "mean_max_prob_venue": NaN,
+    "dev_both": 0.02666666666666667,
+    "n_distinct_pred_helper": 1,
+    "n_distinct_pred_venue": 1
+  },
+  "pred_C": {
+    "helper_pred": {
+      "Ravi": 64,
+      "Arjun": 37,
+      "Dev": 22,
+      "Kabir": 8,
+      "Rohan": 5,
+      "Sana": 4,
+      "Ishita": 4,
+      "Priya": 3,
+      "Meera": 2,
+      "Tara": 1
+    },
+    "venue_pred": {
+      "night market": 45,
+      "community hall": 17,
+      "botanical garden": 17,
+      "lakeside park": 17,
+      "karaoke bar": 17,
+      "old cinema hall": 14,
+      "bowling alley": 8,
+      "beach shack": 6,
+      "rooftop cafe": 5,
+      "food court": 4
+    },
+    "helper_gold": {
+      "Arjun": 21,
+      "Ravi": 19,
+      "Priya": 17,
+      "Kabir": 17,
+      "Rohan": 17,
+      "Meera": 15,
+      "Sana": 15,
+      "Ishita": 12,
+      "Tara": 9,
+      "Dev": 8
+    },
+    "venue_gold": {
+      "rooftop cafe": 20,
+      "botanical garden": 19,
+      "night market": 17,
+      "beach shack": 17,
+      "food court": 16,
+      "bowling alley": 16,
+      "community hall": 15,
+      "karaoke bar": 12,
+      "lakeside park": 10,
+      "old cinema hall": 8
+    },
+    "mean_max_prob_helper": 0.19819198548793793,
+    "mean_max_prob_venue": 0.2456590086221695,
+    "dev_both": 0.05333333333333334,
+    "n_distinct_pred_helper": 10,
+    "n_distinct_pred_venue": 10
+  },
+  "grad": {
+    "loss": 13.235883712768555,
+    "lora_A": {
+      "n_params_tensors": 196,
+      "n_with_grad": 196,
+      "n_nonzero": 0,
+      "total_norm": 0.0
+    },
+    "lora_B": {
+      "n_params_tensors": 196,
+      "n_with_grad": 196,
+      "n_nonzero": 196,
+      "total_norm": 28.169443588346425
+    },
+    "head_helper": {
+      "n_params_tensors": 2,
+      "n_with_grad": 2,
+      "n_nonzero": 2,
+      "total_norm": 192.53859386364078
+    },
+    "head_venue": {
+      "n_params_tensors": 2,
+      "n_with_grad": 2,
+      "n_nonzero": 2,
+      "total_norm": 168.70890896674211
+    },
+    "other_trainable": {
+      "n_params_tensors": 0,
+      "n_with_grad": 0,
+      "n_nonzero": 0,
+      "total_norm": 0.0
+    }
+  },
+  "elapsed_min": 0.16
+}

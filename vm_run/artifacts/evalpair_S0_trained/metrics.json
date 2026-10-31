@@ -1,0 +1,86 @@
+{
+  "label": "S0_trained",
+  "listener_mode": "trained",
+  "condition": "S0",
+  "n_test": 200,
+  "metrics": {
+    "B_helper": {
+      "mean": 0.235,
+      "lo": 0.175,
+      "hi": 0.29012499999999986
+    },
+    "B_venue": {
+      "mean": 0.095,
+      "lo": 0.059875000000000005,
+      "hi": 0.14
+    },
+    "B_both": {
+      "mean": 0.04,
+      "lo": 0.015,
+      "hi": 0.07
+    },
+    "C_helper": {
+      "mean": 0.325,
+      "lo": 0.27,
+      "hi": 0.39
+    },
+    "C_venue": {
+      "mean": 0.12,
+      "lo": 0.075,
+      "hi": 0.165
+    },
+    "C_both": {
+      "mean": 0.05,
+      "lo": 0.024875000000000008,
+      "hi": 0.085
+    },
+    "insider_adv": {
+      "mean": -0.01,
+      "lo": -0.05,
+      "hi": 0.03
+    },
+    "joint_success": {
+      "mean": 0.04,
+      "lo": 0.015,
+      "hi": 0.07
+    },
+    "joint_strict": {
+      "mean": 0.02,
+      "lo": 0.005,
+      "hi": 0.04
+    },
+    "leak_rate": {
+      "mean": 0.605,
+      "lo": 0.54,
+      "hi": 0.67
+    },
+    "sense_pass": {
+      "mean": 0.415,
+      "lo": 0.345,
+      "hi": 0.485
+    },
+    "b_resample_rate": {
+      "mean": 1.595,
+      "lo": 1.4,
+      "hi": 1.83
+    },
+    "reward": {
+      "mean": -0.797705194465816,
+      "lo": -0.8536074288105592,
+      "hi": -0.7370266208397225
+    },
+    "sanity_B_wrong_memories_both": {
+      "mean": 0.02,
+      "lo": 0.005,
+      "hi": 0.04
+    }
+  },
+  "listener_dev": {
+    "B": 0.04666666666666667,
+    "C": 0.06
+  },
+  "chance": {
+    "slot": 0.1,
+    "both": 0.01
+  }
+}

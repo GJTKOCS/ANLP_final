@@ -7,7 +7,8 @@ from ..common.leak import has_leak
 
 
 def rollout(a_lm, b_lm, episodes: list[dict], G: int, cfg, a_adapter: str | None, b_adapter: str | None = None,
-            record_logp: bool = False, temp_a: float | None = None, with_secret: bool = True, n_turns: int | None = None) -> list[dict]:
+            record_logp: bool = False, temp_a: float | None = None, with_secret: bool = True, n_turns: int | None = None,
+            a_resample: int = 0) -> list[dict]:
     """episodes carry 'secret' (label-merged). Returns one dict per (episode, group index)."""
     sp = cfg.speaker
     temp_a = sp.temp_a if temp_a is None else temp_a
@@ -19,6 +20,13 @@ def rollout(a_lm, b_lm, episodes: list[dict], G: int, cfg, a_adapter: str | None
         if t % 2 == 0:
             prompts = [a_lm.chat_prompt(views.a_messages(s["ep"], s["ep"]["secret"], s["post_switch"])) for s in S]
             outs = a_lm.generate(prompts, a_adapter, sp.temp_a if temp_a is None else temp_a, sp.top_p, sp.max_new_tokens, gen_bs)
+            for _ in range(a_resample):                         # warm start only: rejection-sample leaking A turns
+                bad = [i for i, o in enumerate(outs) if has_leak(o["text"] or "")]
+                if not bad:
+                    break
+                re_outs = a_lm.generate([prompts[i] for i in bad], a_adapter, sp.temp_a if temp_a is None else temp_a, sp.top_p, sp.max_new_tokens, gen_bs)
+                for i, o in zip(bad, re_outs):
+                    outs[i] = o
             for s, o in zip(S, outs):
                 text = o["text"] or "..."
                 s["post_switch"].append(["A", text])

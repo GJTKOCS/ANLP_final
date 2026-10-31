@@ -1,0 +1,100 @@
+{
+  "tau": 0.5,
+  "table": [
+    {
+      "tau": 0.05,
+      "keep_good": 1.0,
+      "reject_bad": 0.48
+    },
+    {
+      "tau": 0.1,
+      "keep_good": 1.0,
+      "reject_bad": 0.54
+    },
+    {
+      "tau": 0.15,
+      "keep_good": 1.0,
+      "reject_bad": 0.54
+    },
+    {
+      "tau": 0.2,
+      "keep_good": 1.0,
+      "reject_bad": 0.54
+    },
+    {
+      "tau": 0.25,
+      "keep_good": 1.0,
+      "reject_bad": 0.58
+    },
+    {
+      "tau": 0.3,
+      "keep_good": 1.0,
+      "reject_bad": 0.62
+    },
+    {
+      "tau": 0.35,
+      "keep_good": 1.0,
+      "reject_bad": 0.66
+    },
+    {
+      "tau": 0.4,
+      "keep_good": 1.0,
+      "reject_bad": 0.7
+    },
+    {
+      "tau": 0.45,
+      "keep_good": 1.0,
+      "reject_bad": 0.8
+    },
+    {
+      "tau": 0.5,
+      "keep_good": 1.0,
+      "reject_bad": 0.8
+    },
+    {
+      "tau": 0.55,
+      "keep_good": 0.94,
+      "reject_bad": 0.8
+    },
+    {
+      "tau": 0.6,
+      "keep_good": 0.84,
+      "reject_bad": 0.82
+    },
+    {
+      "tau": 0.65,
+      "keep_good": 0.68,
+      "reject_bad": 0.84
+    },
+    {
+      "tau": 0.7,
+      "keep_good": 0.62,
+      "reject_bad": 0.86
+    },
+    {
+      "tau": 0.75,
+      "keep_good": 0.5,
+      "reject_bad": 0.86
+    },
+    {
+      "tau": 0.8,
+      "keep_good": 0.44,
+      "reject_bad": 0.88
+    },
+    {
+      "tau": 0.85,
+      "keep_good": 0.42,
+      "reject_bad": 0.9
+    },
+    {
+      "tau": 0.9,
+      "keep_good": 0.3,
+      "reject_bad": 0.92
+    },
+    {
+      "tau": 0.95,
+      "keep_good": 0.18,
+      "reject_bad": 0.94
+    }
+  ]
+}

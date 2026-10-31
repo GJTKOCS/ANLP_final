@@ -1,0 +1,1000 @@
+{"episode_id": "train-000000", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [0, 5], "venue": [0]}, "seed": 481711948}
+{"episode_id": "train-000001", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [0, 1], "venue": [1, 2]}, "seed": 1074701713}
+{"episode_id": "train-000002", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [7], "venue": [0]}, "seed": 2405997230}
+{"episode_id": "train-000003", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [0, 3], "venue": [1]}, "seed": 3555614073}
+{"episode_id": "train-000004", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [7]}, "seed": 1007271163}
+{"episode_id": "train-000005", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [4, 7], "venue": [7]}, "seed": 122871135}
+{"episode_id": "train-000006", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [1, 2, 3], "venue": [0]}, "seed": 2283991318}
+{"episode_id": "train-000007", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [4], "venue": [0]}, "seed": 4108380445}
+{"episode_id": "train-000008", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [2, 5]}, "seed": 3334423614}
+{"episode_id": "train-000009", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [3], "venue": [1]}, "seed": 2674864944}
+{"episode_id": "train-000010", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [2, 3, 5], "venue": [0]}, "seed": 1150149939}
+{"episode_id": "train-000011", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [1, 3, 6], "venue": [1, 7]}, "seed": 639815108}
+{"episode_id": "train-000012", "secret": {"helper": "Tara", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2], "venue": [4]}, "seed": 3020450830}
+{"episode_id": "train-000013", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [1, 6], "venue": [6]}, "seed": 3935985460}
+{"episode_id": "train-000014", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [2, 5], "venue": [3, 6]}, "seed": 3779999291}
+{"episode_id": "train-000015", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [0, 3, 6], "venue": [7]}, "seed": 181043873}
+{"episode_id": "train-000016", "secret": {"helper": "Arjun", "venue": "karaoke bar"}, "anchors": {"helper": [1, 4], "venue": [0, 6]}, "seed": 2791629970}
+{"episode_id": "train-000017", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [4, 5], "venue": [0]}, "seed": 3334453041}
+{"episode_id": "train-000018", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [0, 6], "venue": [2]}, "seed": 4157299383}
+{"episode_id": "train-000019", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [6], "venue": [3]}, "seed": 3285378764}
+{"episode_id": "train-000020", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [4], "venue": [6]}, "seed": 3435696477}
+{"episode_id": "train-000021", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 7], "venue": [1]}, "seed": 656970206}
+{"episode_id": "train-000022", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [1, 4], "venue": [1]}, "seed": 80582856}
+{"episode_id": "train-000023", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [0, 6], "venue": [3]}, "seed": 3554526006}
+{"episode_id": "train-000024", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [2], "venue": [1]}, "seed": 363231535}
+{"episode_id": "train-000025", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [0, 1, 3], "venue": [3]}, "seed": 3300516353}
+{"episode_id": "train-000026", "secret": {"helper": "Dev", "venue": "bowling alley"}, "anchors": {"helper": [0, 5, 7], "venue": [0, 2]}, "seed": 1261002489}
+{"episode_id": "train-000027", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [1, 6], "venue": [3]}, "seed": 2219444456}
+{"episode_id": "train-000028", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [2, 5], "venue": [0]}, "seed": 3373541958}
+{"episode_id": "train-000029", "secret": {"helper": "Rohan", "venue": "night market"}, "anchors": {"helper": [3, 5], "venue": [7]}, "seed": 3323750229}
+{"episode_id": "train-000030", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [2, 6, 7], "venue": [0, 3]}, "seed": 3995729471}
+{"episode_id": "train-000031", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 6], "venue": [4]}, "seed": 645121752}
+{"episode_id": "train-000032", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [6], "venue": [3]}, "seed": 145160666}
+{"episode_id": "train-000033", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [1, 6], "venue": [5]}, "seed": 1122698600}
+{"episode_id": "train-000034", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [0, 1, 2], "venue": [0]}, "seed": 4139105904}
+{"episode_id": "train-000035", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [4], "venue": [2]}, "seed": 1835459718}
+{"episode_id": "train-000036", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [3], "venue": [4]}, "seed": 774428489}
+{"episode_id": "train-000037", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [2, 5, 6], "venue": [1, 5]}, "seed": 1167274256}
+{"episode_id": "train-000038", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [1, 3, 6], "venue": [0]}, "seed": 1168042221}
+{"episode_id": "train-000039", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [2], "venue": [6]}, "seed": 46942946}
+{"episode_id": "train-000040", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0, 3], "venue": [7]}, "seed": 2627534446}
+{"episode_id": "train-000041", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [6], "venue": [7]}, "seed": 3211080962}
+{"episode_id": "train-000042", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [1, 5], "venue": [5]}, "seed": 1918154154}
+{"episode_id": "train-000043", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [2, 6], "venue": [0]}, "seed": 2483445607}
+{"episode_id": "train-000044", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [4]}, "seed": 2148121522}
+{"episode_id": "train-000045", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6], "venue": [5]}, "seed": 1267847775}
+{"episode_id": "train-000046", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [2, 7], "venue": [2, 5]}, "seed": 2951277082}
+{"episode_id": "train-000047", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [0, 4], "venue": [2]}, "seed": 3413146440}
+{"episode_id": "train-000048", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [2, 4, 6], "venue": [1, 6]}, "seed": 3431203817}
+{"episode_id": "train-000049", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [0, 7], "venue": [2]}, "seed": 2972652409}
+{"episode_id": "train-000050", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [5]}, "seed": 1674226694}
+{"episode_id": "train-000051", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [6], "venue": [4, 7]}, "seed": 3289543867}
+{"episode_id": "train-000052", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [3], "venue": [2]}, "seed": 3702381036}
+{"episode_id": "train-000053", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 2, 5, 6], "venue": [2, 5]}, "seed": 1009807808}
+{"episode_id": "train-000054", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 1590943839}
+{"episode_id": "train-000055", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 3117716122}
+{"episode_id": "train-000056", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [4, 7], "venue": [2]}, "seed": 3874690653}
+{"episode_id": "train-000057", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [5], "venue": [1, 2, 3]}, "seed": 519685760}
+{"episode_id": "train-000058", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [4, 7], "venue": [1]}, "seed": 1778526806}
+{"episode_id": "train-000059", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 4065099553}
+{"episode_id": "train-000060", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [5, 6], "venue": [3]}, "seed": 1454858718}
+{"episode_id": "train-000061", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [7], "venue": [0]}, "seed": 1926632411}
+{"episode_id": "train-000062", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [3, 7], "venue": [1, 3]}, "seed": 2005149398}
+{"episode_id": "train-000063", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 4, 7], "venue": [0, 3]}, "seed": 556227762}
+{"episode_id": "train-000064", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [3, 5], "venue": [0]}, "seed": 2916555424}
+{"episode_id": "train-000065", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [5, 6], "venue": [0]}, "seed": 3739378563}
+{"episode_id": "train-000066", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [1, 6], "venue": [2]}, "seed": 1092629891}
+{"episode_id": "train-000067", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [4], "venue": [0]}, "seed": 3227149098}
+{"episode_id": "train-000068", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [5, 6, 7], "venue": [6]}, "seed": 1130962410}
+{"episode_id": "train-000069", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 265295929}
+{"episode_id": "train-000070", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [1, 6], "venue": [2]}, "seed": 1066418263}
+{"episode_id": "train-000071", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [0, 3], "venue": [0, 2]}, "seed": 4012561719}
+{"episode_id": "train-000072", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 3961912316}
+{"episode_id": "train-000073", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [1], "venue": [0]}, "seed": 730055321}
+{"episode_id": "train-000074", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0, 3], "venue": [7]}, "seed": 409553476}
+{"episode_id": "train-000075", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [5, 6], "venue": [3]}, "seed": 415017713}
+{"episode_id": "train-000076", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 1277695033}
+{"episode_id": "train-000077", "secret": {"helper": "Meera", "venue": "community hall"}, "anchors": {"helper": [6, 7], "venue": [0]}, "seed": 1121099763}
+{"episode_id": "train-000078", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [2], "venue": [0, 7]}, "seed": 1885346195}
+{"episode_id": "train-000079", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [2, 4, 6], "venue": [0]}, "seed": 2394354218}
+{"episode_id": "train-000080", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [0, 5], "venue": [4]}, "seed": 1465438727}
+{"episode_id": "train-000081", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [3, 7], "venue": [1]}, "seed": 328530821}
+{"episode_id": "train-000082", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [3], "venue": [0, 1]}, "seed": 786304404}
+{"episode_id": "train-000083", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0, 3], "venue": [2, 4]}, "seed": 1742954119}
+{"episode_id": "train-000084", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [4, 6], "venue": [7]}, "seed": 2201605575}
+{"episode_id": "train-000085", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [0, 2, 4], "venue": [2]}, "seed": 1459749619}
+{"episode_id": "train-000086", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [4, 5, 6, 7], "venue": [2, 3, 7]}, "seed": 1909637402}
+{"episode_id": "train-000087", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [1, 4]}, "seed": 3038651077}
+{"episode_id": "train-000088", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [3], "venue": [7]}, "seed": 3742413717}
+{"episode_id": "train-000089", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [4, 5, 7], "venue": [2, 5]}, "seed": 604598943}
+{"episode_id": "train-000090", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [2, 3, 6], "venue": [4]}, "seed": 732145844}
+{"episode_id": "train-000091", "secret": {"helper": "Meera", "venue": "botanical garden"}, "anchors": {"helper": [4, 6], "venue": [2]}, "seed": 1214388895}
+{"episode_id": "train-000092", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [2, 4, 6], "venue": [7]}, "seed": 966061263}
+{"episode_id": "train-000093", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0, 5], "venue": [0]}, "seed": 4016933511}
+{"episode_id": "train-000094", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 2672482718}
+{"episode_id": "train-000095", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [0, 7]}, "seed": 3992967854}
+{"episode_id": "train-000096", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [4], "venue": [4]}, "seed": 4228061150}
+{"episode_id": "train-000097", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [2, 5, 6], "venue": [0]}, "seed": 3174483148}
+{"episode_id": "train-000098", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [1, 4, 7], "venue": [6]}, "seed": 3447928247}
+{"episode_id": "train-000099", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [2, 3, 6], "venue": [6]}, "seed": 4049024301}
+{"episode_id": "train-000100", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [0, 4], "venue": [0, 7]}, "seed": 1753173071}
+{"episode_id": "train-000101", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [2, 6], "venue": [2]}, "seed": 714755452}
+{"episode_id": "train-000102", "secret": {"helper": "Tara", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 14746114}
+{"episode_id": "train-000103", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 1229167414}
+{"episode_id": "train-000104", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [2, 4, 7], "venue": [2]}, "seed": 715359969}
+{"episode_id": "train-000105", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [3, 7], "venue": [5]}, "seed": 171630505}
+{"episode_id": "train-000106", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 1], "venue": [1, 6, 7]}, "seed": 1906416785}
+{"episode_id": "train-000107", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0, 5], "venue": [1]}, "seed": 674534230}
+{"episode_id": "train-000108", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [0, 3], "venue": [2]}, "seed": 3600303707}
+{"episode_id": "train-000109", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [7], "venue": [1]}, "seed": 3280260181}
+{"episode_id": "train-000110", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 3, 4], "venue": [0, 3]}, "seed": 2455045639}
+{"episode_id": "train-000111", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [7]}, "seed": 3796323454}
+{"episode_id": "train-000112", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [5, 6], "venue": [6]}, "seed": 1171514950}
+{"episode_id": "train-000113", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [3, 7], "venue": [4]}, "seed": 4069817078}
+{"episode_id": "train-000114", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [1, 6], "venue": [7]}, "seed": 1729025134}
+{"episode_id": "train-000115", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [3, 7], "venue": [2]}, "seed": 1504180935}
+{"episode_id": "train-000116", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [3, 4], "venue": [7]}, "seed": 140938237}
+{"episode_id": "train-000117", "secret": {"helper": "Meera", "venue": "botanical garden"}, "anchors": {"helper": [4, 5, 7], "venue": [7]}, "seed": 1176132048}
+{"episode_id": "train-000118", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [3, 6, 7], "venue": [5]}, "seed": 2231250074}
+{"episode_id": "train-000119", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [2, 5, 6], "venue": [6]}, "seed": 2782324742}
+{"episode_id": "train-000120", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [1, 3, 5, 7], "venue": [5]}, "seed": 2150628014}
+{"episode_id": "train-000121", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [2, 6], "venue": [1, 7]}, "seed": 1325162253}
+{"episode_id": "train-000122", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [3, 4], "venue": [5]}, "seed": 3712941262}
+{"episode_id": "train-000123", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [1, 3], "venue": [2]}, "seed": 1560391318}
+{"episode_id": "train-000124", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [0, 2, 6], "venue": [6]}, "seed": 1316304269}
+{"episode_id": "train-000125", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [7]}, "seed": 3851983448}
+{"episode_id": "train-000126", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [4], "venue": [0]}, "seed": 2509728565}
+{"episode_id": "train-000127", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [0], "venue": [4]}, "seed": 1931908924}
+{"episode_id": "train-000128", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [1, 3], "venue": [5]}, "seed": 3830631304}
+{"episode_id": "train-000129", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [0, 4], "venue": [1]}, "seed": 4170400924}
+{"episode_id": "train-000130", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [4], "venue": [0]}, "seed": 3699148740}
+{"episode_id": "train-000131", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [0, 7], "venue": [0]}, "seed": 1606264403}
+{"episode_id": "train-000132", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [4], "venue": [2, 6]}, "seed": 1361907652}
+{"episode_id": "train-000133", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 6], "venue": [1, 7]}, "seed": 2604422448}
+{"episode_id": "train-000134", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [3, 6], "venue": [2]}, "seed": 78560993}
+{"episode_id": "train-000135", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [3, 5], "venue": [1]}, "seed": 3779136663}
+{"episode_id": "train-000136", "secret": {"helper": "Priya", "venue": "lakeside park"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 401184452}
+{"episode_id": "train-000137", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [6], "venue": [2]}, "seed": 1703910477}
+{"episode_id": "train-000138", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [1, 2], "venue": [4, 6]}, "seed": 2586626327}
+{"episode_id": "train-000139", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [2, 5], "venue": [0, 1]}, "seed": 3123443807}
+{"episode_id": "train-000140", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [0, 1], "venue": [0]}, "seed": 4098199903}
+{"episode_id": "train-000141", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [0, 2], "venue": [7]}, "seed": 2936336009}
+{"episode_id": "train-000142", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [4, 5], "venue": [3]}, "seed": 120238038}
+{"episode_id": "train-000143", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [2, 5], "venue": [6]}, "seed": 855282584}
+{"episode_id": "train-000144", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [2, 5], "venue": [0]}, "seed": 2709958389}
+{"episode_id": "train-000145", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [5, 7], "venue": [6]}, "seed": 1647852307}
+{"episode_id": "train-000146", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [0], "venue": [0]}, "seed": 3500322475}
+{"episode_id": "train-000147", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [1, 2], "venue": [4]}, "seed": 3085485952}
+{"episode_id": "train-000148", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [0, 1, 7], "venue": [7]}, "seed": 1330197245}
+{"episode_id": "train-000149", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0, 2, 5], "venue": [4, 6]}, "seed": 851168489}
+{"episode_id": "train-000150", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [6]}, "seed": 2820119617}
+{"episode_id": "train-000151", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [0, 5], "venue": [1]}, "seed": 1903859999}
+{"episode_id": "train-000152", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6], "venue": [3]}, "seed": 905729447}
+{"episode_id": "train-000153", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [1, 4]}, "seed": 1752711424}
+{"episode_id": "train-000154", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 6], "venue": [3]}, "seed": 4149914884}
+{"episode_id": "train-000155", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [3], "venue": [0]}, "seed": 643270001}
+{"episode_id": "train-000156", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [6, 7], "venue": [1]}, "seed": 422114910}
+{"episode_id": "train-000157", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 3632888067}
+{"episode_id": "train-000158", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [2, 4], "venue": [5, 7]}, "seed": 139394880}
+{"episode_id": "train-000159", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [3]}, "seed": 1758612754}
+{"episode_id": "train-000160", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [3, 5], "venue": [1]}, "seed": 2106714469}
+{"episode_id": "train-000161", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [1], "venue": [0]}, "seed": 2764228251}
+{"episode_id": "train-000162", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 2313442903}
+{"episode_id": "train-000163", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [5, 6], "venue": [4, 6]}, "seed": 972456625}
+{"episode_id": "train-000164", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 4131696922}
+{"episode_id": "train-000165", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [2, 5], "venue": [1]}, "seed": 1888743587}
+{"episode_id": "train-000166", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [3], "venue": [1]}, "seed": 325251645}
+{"episode_id": "train-000167", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [5, 6], "venue": [4, 7]}, "seed": 2630366312}
+{"episode_id": "train-000168", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 2782544874}
+{"episode_id": "train-000169", "secret": {"helper": "Dev", "venue": "bowling alley"}, "anchors": {"helper": [1, 3, 7], "venue": [5]}, "seed": 753046729}
+{"episode_id": "train-000170", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [2, 5, 7], "venue": [7]}, "seed": 3276854062}
+{"episode_id": "train-000171", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [5, 7], "venue": [5]}, "seed": 113356233}
+{"episode_id": "train-000172", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [0, 4, 5], "venue": [3]}, "seed": 603337661}
+{"episode_id": "train-000173", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 2250889108}
+{"episode_id": "train-000174", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [0, 1, 3, 4], "venue": [0]}, "seed": 999568610}
+{"episode_id": "train-000175", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [1, 2, 6], "venue": [4]}, "seed": 304918580}
+{"episode_id": "train-000176", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [0, 1, 6, 7], "venue": [0]}, "seed": 3419962651}
+{"episode_id": "train-000177", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [2, 7], "venue": [6]}, "seed": 2102683397}
+{"episode_id": "train-000178", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [1, 5], "venue": [2, 3]}, "seed": 1148576360}
+{"episode_id": "train-000179", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 4130450422}
+{"episode_id": "train-000180", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [0, 7], "venue": [1]}, "seed": 71399361}
+{"episode_id": "train-000181", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [1, 2, 3], "venue": [1]}, "seed": 1202679038}
+{"episode_id": "train-000182", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [4, 7], "venue": [0]}, "seed": 1342887598}
+{"episode_id": "train-000183", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [2], "venue": [7]}, "seed": 3435855642}
+{"episode_id": "train-000184", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [0, 2], "venue": [6]}, "seed": 635017168}
+{"episode_id": "train-000185", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [1, 6], "venue": [1, 5]}, "seed": 2945406331}
+{"episode_id": "train-000186", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [0, 6], "venue": [7]}, "seed": 3915808331}
+{"episode_id": "train-000187", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [0, 1], "venue": [4]}, "seed": 2424971235}
+{"episode_id": "train-000188", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [0, 2, 3], "venue": [2]}, "seed": 2943489637}
+{"episode_id": "train-000189", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [1], "venue": [2, 6]}, "seed": 3367371794}
+{"episode_id": "train-000190", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [0, 4], "venue": [4]}, "seed": 2794025491}
+{"episode_id": "train-000191", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [0, 3], "venue": [3]}, "seed": 3615393662}
+{"episode_id": "train-000192", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 3093350989}
+{"episode_id": "train-000193", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [4], "venue": [5]}, "seed": 717871798}
+{"episode_id": "train-000194", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [2, 4, 6], "venue": [7]}, "seed": 800913646}
+{"episode_id": "train-000195", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6], "venue": [3, 5]}, "seed": 1337549674}
+{"episode_id": "train-000196", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [3], "venue": [5]}, "seed": 75838067}
+{"episode_id": "train-000197", "secret": {"helper": "Arjun", "venue": "karaoke bar"}, "anchors": {"helper": [4], "venue": [6]}, "seed": 1294275113}
+{"episode_id": "train-000198", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [3, 7], "venue": [1, 2]}, "seed": 508683830}
+{"episode_id": "train-000199", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [0, 2, 4], "venue": [1, 2]}, "seed": 271455708}
+{"episode_id": "train-000200", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [3], "venue": [0]}, "seed": 2955263646}
+{"episode_id": "train-000201", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [1, 4, 6], "venue": [3]}, "seed": 2000156535}
+{"episode_id": "train-000202", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 6], "venue": [7]}, "seed": 2837214224}
+{"episode_id": "train-000203", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [4, 5], "venue": [3]}, "seed": 1705945303}
+{"episode_id": "train-000204", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [0, 6], "venue": [2, 5]}, "seed": 1073372776}
+{"episode_id": "train-000205", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [3, 4], "venue": [0]}, "seed": 515870511}
+{"episode_id": "train-000206", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [1, 7], "venue": [0]}, "seed": 1921851952}
+{"episode_id": "train-000207", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [0, 3], "venue": [2, 4]}, "seed": 3394969730}
+{"episode_id": "train-000208", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [2], "venue": [3, 4]}, "seed": 218651788}
+{"episode_id": "train-000209", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [4], "venue": [2]}, "seed": 1698338457}
+{"episode_id": "train-000210", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [2, 5], "venue": [4, 7]}, "seed": 1346523144}
+{"episode_id": "train-000211", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [1, 2], "venue": [1]}, "seed": 1057676125}
+{"episode_id": "train-000212", "secret": {"helper": "Rohan", "venue": "night market"}, "anchors": {"helper": [2, 7], "venue": [0]}, "seed": 3809397862}
+{"episode_id": "train-000213", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [0, 1], "venue": [3]}, "seed": 2307185954}
+{"episode_id": "train-000214", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0, 3], "venue": [2]}, "seed": 686558541}
+{"episode_id": "train-000215", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 3111348790}
+{"episode_id": "train-000216", "secret": {"helper": "Ravi", "venue": "rooftop cafe"}, "anchors": {"helper": [3, 4], "venue": [5]}, "seed": 3131909589}
+{"episode_id": "train-000217", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [4, 6], "venue": [4]}, "seed": 3851040916}
+{"episode_id": "train-000218", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [3, 6, 7], "venue": [3, 6]}, "seed": 2547819909}
+{"episode_id": "train-000219", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [2, 6], "venue": [3, 5]}, "seed": 3720854819}
+{"episode_id": "train-000220", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [2], "venue": [1]}, "seed": 3598924871}
+{"episode_id": "train-000221", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2510326247}
+{"episode_id": "train-000222", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 5], "venue": [6]}, "seed": 2102029819}
+{"episode_id": "train-000223", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [4]}, "seed": 3354245795}
+{"episode_id": "train-000224", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 636912935}
+{"episode_id": "train-000225", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [0, 1, 2, 5, 7], "venue": [2]}, "seed": 4041362095}
+{"episode_id": "train-000226", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [4, 6], "venue": [4]}, "seed": 675025864}
+{"episode_id": "train-000227", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [5], "venue": [1]}, "seed": 3562585040}
+{"episode_id": "train-000228", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [5], "venue": [1, 4]}, "seed": 460112833}
+{"episode_id": "train-000229", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [3, 5, 6, 7], "venue": [2]}, "seed": 4132864112}
+{"episode_id": "train-000230", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [4, 6], "venue": [1]}, "seed": 1845028285}
+{"episode_id": "train-000231", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 1283108742}
+{"episode_id": "train-000232", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [4, 6], "venue": [1]}, "seed": 2794001624}
+{"episode_id": "train-000233", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [1, 5], "venue": [3]}, "seed": 3828501373}
+{"episode_id": "train-000234", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [1, 4], "venue": [2]}, "seed": 1089343193}
+{"episode_id": "train-000235", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [0, 2, 5], "venue": [1]}, "seed": 2962762892}
+{"episode_id": "train-000236", "secret": {"helper": "Meera", "venue": "community hall"}, "anchors": {"helper": [0, 6], "venue": [4]}, "seed": 442725724}
+{"episode_id": "train-000237", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [0, 3], "venue": [6]}, "seed": 2152032694}
+{"episode_id": "train-000238", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [2, 3], "venue": [6]}, "seed": 133769588}
+{"episode_id": "train-000239", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [1, 6], "venue": [0]}, "seed": 3028683185}
+{"episode_id": "train-000240", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [1, 4, 7], "venue": [2]}, "seed": 805120785}
+{"episode_id": "train-000241", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [6], "venue": [2]}, "seed": 141363415}
+{"episode_id": "train-000242", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [0], "venue": [5]}, "seed": 3696746967}
+{"episode_id": "train-000243", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [4], "venue": [0, 5]}, "seed": 146461051}
+{"episode_id": "train-000244", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [2, 3, 5], "venue": [1]}, "seed": 4203947123}
+{"episode_id": "train-000245", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [3, 4], "venue": [1, 4]}, "seed": 1326815890}
+{"episode_id": "train-000246", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [4], "venue": [5, 6]}, "seed": 3789779835}
+{"episode_id": "train-000247", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [3, 4, 5], "venue": [0]}, "seed": 2874784062}
+{"episode_id": "train-000248", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [4, 7], "venue": [3, 7]}, "seed": 833872850}
+{"episode_id": "train-000249", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [1, 2, 6], "venue": [4]}, "seed": 1868211720}
+{"episode_id": "train-000250", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [6], "venue": [7]}, "seed": 287134542}
+{"episode_id": "train-000251", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [0, 4, 5, 6], "venue": [3]}, "seed": 804111686}
+{"episode_id": "train-000252", "secret": {"helper": "Rohan", "venue": "night market"}, "anchors": {"helper": [1, 4], "venue": [5]}, "seed": 2891157609}
+{"episode_id": "train-000253", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [3], "venue": [2]}, "seed": 3687198436}
+{"episode_id": "train-000254", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0], "venue": [5]}, "seed": 283927500}
+{"episode_id": "train-000255", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [0, 1], "venue": [5]}, "seed": 3891798956}
+{"episode_id": "train-000256", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 4], "venue": [3]}, "seed": 3903987477}
+{"episode_id": "train-000257", "secret": {"helper": "Tara", "venue": "beach shack"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 78577056}
+{"episode_id": "train-000258", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [2, 3, 4], "venue": [2]}, "seed": 2017570990}
+{"episode_id": "train-000259", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [3, 4], "venue": [1]}, "seed": 4044023752}
+{"episode_id": "train-000260", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [4, 7], "venue": [4]}, "seed": 1562416071}
+{"episode_id": "train-000261", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [2], "venue": [3, 7]}, "seed": 376301302}
+{"episode_id": "train-000262", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [0, 3, 7], "venue": [3, 4, 7]}, "seed": 3413032284}
+{"episode_id": "train-000263", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [0, 4, 5], "venue": [7]}, "seed": 4171070038}
+{"episode_id": "train-000264", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [2, 3], "venue": [1]}, "seed": 1178438660}
+{"episode_id": "train-000265", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [3, 5], "venue": [0]}, "seed": 853426094}
+{"episode_id": "train-000266", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [6, 7], "venue": [0]}, "seed": 539233698}
+{"episode_id": "train-000267", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [1, 2, 5, 7], "venue": [1, 6]}, "seed": 1218031630}
+{"episode_id": "train-000268", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [4, 6], "venue": [2, 4]}, "seed": 1385997027}
+{"episode_id": "train-000269", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 2350767847}
+{"episode_id": "train-000270", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [1, 5], "venue": [3]}, "seed": 3731826483}
+{"episode_id": "train-000271", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 3501044764}
+{"episode_id": "train-000272", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [4, 7], "venue": [4]}, "seed": 2752364379}
+{"episode_id": "train-000273", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [1, 2, 4, 5], "venue": [1, 4]}, "seed": 381932651}
+{"episode_id": "train-000274", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [6], "venue": [7]}, "seed": 2440282455}
+{"episode_id": "train-000275", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [0], "venue": [1]}, "seed": 558431561}
+{"episode_id": "train-000276", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 2], "venue": [1]}, "seed": 2319200420}
+{"episode_id": "train-000277", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [3], "venue": [1]}, "seed": 3654881408}
+{"episode_id": "train-000278", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 2353550643}
+{"episode_id": "train-000279", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [3, 6, 7], "venue": [3, 4]}, "seed": 1117431767}
+{"episode_id": "train-000280", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [1, 5, 6, 7], "venue": [1, 5]}, "seed": 1775167817}
+{"episode_id": "train-000281", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [4], "venue": [3]}, "seed": 2552140864}
+{"episode_id": "train-000282", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [1, 2], "venue": [7]}, "seed": 2658288494}
+{"episode_id": "train-000283", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [1, 4], "venue": [3]}, "seed": 4249525310}
+{"episode_id": "train-000284", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [4], "venue": [2]}, "seed": 4013836320}
+{"episode_id": "train-000285", "secret": {"helper": "Arjun", "venue": "karaoke bar"}, "anchors": {"helper": [1, 2, 5], "venue": [4]}, "seed": 1026956760}
+{"episode_id": "train-000286", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [3, 6, 7], "venue": [1, 6]}, "seed": 4098146474}
+{"episode_id": "train-000287", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 4158307296}
+{"episode_id": "train-000288", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [1], "venue": [4]}, "seed": 4003330447}
+{"episode_id": "train-000289", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [0, 2, 6], "venue": [1, 5]}, "seed": 859779535}
+{"episode_id": "train-000290", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [1, 3], "venue": [7]}, "seed": 1240744556}
+{"episode_id": "train-000291", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 3, 5], "venue": [3]}, "seed": 4224147}
+{"episode_id": "train-000292", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [6], "venue": [2]}, "seed": 2018631080}
+{"episode_id": "train-000293", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [3, 7], "venue": [2]}, "seed": 2333984268}
+{"episode_id": "train-000294", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [2, 4], "venue": [0]}, "seed": 3982494802}
+{"episode_id": "train-000295", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [3], "venue": [1]}, "seed": 2121681666}
+{"episode_id": "train-000296", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [2, 3, 5], "venue": [4]}, "seed": 2081535407}
+{"episode_id": "train-000297", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [0, 1, 3], "venue": [3]}, "seed": 3130227335}
+{"episode_id": "train-000298", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 5, 6], "venue": [2, 5]}, "seed": 1702175131}
+{"episode_id": "train-000299", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2945339788}
+{"episode_id": "train-000300", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [2], "venue": [5]}, "seed": 3825398345}
+{"episode_id": "train-000301", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [2, 3], "venue": [3]}, "seed": 3731661737}
+{"episode_id": "train-000302", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 2355994559}
+{"episode_id": "train-000303", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [4, 7], "venue": [1]}, "seed": 3360926240}
+{"episode_id": "train-000304", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [0, 4], "venue": [5]}, "seed": 2818362473}
+{"episode_id": "train-000305", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [2, 6], "venue": [2]}, "seed": 1570354065}
+{"episode_id": "train-000306", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [2, 4], "venue": [0]}, "seed": 3345415901}
+{"episode_id": "train-000307", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [7], "venue": [4, 7]}, "seed": 4134449723}
+{"episode_id": "train-000308", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [1, 2, 3], "venue": [6]}, "seed": 650124115}
+{"episode_id": "train-000309", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2040633609}
+{"episode_id": "train-000310", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [4], "venue": [1, 2]}, "seed": 3392789690}
+{"episode_id": "train-000311", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [1, 3, 4], "venue": [4, 5]}, "seed": 3346295344}
+{"episode_id": "train-000312", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [2, 7], "venue": [5]}, "seed": 1746538564}
+{"episode_id": "train-000313", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [3, 4], "venue": [7]}, "seed": 550181304}
+{"episode_id": "train-000314", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [0, 1, 7], "venue": [1]}, "seed": 2491492582}
+{"episode_id": "train-000315", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [2, 4], "venue": [4, 7]}, "seed": 1910294005}
+{"episode_id": "train-000316", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 3408419940}
+{"episode_id": "train-000317", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [3], "venue": [6, 7]}, "seed": 2771875609}
+{"episode_id": "train-000318", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 5, 6], "venue": [6]}, "seed": 4239839360}
+{"episode_id": "train-000319", "secret": {"helper": "Arjun", "venue": "beach shack"}, "anchors": {"helper": [7], "venue": [1]}, "seed": 1231128179}
+{"episode_id": "train-000320", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [0, 4], "venue": [1, 7]}, "seed": 649773747}
+{"episode_id": "train-000321", "secret": {"helper": "Priya", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 1694094252}
+{"episode_id": "train-000322", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0, 2], "venue": [5]}, "seed": 3854241760}
+{"episode_id": "train-000323", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [1, 5], "venue": [2, 5]}, "seed": 1915466208}
+{"episode_id": "train-000324", "secret": {"helper": "Rohan", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 3, 6], "venue": [3, 7]}, "seed": 2719984638}
+{"episode_id": "train-000325", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 7], "venue": [6]}, "seed": 2684223410}
+{"episode_id": "train-000326", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [0, 1, 3, 4], "venue": [5]}, "seed": 4205136229}
+{"episode_id": "train-000327", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [1, 3, 6], "venue": [1, 2]}, "seed": 1517384623}
+{"episode_id": "train-000328", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 4, 6], "venue": [1]}, "seed": 1250910353}
+{"episode_id": "train-000329", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 1304837515}
+{"episode_id": "train-000330", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6, 7], "venue": [3]}, "seed": 3422592627}
+{"episode_id": "train-000331", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0, 1, 3], "venue": [1, 6]}, "seed": 1741525371}
+{"episode_id": "train-000332", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [0, 1, 3], "venue": [2]}, "seed": 44258992}
+{"episode_id": "train-000333", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 5], "venue": [1]}, "seed": 661301650}
+{"episode_id": "train-000334", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 1839429298}
+{"episode_id": "train-000335", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [2, 3, 5, 6], "venue": [0, 5]}, "seed": 1117275057}
+{"episode_id": "train-000336", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 615543200}
+{"episode_id": "train-000337", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [1, 7], "venue": [2]}, "seed": 4139771896}
+{"episode_id": "train-000338", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [2, 3, 5], "venue": [5, 7]}, "seed": 2558052634}
+{"episode_id": "train-000339", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6], "venue": [7]}, "seed": 3590272326}
+{"episode_id": "train-000340", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [0], "venue": [6]}, "seed": 511564176}
+{"episode_id": "train-000341", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [0, 2, 3], "venue": [2]}, "seed": 823061209}
+{"episode_id": "train-000342", "secret": {"helper": "Dev", "venue": "bowling alley"}, "anchors": {"helper": [1, 3], "venue": [0, 4]}, "seed": 3535667805}
+{"episode_id": "train-000343", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 1386430351}
+{"episode_id": "train-000344", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 3, 7], "venue": [1, 7]}, "seed": 2024291150}
+{"episode_id": "train-000345", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [4, 7], "venue": [0]}, "seed": 897338907}
+{"episode_id": "train-000346", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [0, 6], "venue": [4, 7]}, "seed": 546526193}
+{"episode_id": "train-000347", "secret": {"helper": "Arjun", "venue": "karaoke bar"}, "anchors": {"helper": [0, 1], "venue": [3]}, "seed": 658642245}
+{"episode_id": "train-000348", "secret": {"helper": "Arjun", "venue": "beach shack"}, "anchors": {"helper": [4], "venue": [2]}, "seed": 316515243}
+{"episode_id": "train-000349", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [2, 5], "venue": [1]}, "seed": 499403192}
+{"episode_id": "train-000350", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 914580030}
+{"episode_id": "train-000351", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [1, 5], "venue": [1, 2]}, "seed": 830035915}
+{"episode_id": "train-000352", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [3, 4, 7], "venue": [7]}, "seed": 1038803726}
+{"episode_id": "train-000353", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [4, 5], "venue": [4]}, "seed": 4145370030}
+{"episode_id": "train-000354", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [3, 4], "venue": [5]}, "seed": 3781543548}
+{"episode_id": "train-000355", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [2, 6], "venue": [7]}, "seed": 732022664}
+{"episode_id": "train-000356", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 1575053643}
+{"episode_id": "train-000357", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [4, 5], "venue": [2, 7]}, "seed": 4256988034}
+{"episode_id": "train-000358", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 2031637130}
+{"episode_id": "train-000359", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [0, 1], "venue": [5, 6]}, "seed": 180284610}
+{"episode_id": "train-000360", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [0, 5], "venue": [2]}, "seed": 739334780}
+{"episode_id": "train-000361", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 322326397}
+{"episode_id": "train-000362", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [4, 5], "venue": [1]}, "seed": 2493391740}
+{"episode_id": "train-000363", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [0, 7], "venue": [7]}, "seed": 2934955265}
+{"episode_id": "train-000364", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [7], "venue": [1]}, "seed": 3093391492}
+{"episode_id": "train-000365", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [3], "venue": [4]}, "seed": 2008994328}
+{"episode_id": "train-000366", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [0, 3, 6], "venue": [6]}, "seed": 1349225171}
+{"episode_id": "train-000367", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [0]}, "seed": 4063046383}
+{"episode_id": "train-000368", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [6], "venue": [1]}, "seed": 4278457540}
+{"episode_id": "train-000369", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [2, 4, 5], "venue": [4]}, "seed": 3571163167}
+{"episode_id": "train-000370", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [1, 5], "venue": [6]}, "seed": 1154504400}
+{"episode_id": "train-000371", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [1, 3, 5], "venue": [1, 3]}, "seed": 1829237387}
+{"episode_id": "train-000372", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [3, 5], "venue": [4]}, "seed": 3728730}
+{"episode_id": "train-000373", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2863133496}
+{"episode_id": "train-000374", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [1, 3]}, "seed": 1634128845}
+{"episode_id": "train-000375", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [5, 6], "venue": [3]}, "seed": 382416187}
+{"episode_id": "train-000376", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [1, 5, 7], "venue": [3, 6]}, "seed": 273404131}
+{"episode_id": "train-000377", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [2, 4, 5], "venue": [3]}, "seed": 4251896286}
+{"episode_id": "train-000378", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [0], "venue": [0, 1]}, "seed": 4292346861}
+{"episode_id": "train-000379", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [0, 7], "venue": [0, 2, 7]}, "seed": 3255174065}
+{"episode_id": "train-000380", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [5], "venue": [1]}, "seed": 2416943307}
+{"episode_id": "train-000381", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [1], "venue": [2, 4]}, "seed": 3198899164}
+{"episode_id": "train-000382", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [0, 5], "venue": [7]}, "seed": 841359736}
+{"episode_id": "train-000383", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [2, 7], "venue": [0]}, "seed": 3120242122}
+{"episode_id": "train-000384", "secret": {"helper": "Tara", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [0]}, "seed": 2798252951}
+{"episode_id": "train-000385", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 2, 5, 6], "venue": [2, 5, 7]}, "seed": 3904992648}
+{"episode_id": "train-000386", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [4, 5], "venue": [1]}, "seed": 3093571224}
+{"episode_id": "train-000387", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [1], "venue": [4]}, "seed": 3737455843}
+{"episode_id": "train-000388", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2070007993}
+{"episode_id": "train-000389", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 1980998974}
+{"episode_id": "train-000390", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [4], "venue": [4]}, "seed": 1658746264}
+{"episode_id": "train-000391", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0], "venue": [1, 2]}, "seed": 4022019364}
+{"episode_id": "train-000392", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [7], "venue": [5]}, "seed": 4220074610}
+{"episode_id": "train-000393", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [5], "venue": [3]}, "seed": 545743159}
+{"episode_id": "train-000394", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [0, 7], "venue": [2]}, "seed": 2895106152}
+{"episode_id": "train-000395", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0], "venue": [6]}, "seed": 216224312}
+{"episode_id": "train-000396", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [4], "venue": [3]}, "seed": 3332920712}
+{"episode_id": "train-000397", "secret": {"helper": "Ravi", "venue": "rooftop cafe"}, "anchors": {"helper": [3, 6], "venue": [3]}, "seed": 178910558}
+{"episode_id": "train-000398", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 3, 4], "venue": [4]}, "seed": 656014558}
+{"episode_id": "train-000399", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [1, 5, 7], "venue": [5]}, "seed": 672583544}
+{"episode_id": "train-000400", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [4, 6], "venue": [1]}, "seed": 3302593187}
+{"episode_id": "train-000401", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [2, 4], "venue": [1]}, "seed": 2895768065}
+{"episode_id": "train-000402", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [3], "venue": [3]}, "seed": 2208161026}
+{"episode_id": "train-000403", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [5, 7], "venue": [3]}, "seed": 711576439}
+{"episode_id": "train-000404", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [3, 5, 7], "venue": [4]}, "seed": 145659019}
+{"episode_id": "train-000405", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [0], "venue": [3]}, "seed": 539338299}
+{"episode_id": "train-000406", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [1, 2, 5], "venue": [3, 6]}, "seed": 3078188930}
+{"episode_id": "train-000407", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 2017070161}
+{"episode_id": "train-000408", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 4, 6], "venue": [1, 2]}, "seed": 2897027992}
+{"episode_id": "train-000409", "secret": {"helper": "Meera", "venue": "botanical garden"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 1023050046}
+{"episode_id": "train-000410", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [3, 6], "venue": [5]}, "seed": 3052423268}
+{"episode_id": "train-000411", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 549632629}
+{"episode_id": "train-000412", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [0, 3, 5], "venue": [1]}, "seed": 1565264102}
+{"episode_id": "train-000413", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [0, 3], "venue": [6]}, "seed": 76968004}
+{"episode_id": "train-000414", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [1, 5], "venue": [0, 2, 4]}, "seed": 186364746}
+{"episode_id": "train-000415", "secret": {"helper": "Priya", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 3210308631}
+{"episode_id": "train-000416", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [2]}, "seed": 2058200176}
+{"episode_id": "train-000417", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [0, 2, 4], "venue": [2]}, "seed": 2004079095}
+{"episode_id": "train-000418", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [4], "venue": [1]}, "seed": 612230129}
+{"episode_id": "train-000419", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 4, 7], "venue": [1]}, "seed": 3838471293}
+{"episode_id": "train-000420", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0], "venue": [5]}, "seed": 455405619}
+{"episode_id": "train-000421", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 3990880096}
+{"episode_id": "train-000422", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [4], "venue": [4]}, "seed": 3729064481}
+{"episode_id": "train-000423", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 4035963562}
+{"episode_id": "train-000424", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [2]}, "seed": 2203862436}
+{"episode_id": "train-000425", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 2721747939}
+{"episode_id": "train-000426", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 3034407349}
+{"episode_id": "train-000427", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 1415349833}
+{"episode_id": "train-000428", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [5, 6, 7], "venue": [1]}, "seed": 3072212537}
+{"episode_id": "train-000429", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [0, 3, 4], "venue": [0]}, "seed": 237939391}
+{"episode_id": "train-000430", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [4, 7], "venue": [3]}, "seed": 3409815950}
+{"episode_id": "train-000431", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 2656273433}
+{"episode_id": "train-000432", "secret": {"helper": "Ravi", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [1]}, "seed": 3314154566}
+{"episode_id": "train-000433", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [4, 7], "venue": [4]}, "seed": 973974534}
+{"episode_id": "train-000434", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [1, 3], "venue": [2, 6]}, "seed": 2112797890}
+{"episode_id": "train-000435", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [3, 4, 7], "venue": [4, 5, 6]}, "seed": 64580481}
+{"episode_id": "train-000436", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [4, 5, 7], "venue": [0]}, "seed": 1309434312}
+{"episode_id": "train-000437", "secret": {"helper": "Dev", "venue": "bowling alley"}, "anchors": {"helper": [0, 3, 6, 7], "venue": [2, 5]}, "seed": 1409597362}
+{"episode_id": "train-000438", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [2, 7], "venue": [1]}, "seed": 2034901302}
+{"episode_id": "train-000439", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [2, 3], "venue": [0, 3]}, "seed": 1641122947}
+{"episode_id": "train-000440", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [3, 5], "venue": [0, 3]}, "seed": 2440490218}
+{"episode_id": "train-000441", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [6, 7], "venue": [5]}, "seed": 165174715}
+{"episode_id": "train-000442", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [1, 7]}, "seed": 2519449689}
+{"episode_id": "train-000443", "secret": {"helper": "Ravi", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 4, 5, 7], "venue": [0]}, "seed": 3130969376}
+{"episode_id": "train-000444", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [1, 7], "venue": [0, 6]}, "seed": 1916825762}
+{"episode_id": "train-000445", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [2, 5], "venue": [1]}, "seed": 3063975068}
+{"episode_id": "train-000446", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 2670039229}
+{"episode_id": "train-000447", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [0, 1, 2], "venue": [0]}, "seed": 1764326980}
+{"episode_id": "train-000448", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [0, 3], "venue": [2, 3, 4]}, "seed": 4115342395}
+{"episode_id": "train-000449", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [0, 2, 4], "venue": [1, 4]}, "seed": 550703151}
+{"episode_id": "train-000450", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [0, 6], "venue": [4]}, "seed": 525722505}
+{"episode_id": "train-000451", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [5, 6], "venue": [3, 6]}, "seed": 3365608023}
+{"episode_id": "train-000452", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [2], "venue": [1, 2]}, "seed": 527107653}
+{"episode_id": "train-000453", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [1, 4], "venue": [5]}, "seed": 656140311}
+{"episode_id": "train-000454", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0, 2, 4, 6], "venue": [2]}, "seed": 4076293060}
+{"episode_id": "train-000455", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [3], "venue": [7]}, "seed": 3025624489}
+{"episode_id": "train-000456", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [7], "venue": [4, 6]}, "seed": 486499391}
+{"episode_id": "train-000457", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [0, 1, 5], "venue": [3]}, "seed": 3203410166}
+{"episode_id": "train-000458", "secret": {"helper": "Arjun", "venue": "beach shack"}, "anchors": {"helper": [2, 3], "venue": [2, 4]}, "seed": 1819766976}
+{"episode_id": "train-000459", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 1948147397}
+{"episode_id": "train-000460", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [3, 4], "venue": [2]}, "seed": 3175175210}
+{"episode_id": "train-000461", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [0, 2]}, "seed": 2376197945}
+{"episode_id": "train-000462", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [2, 6, 7], "venue": [1]}, "seed": 1644690131}
+{"episode_id": "train-000463", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [6], "venue": [3]}, "seed": 2570081472}
+{"episode_id": "train-000464", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 3], "venue": [1]}, "seed": 1115121209}
+{"episode_id": "train-000465", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [6, 7]}, "seed": 1429453937}
+{"episode_id": "train-000466", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [1, 7], "venue": [1, 5]}, "seed": 851166840}
+{"episode_id": "train-000467", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 1, 3, 6], "venue": [4]}, "seed": 3525390852}
+{"episode_id": "train-000468", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [0, 6], "venue": [2, 3]}, "seed": 1116513966}
+{"episode_id": "train-000469", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [7], "venue": [5]}, "seed": 1922224667}
+{"episode_id": "train-000470", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [0, 3], "venue": [6]}, "seed": 2571678643}
+{"episode_id": "train-000471", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [2, 5], "venue": [2]}, "seed": 924242529}
+{"episode_id": "train-000472", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [2, 6], "venue": [7]}, "seed": 3030361126}
+{"episode_id": "train-000473", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [3, 6, 7], "venue": [2]}, "seed": 135623984}
+{"episode_id": "train-000474", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [0, 6], "venue": [2]}, "seed": 3464995988}
+{"episode_id": "train-000475", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [0, 6], "venue": [1, 3]}, "seed": 1483414481}
+{"episode_id": "train-000476", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [3, 6], "venue": [0, 6]}, "seed": 1268334090}
+{"episode_id": "train-000477", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [0]}, "seed": 2680370982}
+{"episode_id": "train-000478", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 2906191484}
+{"episode_id": "train-000479", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [1, 7], "venue": [3]}, "seed": 2375113177}
+{"episode_id": "train-000480", "secret": {"helper": "Arjun", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [6]}, "seed": 3955357393}
+{"episode_id": "train-000481", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [1, 7], "venue": [1, 2, 5]}, "seed": 792101009}
+{"episode_id": "train-000482", "secret": {"helper": "Ishita", "venue": "community hall"}, "anchors": {"helper": [2, 4, 7], "venue": [5]}, "seed": 2874819807}
+{"episode_id": "train-000483", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0, 5, 6], "venue": [0]}, "seed": 4011966907}
+{"episode_id": "train-000484", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [1, 2], "venue": [1, 3]}, "seed": 711289869}
+{"episode_id": "train-000485", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 4170430416}
+{"episode_id": "train-000486", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [0, 1], "venue": [7]}, "seed": 1947225175}
+{"episode_id": "train-000487", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [1, 2, 7], "venue": [3]}, "seed": 1757787393}
+{"episode_id": "train-000488", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [2]}, "seed": 3646720445}
+{"episode_id": "train-000489", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [5], "venue": [6]}, "seed": 396662719}
+{"episode_id": "train-000490", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 1777444337}
+{"episode_id": "train-000491", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 6], "venue": [3]}, "seed": 2049520823}
+{"episode_id": "train-000492", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [3, 5], "venue": [2]}, "seed": 2124203624}
+{"episode_id": "train-000493", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 4090013522}
+{"episode_id": "train-000494", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 45807605}
+{"episode_id": "train-000495", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [0, 5], "venue": [4]}, "seed": 3031524164}
+{"episode_id": "train-000496", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [1, 6], "venue": [7]}, "seed": 2385336075}
+{"episode_id": "train-000497", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [1, 4, 7], "venue": [4]}, "seed": 1456967559}
+{"episode_id": "train-000498", "secret": {"helper": "Tara", "venue": "old cinema hall"}, "anchors": {"helper": [4, 7], "venue": [6]}, "seed": 36843601}
+{"episode_id": "train-000499", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [4, 7], "venue": [4, 5]}, "seed": 668267586}
+{"episode_id": "train-000500", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 2955673435}
+{"episode_id": "train-000501", "secret": {"helper": "Ishita", "venue": "community hall"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 4258450950}
+{"episode_id": "train-000502", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [2, 6], "venue": [0]}, "seed": 3994567634}
+{"episode_id": "train-000503", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [7], "venue": [1]}, "seed": 1945908224}
+{"episode_id": "train-000504", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 2, 3], "venue": [1, 2, 3]}, "seed": 4161771944}
+{"episode_id": "train-000505", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [0, 5, 6], "venue": [5, 6]}, "seed": 1761469607}
+{"episode_id": "train-000506", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [1, 7], "venue": [6]}, "seed": 2956483698}
+{"episode_id": "train-000507", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [1, 2], "venue": [1]}, "seed": 3637563771}
+{"episode_id": "train-000508", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [2, 3], "venue": [2, 7]}, "seed": 1423047001}
+{"episode_id": "train-000509", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [0], "venue": [4]}, "seed": 852191421}
+{"episode_id": "train-000510", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [0, 2], "venue": [3]}, "seed": 1660305208}
+{"episode_id": "train-000511", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [7], "venue": [3, 7]}, "seed": 3901956216}
+{"episode_id": "train-000512", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [1, 2, 3], "venue": [0, 4]}, "seed": 3853812338}
+{"episode_id": "train-000513", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [6, 7], "venue": [4]}, "seed": 2027078629}
+{"episode_id": "train-000514", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 6], "venue": [0]}, "seed": 28921777}
+{"episode_id": "train-000515", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [0], "venue": [2]}, "seed": 1344300016}
+{"episode_id": "train-000516", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [5]}, "seed": 435917122}
+{"episode_id": "train-000517", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [0, 5], "venue": [5, 6]}, "seed": 2832883406}
+{"episode_id": "train-000518", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 3319860955}
+{"episode_id": "train-000519", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [0, 2, 3, 5], "venue": [4]}, "seed": 3762570980}
+{"episode_id": "train-000520", "secret": {"helper": "Dev", "venue": "bowling alley"}, "anchors": {"helper": [0, 5], "venue": [5]}, "seed": 1695831294}
+{"episode_id": "train-000521", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [2, 6], "venue": [0]}, "seed": 2248014664}
+{"episode_id": "train-000522", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [1, 3], "venue": [7]}, "seed": 4227171471}
+{"episode_id": "train-000523", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [1, 6, 7], "venue": [2]}, "seed": 2142571171}
+{"episode_id": "train-000524", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 3920331501}
+{"episode_id": "train-000525", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [5], "venue": [0]}, "seed": 3478779033}
+{"episode_id": "train-000526", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [5], "venue": [3]}, "seed": 1474585056}
+{"episode_id": "train-000527", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [0, 4, 5], "venue": [7]}, "seed": 1493379790}
+{"episode_id": "train-000528", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [5, 7], "venue": [1, 7]}, "seed": 4072023100}
+{"episode_id": "train-000529", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [3], "venue": [7]}, "seed": 2503330482}
+{"episode_id": "train-000530", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [2, 6], "venue": [3, 6]}, "seed": 270702403}
+{"episode_id": "train-000531", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [2, 5], "venue": [3]}, "seed": 892379007}
+{"episode_id": "train-000532", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [3], "venue": [2]}, "seed": 2664989066}
+{"episode_id": "train-000533", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [0, 3], "venue": [7]}, "seed": 3426579797}
+{"episode_id": "train-000534", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [0, 6], "venue": [0]}, "seed": 1931197972}
+{"episode_id": "train-000535", "secret": {"helper": "Priya", "venue": "beach shack"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 1173581499}
+{"episode_id": "train-000536", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [3, 5], "venue": [1]}, "seed": 1883253597}
+{"episode_id": "train-000537", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [1, 7], "venue": [0, 7]}, "seed": 3895075802}
+{"episode_id": "train-000538", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [0, 5]}, "seed": 3291147102}
+{"episode_id": "train-000539", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [2, 3], "venue": [7]}, "seed": 513875798}
+{"episode_id": "train-000540", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [5, 6, 7], "venue": [4]}, "seed": 3030294134}
+{"episode_id": "train-000541", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [2], "venue": [0]}, "seed": 2426237510}
+{"episode_id": "train-000542", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [0, 7], "venue": [6]}, "seed": 2688329359}
+{"episode_id": "train-000543", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [0, 2], "venue": [4]}, "seed": 3244799299}
+{"episode_id": "train-000544", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [0, 1, 5], "venue": [1]}, "seed": 683694897}
+{"episode_id": "train-000545", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [2], "venue": [4]}, "seed": 725889361}
+{"episode_id": "train-000546", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 4], "venue": [0, 6]}, "seed": 2019490476}
+{"episode_id": "train-000547", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [6], "venue": [3]}, "seed": 370881011}
+{"episode_id": "train-000548", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [0, 3, 7], "venue": [1]}, "seed": 1046289212}
+{"episode_id": "train-000549", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [2, 7], "venue": [0]}, "seed": 1689729369}
+{"episode_id": "train-000550", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [6]}, "seed": 2423073990}
+{"episode_id": "train-000551", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [7], "venue": [6]}, "seed": 3151697424}
+{"episode_id": "train-000552", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [0, 7], "venue": [0, 3]}, "seed": 744400637}
+{"episode_id": "train-000553", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [1, 4], "venue": [1, 2]}, "seed": 808536523}
+{"episode_id": "train-000554", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [2, 5], "venue": [2]}, "seed": 2514824039}
+{"episode_id": "train-000555", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 1097220893}
+{"episode_id": "train-000556", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [4], "venue": [2, 7]}, "seed": 839014650}
+{"episode_id": "train-000557", "secret": {"helper": "Rohan", "venue": "rooftop cafe"}, "anchors": {"helper": [4], "venue": [0, 3]}, "seed": 1435334532}
+{"episode_id": "train-000558", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [2, 3], "venue": [7]}, "seed": 4107064728}
+{"episode_id": "train-000559", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [1, 7], "venue": [7]}, "seed": 840696138}
+{"episode_id": "train-000560", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [6], "venue": [0, 6]}, "seed": 1901922380}
+{"episode_id": "train-000561", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [6], "venue": [2]}, "seed": 3738215347}
+{"episode_id": "train-000562", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 3, 7], "venue": [4]}, "seed": 4286673355}
+{"episode_id": "train-000563", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [2], "venue": [6]}, "seed": 2744864780}
+{"episode_id": "train-000564", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [6], "venue": [0]}, "seed": 4012376960}
+{"episode_id": "train-000565", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [0, 1, 3, 5], "venue": [0]}, "seed": 397305617}
+{"episode_id": "train-000566", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [4]}, "seed": 1724538207}
+{"episode_id": "train-000567", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [0, 3], "venue": [3]}, "seed": 3482400904}
+{"episode_id": "train-000568", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [5], "venue": [0, 2]}, "seed": 2240704457}
+{"episode_id": "train-000569", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [1, 6], "venue": [0]}, "seed": 1735337167}
+{"episode_id": "train-000570", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [5, 6]}, "seed": 2174206636}
+{"episode_id": "train-000571", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [0, 1, 2], "venue": [4, 7]}, "seed": 4224911409}
+{"episode_id": "train-000572", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [1, 6, 7], "venue": [5]}, "seed": 4047382600}
+{"episode_id": "train-000573", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [6], "venue": [0]}, "seed": 1305984914}
+{"episode_id": "train-000574", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [5], "venue": [1, 4]}, "seed": 1432083669}
+{"episode_id": "train-000575", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [3, 4], "venue": [1]}, "seed": 1211123002}
+{"episode_id": "train-000576", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [0, 3, 4], "venue": [0, 1]}, "seed": 1854676181}
+{"episode_id": "train-000577", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [2], "venue": [0]}, "seed": 2167853022}
+{"episode_id": "train-000578", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2], "venue": [3, 4]}, "seed": 3830010951}
+{"episode_id": "train-000579", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [0]}, "seed": 3799118421}
+{"episode_id": "train-000580", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [0, 5], "venue": [3]}, "seed": 3035357675}
+{"episode_id": "train-000581", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [0, 7], "venue": [0, 3]}, "seed": 2680262598}
+{"episode_id": "train-000582", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [0, 4], "venue": [4, 6]}, "seed": 2510939813}
+{"episode_id": "train-000583", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [5], "venue": [3]}, "seed": 2604841426}
+{"episode_id": "train-000584", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [2, 3], "venue": [2]}, "seed": 3666977218}
+{"episode_id": "train-000585", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [1, 5], "venue": [4, 7]}, "seed": 652190104}
+{"episode_id": "train-000586", "secret": {"helper": "Dev", "venue": "food court"}, "anchors": {"helper": [3, 5, 7], "venue": [0]}, "seed": 2763755269}
+{"episode_id": "train-000587", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [5, 6], "venue": [0, 6]}, "seed": 4021361421}
+{"episode_id": "train-000588", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [2], "venue": [7]}, "seed": 3636666365}
+{"episode_id": "train-000589", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [1, 5], "venue": [0]}, "seed": 3090782626}
+{"episode_id": "train-000590", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 1, 6], "venue": [6]}, "seed": 4261040744}
+{"episode_id": "train-000591", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [1, 5], "venue": [4, 7]}, "seed": 1769463422}
+{"episode_id": "train-000592", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [2, 7], "venue": [3, 6]}, "seed": 237408126}
+{"episode_id": "train-000593", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [0, 1, 6], "venue": [6]}, "seed": 2771986767}
+{"episode_id": "train-000594", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [5], "venue": [6]}, "seed": 3858125130}
+{"episode_id": "train-000595", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [1, 5], "venue": [3]}, "seed": 1966311961}
+{"episode_id": "train-000596", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [0]}, "seed": 2968609690}
+{"episode_id": "train-000597", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [2, 3], "venue": [5]}, "seed": 3378777021}
+{"episode_id": "train-000598", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [2, 5], "venue": [2]}, "seed": 3259938237}
+{"episode_id": "train-000599", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [3, 7], "venue": [1]}, "seed": 3622034252}
+{"episode_id": "train-000600", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [6], "venue": [7]}, "seed": 268234931}
+{"episode_id": "train-000601", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [0]}, "seed": 3961417301}
+{"episode_id": "train-000602", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [3, 7], "venue": [3]}, "seed": 3828090819}
+{"episode_id": "train-000603", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2487690362}
+{"episode_id": "train-000604", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [4], "venue": [2, 4]}, "seed": 1171165492}
+{"episode_id": "train-000605", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 2, 4, 5], "venue": [2]}, "seed": 4072242152}
+{"episode_id": "train-000606", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [4], "venue": [3]}, "seed": 1415846682}
+{"episode_id": "train-000607", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [2], "venue": [0, 5]}, "seed": 3607147090}
+{"episode_id": "train-000608", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [3, 6], "venue": [3]}, "seed": 4201587513}
+{"episode_id": "train-000609", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [4], "venue": [1, 4]}, "seed": 3517951312}
+{"episode_id": "train-000610", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [4], "venue": [6]}, "seed": 2844952970}
+{"episode_id": "train-000611", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [0, 1, 6], "venue": [3, 5]}, "seed": 142566383}
+{"episode_id": "train-000612", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [2, 7], "venue": [2, 4]}, "seed": 4121030409}
+{"episode_id": "train-000613", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [1, 2, 6], "venue": [5, 7]}, "seed": 3150723637}
+{"episode_id": "train-000614", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [2], "venue": [7]}, "seed": 106035835}
+{"episode_id": "train-000615", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [4, 5, 7], "venue": [4]}, "seed": 2377537672}
+{"episode_id": "train-000616", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [2, 4], "venue": [6]}, "seed": 960573945}
+{"episode_id": "train-000617", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0, 2, 7], "venue": [7]}, "seed": 3629270259}
+{"episode_id": "train-000618", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [2, 6], "venue": [6]}, "seed": 255622883}
+{"episode_id": "train-000619", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [2, 6], "venue": [1]}, "seed": 1154732008}
+{"episode_id": "train-000620", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [4, 6], "venue": [4]}, "seed": 1531790773}
+{"episode_id": "train-000621", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [2, 3, 5], "venue": [7]}, "seed": 514123003}
+{"episode_id": "train-000622", "secret": {"helper": "Priya", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [0, 5]}, "seed": 2915648726}
+{"episode_id": "train-000623", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [5, 6, 7], "venue": [1]}, "seed": 1645726823}
+{"episode_id": "train-000624", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [6]}, "seed": 609169629}
+{"episode_id": "train-000625", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [1, 6], "venue": [1, 5]}, "seed": 3047473165}
+{"episode_id": "train-000626", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [1, 2], "venue": [4]}, "seed": 99517017}
+{"episode_id": "train-000627", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [0, 4], "venue": [2]}, "seed": 1374856760}
+{"episode_id": "train-000628", "secret": {"helper": "Ishita", "venue": "community hall"}, "anchors": {"helper": [0, 7], "venue": [6]}, "seed": 3957015213}
+{"episode_id": "train-000629", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [2, 3], "venue": [5]}, "seed": 3041994275}
+{"episode_id": "train-000630", "secret": {"helper": "Rohan", "venue": "night market"}, "anchors": {"helper": [1, 5, 7], "venue": [1]}, "seed": 1691358456}
+{"episode_id": "train-000631", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [2], "venue": [1]}, "seed": 2031548475}
+{"episode_id": "train-000632", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [1, 3, 6, 7], "venue": [0, 2, 5]}, "seed": 2671803342}
+{"episode_id": "train-000633", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [0, 2, 5], "venue": [3]}, "seed": 1980151939}
+{"episode_id": "train-000634", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [5], "venue": [2]}, "seed": 357572259}
+{"episode_id": "train-000635", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [5], "venue": [6]}, "seed": 169690569}
+{"episode_id": "train-000636", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [7], "venue": [5]}, "seed": 712574174}
+{"episode_id": "train-000637", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [0, 1, 7], "venue": [5]}, "seed": 1451964965}
+{"episode_id": "train-000638", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [0, 1, 5], "venue": [4]}, "seed": 2246087301}
+{"episode_id": "train-000639", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [1, 2, 5], "venue": [7]}, "seed": 3031150492}
+{"episode_id": "train-000640", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [0, 1], "venue": [3]}, "seed": 2143301180}
+{"episode_id": "train-000641", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [7]}, "seed": 1419836196}
+{"episode_id": "train-000642", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [4], "venue": [1]}, "seed": 3659515248}
+{"episode_id": "train-000643", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [0, 2], "venue": [6]}, "seed": 2662980194}
+{"episode_id": "train-000644", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [3]}, "seed": 3410811313}
+{"episode_id": "train-000645", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [0, 3], "venue": [3]}, "seed": 1358565359}
+{"episode_id": "train-000646", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [5, 6], "venue": [3]}, "seed": 2836957513}
+{"episode_id": "train-000647", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [3, 4], "venue": [1]}, "seed": 3363320780}
+{"episode_id": "train-000648", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [3, 6], "venue": [3]}, "seed": 2369988879}
+{"episode_id": "train-000649", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [1, 7], "venue": [2]}, "seed": 1524859794}
+{"episode_id": "train-000650", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [5]}, "seed": 3838776701}
+{"episode_id": "train-000651", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [3, 4, 7], "venue": [3]}, "seed": 1138300016}
+{"episode_id": "train-000652", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [1], "venue": [0, 1]}, "seed": 648912211}
+{"episode_id": "train-000653", "secret": {"helper": "Arjun", "venue": "old cinema hall"}, "anchors": {"helper": [4, 5, 7], "venue": [1]}, "seed": 2353635254}
+{"episode_id": "train-000654", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [6, 7], "venue": [0]}, "seed": 4004663715}
+{"episode_id": "train-000655", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [1, 2, 3, 7], "venue": [5]}, "seed": 3508824306}
+{"episode_id": "train-000656", "secret": {"helper": "Ishita", "venue": "community hall"}, "anchors": {"helper": [6], "venue": [1]}, "seed": 1878416142}
+{"episode_id": "train-000657", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 3, 6], "venue": [7]}, "seed": 1883509803}
+{"episode_id": "train-000658", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [0, 1, 3], "venue": [5]}, "seed": 1722839163}
+{"episode_id": "train-000659", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [6], "venue": [2]}, "seed": 430499636}
+{"episode_id": "train-000660", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [0, 1, 2, 3], "venue": [7]}, "seed": 3443564880}
+{"episode_id": "train-000661", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [3, 7], "venue": [1]}, "seed": 3633069326}
+{"episode_id": "train-000662", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [0, 6], "venue": [4]}, "seed": 565932997}
+{"episode_id": "train-000663", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [6], "venue": [1, 7]}, "seed": 2723351541}
+{"episode_id": "train-000664", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [0, 1, 5], "venue": [0]}, "seed": 3086861998}
+{"episode_id": "train-000665", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [5], "venue": [6]}, "seed": 2640542478}
+{"episode_id": "train-000666", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [1, 2], "venue": [1, 5]}, "seed": 4060183345}
+{"episode_id": "train-000667", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 1, 5, 6, 7], "venue": [4, 5]}, "seed": 1078221788}
+{"episode_id": "train-000668", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [2, 4, 5], "venue": [6]}, "seed": 1453295611}
+{"episode_id": "train-000669", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [3, 4, 5, 6], "venue": [7]}, "seed": 1286778912}
+{"episode_id": "train-000670", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 3, 6], "venue": [0, 2]}, "seed": 425210691}
+{"episode_id": "train-000671", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [1, 3], "venue": [3]}, "seed": 464912223}
+{"episode_id": "train-000672", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [0, 7], "venue": [3]}, "seed": 971747253}
+{"episode_id": "train-000673", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [3, 7], "venue": [1]}, "seed": 2881438807}
+{"episode_id": "train-000674", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [4, 6], "venue": [6, 7]}, "seed": 1217490370}
+{"episode_id": "train-000675", "secret": {"helper": "Rohan", "venue": "night market"}, "anchors": {"helper": [2], "venue": [5, 7]}, "seed": 602343182}
+{"episode_id": "train-000676", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 2, 3], "venue": [0, 6]}, "seed": 3624478257}
+{"episode_id": "train-000677", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [7]}, "seed": 2662778449}
+{"episode_id": "train-000678", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [7], "venue": [5]}, "seed": 3753180177}
+{"episode_id": "train-000679", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [7], "venue": [3, 6]}, "seed": 3516596534}
+{"episode_id": "train-000680", "secret": {"helper": "Tara", "venue": "beach shack"}, "anchors": {"helper": [2, 3], "venue": [3, 5]}, "seed": 1359311478}
+{"episode_id": "train-000681", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [2], "venue": [5]}, "seed": 1028062596}
+{"episode_id": "train-000682", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [2, 6], "venue": [6]}, "seed": 304479336}
+{"episode_id": "train-000683", "secret": {"helper": "Ishita", "venue": "food court"}, "anchors": {"helper": [2, 6], "venue": [5]}, "seed": 3329614296}
+{"episode_id": "train-000684", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [6]}, "seed": 4236095971}
+{"episode_id": "train-000685", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [3, 5, 7], "venue": [0]}, "seed": 3348567432}
+{"episode_id": "train-000686", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6], "venue": [4]}, "seed": 1467904812}
+{"episode_id": "train-000687", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [2, 6], "venue": [1, 5]}, "seed": 2012056976}
+{"episode_id": "train-000688", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [4, 5], "venue": [2]}, "seed": 2935238037}
+{"episode_id": "train-000689", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [1, 2, 4], "venue": [0]}, "seed": 759852106}
+{"episode_id": "train-000690", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [3], "venue": [5, 6]}, "seed": 3843109050}
+{"episode_id": "train-000691", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [4], "venue": [7]}, "seed": 3371050134}
+{"episode_id": "train-000692", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [3, 4], "venue": [3]}, "seed": 182334598}
+{"episode_id": "train-000693", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [0]}, "seed": 1736416997}
+{"episode_id": "train-000694", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [3, 6], "venue": [5, 6]}, "seed": 996040296}
+{"episode_id": "train-000695", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [6, 7], "venue": [4]}, "seed": 996966512}
+{"episode_id": "train-000696", "secret": {"helper": "Tara", "venue": "old cinema hall"}, "anchors": {"helper": [2, 3, 7], "venue": [1]}, "seed": 2608189458}
+{"episode_id": "train-000697", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [4], "venue": [7]}, "seed": 1644027914}
+{"episode_id": "train-000698", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 5], "venue": [5]}, "seed": 863014497}
+{"episode_id": "train-000699", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [3, 4], "venue": [2]}, "seed": 1998593107}
+{"episode_id": "train-000700", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 2127916955}
+{"episode_id": "train-000701", "secret": {"helper": "Meera", "venue": "community hall"}, "anchors": {"helper": [0, 4, 7], "venue": [4]}, "seed": 3675443781}
+{"episode_id": "train-000702", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [5], "venue": [5, 7]}, "seed": 2029899638}
+{"episode_id": "train-000703", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [5], "venue": [1]}, "seed": 1352632339}
+{"episode_id": "train-000704", "secret": {"helper": "Rohan", "venue": "night market"}, "anchors": {"helper": [1, 5], "venue": [3]}, "seed": 1496627421}
+{"episode_id": "train-000705", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 3, 6], "venue": [6]}, "seed": 1050850133}
+{"episode_id": "train-000706", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 6], "venue": [4]}, "seed": 299419810}
+{"episode_id": "train-000707", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [3, 5], "venue": [5]}, "seed": 3828778785}
+{"episode_id": "train-000708", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [1, 5], "venue": [4]}, "seed": 1566525275}
+{"episode_id": "train-000709", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [2, 7], "venue": [2]}, "seed": 378085269}
+{"episode_id": "train-000710", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [0, 6], "venue": [3, 6]}, "seed": 2025312829}
+{"episode_id": "train-000711", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [1, 6], "venue": [2, 5]}, "seed": 2127497219}
+{"episode_id": "train-000712", "secret": {"helper": "Meera", "venue": "karaoke bar"}, "anchors": {"helper": [3, 5, 7], "venue": [3]}, "seed": 3895733876}
+{"episode_id": "train-000713", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 1383355474}
+{"episode_id": "train-000714", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 3119310042}
+{"episode_id": "train-000715", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [0, 5], "venue": [0, 7]}, "seed": 1331252618}
+{"episode_id": "train-000716", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [0, 2], "venue": [7]}, "seed": 886187567}
+{"episode_id": "train-000717", "secret": {"helper": "Rohan", "venue": "food court"}, "anchors": {"helper": [0, 5, 6], "venue": [5]}, "seed": 2336079238}
+{"episode_id": "train-000718", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [0], "venue": [0, 6]}, "seed": 411383245}
+{"episode_id": "train-000719", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 2936534289}
+{"episode_id": "train-000720", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [2, 4], "venue": [7]}, "seed": 1436374124}
+{"episode_id": "train-000721", "secret": {"helper": "Arjun", "venue": "bowling alley"}, "anchors": {"helper": [0, 6], "venue": [6]}, "seed": 3047221582}
+{"episode_id": "train-000722", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [6, 7], "venue": [3]}, "seed": 3139419486}
+{"episode_id": "train-000723", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [3], "venue": [3, 7]}, "seed": 3838585636}
+{"episode_id": "train-000724", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [6], "venue": [0]}, "seed": 2364633902}
+{"episode_id": "train-000725", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [2, 6, 7], "venue": [1, 2]}, "seed": 1209063692}
+{"episode_id": "train-000726", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [3], "venue": [5, 6]}, "seed": 2118848726}
+{"episode_id": "train-000727", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [1, 6], "venue": [2]}, "seed": 3269795716}
+{"episode_id": "train-000728", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 1643715684}
+{"episode_id": "train-000729", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [2, 6], "venue": [3]}, "seed": 3663162116}
+{"episode_id": "train-000730", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [0], "venue": [4]}, "seed": 887792443}
+{"episode_id": "train-000731", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 4, 6], "venue": [2]}, "seed": 3896694983}
+{"episode_id": "train-000732", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 5], "venue": [7]}, "seed": 3146299979}
+{"episode_id": "train-000733", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [2, 3, 7], "venue": [7]}, "seed": 2596434453}
+{"episode_id": "train-000734", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [0, 3], "venue": [3]}, "seed": 3357259795}
+{"episode_id": "train-000735", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [5, 7], "venue": [0]}, "seed": 2952945835}
+{"episode_id": "train-000736", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [0, 2, 4], "venue": [4]}, "seed": 4144657955}
+{"episode_id": "train-000737", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [0, 1, 2, 3, 5], "venue": [2]}, "seed": 3354096852}
+{"episode_id": "train-000738", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [3, 4, 7], "venue": [2]}, "seed": 513824352}
+{"episode_id": "train-000739", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [0], "venue": [0, 2]}, "seed": 427890325}
+{"episode_id": "train-000740", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [1, 2, 3, 6], "venue": [1]}, "seed": 2415571023}
+{"episode_id": "train-000741", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [2], "venue": [5, 6]}, "seed": 2762699891}
+{"episode_id": "train-000742", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [3, 4, 5, 7], "venue": [2]}, "seed": 2163424149}
+{"episode_id": "train-000743", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [0, 4, 7], "venue": [4]}, "seed": 836137304}
+{"episode_id": "train-000744", "secret": {"helper": "Ishita", "venue": "karaoke bar"}, "anchors": {"helper": [5], "venue": [3]}, "seed": 2016794242}
+{"episode_id": "train-000745", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [4]}, "seed": 553898769}
+{"episode_id": "train-000746", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [0, 6, 7], "venue": [0]}, "seed": 798289606}
+{"episode_id": "train-000747", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [0, 2, 4, 7], "venue": [0]}, "seed": 1419577729}
+{"episode_id": "train-000748", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [5], "venue": [4]}, "seed": 7465163}
+{"episode_id": "train-000749", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [5]}, "seed": 1720875138}
+{"episode_id": "train-000750", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [0, 5], "venue": [0]}, "seed": 3864572236}
+{"episode_id": "train-000751", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [0], "venue": [0]}, "seed": 51901711}
+{"episode_id": "train-000752", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [3, 4], "venue": [1, 6]}, "seed": 737201173}
+{"episode_id": "train-000753", "secret": {"helper": "Ravi", "venue": "night market"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 2438098616}
+{"episode_id": "train-000754", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [2, 7], "venue": [1]}, "seed": 527484545}
+{"episode_id": "train-000755", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 585503473}
+{"episode_id": "train-000756", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [5], "venue": [3, 4]}, "seed": 3484447333}
+{"episode_id": "train-000757", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [2, 6], "venue": [3, 7]}, "seed": 1482812406}
+{"episode_id": "train-000758", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 75266178}
+{"episode_id": "train-000759", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [1, 2, 3, 4], "venue": [5]}, "seed": 4225746742}
+{"episode_id": "train-000760", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [0, 6], "venue": [0]}, "seed": 4065084304}
+{"episode_id": "train-000761", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [1], "venue": [3]}, "seed": 2073373648}
+{"episode_id": "train-000762", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [0, 2, 5], "venue": [2]}, "seed": 303153331}
+{"episode_id": "train-000763", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [2, 3], "venue": [6]}, "seed": 2879917327}
+{"episode_id": "train-000764", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [1], "venue": [6]}, "seed": 2718640718}
+{"episode_id": "train-000765", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [1, 4], "venue": [4]}, "seed": 3789625369}
+{"episode_id": "train-000766", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [6], "venue": [3]}, "seed": 3800207015}
+{"episode_id": "train-000767", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [0, 1], "venue": [3]}, "seed": 4288960929}
+{"episode_id": "train-000768", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [1, 3, 6], "venue": [2]}, "seed": 1879364645}
+{"episode_id": "train-000769", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [2, 3], "venue": [3]}, "seed": 2393886783}
+{"episode_id": "train-000770", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [2, 3], "venue": [5]}, "seed": 176543537}
+{"episode_id": "train-000771", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [3], "venue": [7]}, "seed": 3278725432}
+{"episode_id": "train-000772", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [3, 5], "venue": [7]}, "seed": 3240025841}
+{"episode_id": "train-000773", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [2, 3], "venue": [4, 5]}, "seed": 1295466155}
+{"episode_id": "train-000774", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 133957455}
+{"episode_id": "train-000775", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [2]}, "seed": 4038070090}
+{"episode_id": "train-000776", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 906091192}
+{"episode_id": "train-000777", "secret": {"helper": "Ravi", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [4]}, "seed": 3573239369}
+{"episode_id": "train-000778", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [1, 2], "venue": [1]}, "seed": 3959575291}
+{"episode_id": "train-000779", "secret": {"helper": "Ishita", "venue": "community hall"}, "anchors": {"helper": [2, 3, 4], "venue": [1]}, "seed": 483905383}
+{"episode_id": "train-000780", "secret": {"helper": "Meera", "venue": "food court"}, "anchors": {"helper": [2], "venue": [7]}, "seed": 3214669781}
+{"episode_id": "train-000781", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [5]}, "seed": 268641592}
+{"episode_id": "train-000782", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [6], "venue": [5, 6]}, "seed": 1608245731}
+{"episode_id": "train-000783", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [2], "venue": [5, 6]}, "seed": 432751290}
+{"episode_id": "train-000784", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [3, 4], "venue": [5, 7]}, "seed": 2891343178}
+{"episode_id": "train-000785", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [0], "venue": [3]}, "seed": 1698958415}
+{"episode_id": "train-000786", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [4], "venue": [7]}, "seed": 2814282142}
+{"episode_id": "train-000787", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [1, 3, 5], "venue": [0, 6]}, "seed": 4135808710}
+{"episode_id": "train-000788", "secret": {"helper": "Tara", "venue": "food court"}, "anchors": {"helper": [2, 3, 7], "venue": [1]}, "seed": 2545930523}
+{"episode_id": "train-000789", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [5, 7], "venue": [7]}, "seed": 1157484174}
+{"episode_id": "train-000790", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [2, 3, 4]}, "seed": 1135513347}
+{"episode_id": "train-000791", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 3, 4, 5], "venue": [1, 5]}, "seed": 427220678}
+{"episode_id": "train-000792", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 3386296359}
+{"episode_id": "train-000793", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [5, 6], "venue": [0]}, "seed": 798036782}
+{"episode_id": "train-000794", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [1, 7], "venue": [0, 4]}, "seed": 3161147176}
+{"episode_id": "train-000795", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [5, 6, 7], "venue": [5]}, "seed": 611646452}
+{"episode_id": "train-000796", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [2], "venue": [6]}, "seed": 1857194664}
+{"episode_id": "train-000797", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [1, 6], "venue": [6]}, "seed": 4255448691}
+{"episode_id": "train-000798", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [1]}, "seed": 566903973}
+{"episode_id": "train-000799", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 3074825863}
+{"episode_id": "train-000800", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [4, 7], "venue": [1]}, "seed": 3097131703}
+{"episode_id": "train-000801", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [0, 4, 5], "venue": [4]}, "seed": 2614898509}
+{"episode_id": "train-000802", "secret": {"helper": "Priya", "venue": "lakeside park"}, "anchors": {"helper": [1, 2], "venue": [7]}, "seed": 3627154273}
+{"episode_id": "train-000803", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [3], "venue": [5]}, "seed": 4241328586}
+{"episode_id": "train-000804", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [2, 4, 7], "venue": [3]}, "seed": 433184059}
+{"episode_id": "train-000805", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [1, 4], "venue": [4]}, "seed": 1045852345}
+{"episode_id": "train-000806", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [0, 5], "venue": [2, 6]}, "seed": 1296425717}
+{"episode_id": "train-000807", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [0, 7], "venue": [6]}, "seed": 497363474}
+{"episode_id": "train-000808", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 78792872}
+{"episode_id": "train-000809", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [0], "venue": [3]}, "seed": 3495614140}
+{"episode_id": "train-000810", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [0, 2, 4], "venue": [1]}, "seed": 1690695654}
+{"episode_id": "train-000811", "secret": {"helper": "Ravi", "venue": "beach shack"}, "anchors": {"helper": [4], "venue": [1]}, "seed": 806225648}
+{"episode_id": "train-000812", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [1]}, "seed": 2381119788}
+{"episode_id": "train-000813", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [7], "venue": [0, 2]}, "seed": 2654996606}
+{"episode_id": "train-000814", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [0, 2, 7], "venue": [0]}, "seed": 1425095994}
+{"episode_id": "train-000815", "secret": {"helper": "Dev", "venue": "night market"}, "anchors": {"helper": [7], "venue": [1]}, "seed": 305507755}
+{"episode_id": "train-000816", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 2385654572}
+{"episode_id": "train-000817", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [2, 4, 7], "venue": [0]}, "seed": 2672154545}
+{"episode_id": "train-000818", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [6], "venue": [0]}, "seed": 3720204348}
+{"episode_id": "train-000819", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [3], "venue": [5]}, "seed": 2028904764}
+{"episode_id": "train-000820", "secret": {"helper": "Arjun", "venue": "food court"}, "anchors": {"helper": [6], "venue": [0]}, "seed": 2707423776}
+{"episode_id": "train-000821", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [5, 7], "venue": [7]}, "seed": 1425391607}
+{"episode_id": "train-000822", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [5, 7], "venue": [0]}, "seed": 3229189527}
+{"episode_id": "train-000823", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [0, 1, 5, 6], "venue": [3]}, "seed": 3661505501}
+{"episode_id": "train-000824", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [3, 5], "venue": [2]}, "seed": 1204973444}
+{"episode_id": "train-000825", "secret": {"helper": "Sana", "venue": "old cinema hall"}, "anchors": {"helper": [1], "venue": [0]}, "seed": 1080500833}
+{"episode_id": "train-000826", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0, 3, 6], "venue": [6]}, "seed": 2366432107}
+{"episode_id": "train-000827", "secret": {"helper": "Meera", "venue": "community hall"}, "anchors": {"helper": [1, 4], "venue": [2, 6]}, "seed": 3598937733}
+{"episode_id": "train-000828", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [3], "venue": [3]}, "seed": 953937532}
+{"episode_id": "train-000829", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [0, 2, 5], "venue": [7]}, "seed": 3444234258}
+{"episode_id": "train-000830", "secret": {"helper": "Ishita", "venue": "bowling alley"}, "anchors": {"helper": [7], "venue": [7]}, "seed": 3568093382}
+{"episode_id": "train-000831", "secret": {"helper": "Meera", "venue": "botanical garden"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 2683352089}
+{"episode_id": "train-000832", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [0, 1], "venue": [2]}, "seed": 1342301024}
+{"episode_id": "train-000833", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [0, 1], "venue": [2]}, "seed": 953061661}
+{"episode_id": "train-000834", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [1, 2, 4], "venue": [1]}, "seed": 1091399993}
+{"episode_id": "train-000835", "secret": {"helper": "Tara", "venue": "beach shack"}, "anchors": {"helper": [2, 3, 7], "venue": [0]}, "seed": 1772559019}
+{"episode_id": "train-000836", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [0, 7], "venue": [0, 7]}, "seed": 29103850}
+{"episode_id": "train-000837", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 4], "venue": [0]}, "seed": 2334593771}
+{"episode_id": "train-000838", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [0, 2], "venue": [7]}, "seed": 70886608}
+{"episode_id": "train-000839", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [3, 6], "venue": [1]}, "seed": 527969281}
+{"episode_id": "train-000840", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 2698256340}
+{"episode_id": "train-000841", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [2, 3, 5, 7], "venue": [5]}, "seed": 1904377400}
+{"episode_id": "train-000842", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 2, 6], "venue": [5]}, "seed": 2586342677}
+{"episode_id": "train-000843", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [1, 6], "venue": [0]}, "seed": 3339135022}
+{"episode_id": "train-000844", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [2, 7]}, "seed": 2156774911}
+{"episode_id": "train-000845", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [3, 4, 7], "venue": [6]}, "seed": 2103086592}
+{"episode_id": "train-000846", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [4, 6], "venue": [4]}, "seed": 2260416076}
+{"episode_id": "train-000847", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [1], "venue": [2]}, "seed": 935854213}
+{"episode_id": "train-000848", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [5], "venue": [0]}, "seed": 3058971791}
+{"episode_id": "train-000849", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [0, 5], "venue": [0, 3]}, "seed": 2634586487}
+{"episode_id": "train-000850", "secret": {"helper": "Dev", "venue": "botanical garden"}, "anchors": {"helper": [7], "venue": [6]}, "seed": 2301977365}
+{"episode_id": "train-000851", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [2, 6, 7], "venue": [7]}, "seed": 2090556985}
+{"episode_id": "train-000852", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [1], "venue": [2, 5]}, "seed": 531586155}
+{"episode_id": "train-000853", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [0, 3], "venue": [4]}, "seed": 1648415142}
+{"episode_id": "train-000854", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 1467042498}
+{"episode_id": "train-000855", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [0, 6], "venue": [0]}, "seed": 2564855631}
+{"episode_id": "train-000856", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [2]}, "seed": 3592527854}
+{"episode_id": "train-000857", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 4, 6], "venue": [2]}, "seed": 3731984589}
+{"episode_id": "train-000858", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [6, 7], "venue": [3]}, "seed": 2590240511}
+{"episode_id": "train-000859", "secret": {"helper": "Ishita", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 2, 3], "venue": [2]}, "seed": 4253345701}
+{"episode_id": "train-000860", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [0, 6], "venue": [0, 3]}, "seed": 935881574}
+{"episode_id": "train-000861", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [2], "venue": [1, 7]}, "seed": 2349879197}
+{"episode_id": "train-000862", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [5, 7], "venue": [6]}, "seed": 882685595}
+{"episode_id": "train-000863", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 3, 6], "venue": [1, 4, 5]}, "seed": 3968359993}
+{"episode_id": "train-000864", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [5]}, "seed": 4149914665}
+{"episode_id": "train-000865", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [1, 5], "venue": [5]}, "seed": 1882508485}
+{"episode_id": "train-000866", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [1, 2, 4], "venue": [0, 1]}, "seed": 1264394899}
+{"episode_id": "train-000867", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [4], "venue": [1, 2]}, "seed": 1131809399}
+{"episode_id": "train-000868", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [0, 7], "venue": [3, 5]}, "seed": 3858100669}
+{"episode_id": "train-000869", "secret": {"helper": "Tara", "venue": "beach shack"}, "anchors": {"helper": [2, 4], "venue": [6]}, "seed": 1216428560}
+{"episode_id": "train-000870", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [2], "venue": [3]}, "seed": 381439424}
+{"episode_id": "train-000871", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [7], "venue": [7]}, "seed": 1783888775}
+{"episode_id": "train-000872", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 4038982318}
+{"episode_id": "train-000873", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [2], "venue": [2]}, "seed": 2235865879}
+{"episode_id": "train-000874", "secret": {"helper": "Arjun", "venue": "botanical garden"}, "anchors": {"helper": [0, 1, 4], "venue": [0, 3]}, "seed": 2112235753}
+{"episode_id": "train-000875", "secret": {"helper": "Sana", "venue": "karaoke bar"}, "anchors": {"helper": [0, 1, 4], "venue": [6]}, "seed": 1926403538}
+{"episode_id": "train-000876", "secret": {"helper": "Arjun", "venue": "night market"}, "anchors": {"helper": [6], "venue": [2]}, "seed": 1816880960}
+{"episode_id": "train-000877", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [1, 6], "venue": [1]}, "seed": 1634241950}
+{"episode_id": "train-000878", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [5, 6], "venue": [7]}, "seed": 3515867364}
+{"episode_id": "train-000879", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [3], "venue": [2]}, "seed": 3187940677}
+{"episode_id": "train-000880", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [6], "venue": [2, 4]}, "seed": 2517295999}
+{"episode_id": "train-000881", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [0, 3, 5, 7], "venue": [2]}, "seed": 1806341924}
+{"episode_id": "train-000882", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 7], "venue": [1, 6]}, "seed": 2456179818}
+{"episode_id": "train-000883", "secret": {"helper": "Ravi", "venue": "lakeside park"}, "anchors": {"helper": [6], "venue": [0]}, "seed": 1081048654}
+{"episode_id": "train-000884", "secret": {"helper": "Meera", "venue": "beach shack"}, "anchors": {"helper": [2], "venue": [1]}, "seed": 1310148553}
+{"episode_id": "train-000885", "secret": {"helper": "Ravi", "venue": "bowling alley"}, "anchors": {"helper": [0, 5], "venue": [4]}, "seed": 3199834628}
+{"episode_id": "train-000886", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [7], "venue": [0, 2]}, "seed": 896741867}
+{"episode_id": "train-000887", "secret": {"helper": "Tara", "venue": "beach shack"}, "anchors": {"helper": [3, 5], "venue": [6]}, "seed": 1426006158}
+{"episode_id": "train-000888", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [3, 5], "venue": [0, 7]}, "seed": 1923179519}
+{"episode_id": "train-000889", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0, 2, 3, 5], "venue": [1]}, "seed": 1413166197}
+{"episode_id": "train-000890", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [1, 5], "venue": [3]}, "seed": 606250242}
+{"episode_id": "train-000891", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 7], "venue": [2]}, "seed": 4243369348}
+{"episode_id": "train-000892", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 1766278005}
+{"episode_id": "train-000893", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [0], "venue": [4]}, "seed": 2280445232}
+{"episode_id": "train-000894", "secret": {"helper": "Priya", "venue": "night market"}, "anchors": {"helper": [1, 3], "venue": [3, 5]}, "seed": 3105193013}
+{"episode_id": "train-000895", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [1, 5], "venue": [2]}, "seed": 3241989842}
+{"episode_id": "train-000896", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 3321678067}
+{"episode_id": "train-000897", "secret": {"helper": "Ravi", "venue": "community hall"}, "anchors": {"helper": [3, 5, 6], "venue": [6]}, "seed": 3171449774}
+{"episode_id": "train-000898", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [7], "venue": [2]}, "seed": 3489779618}
+{"episode_id": "train-000899", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [2, 3, 4, 7], "venue": [1, 3]}, "seed": 584199102}
+{"episode_id": "train-000900", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [1, 3], "venue": [5]}, "seed": 1049371110}
+{"episode_id": "train-000901", "secret": {"helper": "Arjun", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 366800425}
+{"episode_id": "train-000902", "secret": {"helper": "Rohan", "venue": "bowling alley"}, "anchors": {"helper": [4, 5], "venue": [7]}, "seed": 3649693289}
+{"episode_id": "train-000903", "secret": {"helper": "Sana", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [4]}, "seed": 135000586}
+{"episode_id": "train-000904", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [2, 5, 6, 7], "venue": [7]}, "seed": 2007086248}
+{"episode_id": "train-000905", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [1, 4, 6], "venue": [2]}, "seed": 3656384873}
+{"episode_id": "train-000906", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [5]}, "seed": 3669323385}
+{"episode_id": "train-000907", "secret": {"helper": "Meera", "venue": "botanical garden"}, "anchors": {"helper": [1], "venue": [1, 7]}, "seed": 1654000704}
+{"episode_id": "train-000908", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [1, 6, 7], "venue": [7]}, "seed": 635407370}
+{"episode_id": "train-000909", "secret": {"helper": "Sana", "venue": "beach shack"}, "anchors": {"helper": [4], "venue": [6]}, "seed": 235993324}
+{"episode_id": "train-000910", "secret": {"helper": "Sana", "venue": "night market"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 3628929331}
+{"episode_id": "train-000911", "secret": {"helper": "Ravi", "venue": "food court"}, "anchors": {"helper": [3, 6, 7], "venue": [2]}, "seed": 2414192723}
+{"episode_id": "train-000912", "secret": {"helper": "Sana", "venue": "community hall"}, "anchors": {"helper": [0, 7], "venue": [7]}, "seed": 34204335}
+{"episode_id": "train-000913", "secret": {"helper": "Priya", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 1], "venue": [0]}, "seed": 1371711868}
+{"episode_id": "train-000914", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [4], "venue": [0]}, "seed": 2603536312}
+{"episode_id": "train-000915", "secret": {"helper": "Meera", "venue": "bowling alley"}, "anchors": {"helper": [0, 5], "venue": [2, 6]}, "seed": 2636628749}
+{"episode_id": "train-000916", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 3, 5], "venue": [0]}, "seed": 691808331}
+{"episode_id": "train-000917", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [0, 1], "venue": [0, 7]}, "seed": 3039231532}
+{"episode_id": "train-000918", "secret": {"helper": "Kabir", "venue": "community hall"}, "anchors": {"helper": [1, 5, 6, 7], "venue": [6]}, "seed": 4016268011}
+{"episode_id": "train-000919", "secret": {"helper": "Priya", "venue": "food court"}, "anchors": {"helper": [5], "venue": [7]}, "seed": 1410397841}
+{"episode_id": "train-000920", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [3, 6], "venue": [4, 6]}, "seed": 2422427758}
+{"episode_id": "train-000921", "secret": {"helper": "Kabir", "venue": "food court"}, "anchors": {"helper": [1, 2, 3, 5], "venue": [1, 2]}, "seed": 2871156710}
+{"episode_id": "train-000922", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [0], "venue": [1]}, "seed": 2746169320}
+{"episode_id": "train-000923", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [0], "venue": [7]}, "seed": 2556078112}
+{"episode_id": "train-000924", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [1], "venue": [4]}, "seed": 2541454394}
+{"episode_id": "train-000925", "secret": {"helper": "Rohan", "venue": "old cinema hall"}, "anchors": {"helper": [4, 5], "venue": [6]}, "seed": 2277117412}
+{"episode_id": "train-000926", "secret": {"helper": "Meera", "venue": "botanical garden"}, "anchors": {"helper": [0, 6], "venue": [6]}, "seed": 2588637272}
+{"episode_id": "train-000927", "secret": {"helper": "Meera", "venue": "rooftop cafe"}, "anchors": {"helper": [0], "venue": [1]}, "seed": 222260007}
+{"episode_id": "train-000928", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [1, 2], "venue": [6]}, "seed": 2212871361}
+{"episode_id": "train-000929", "secret": {"helper": "Tara", "venue": "lakeside park"}, "anchors": {"helper": [2, 6], "venue": [3]}, "seed": 2786383794}
+{"episode_id": "train-000930", "secret": {"helper": "Rohan", "venue": "karaoke bar"}, "anchors": {"helper": [4, 7], "venue": [0]}, "seed": 3787476811}
+{"episode_id": "train-000931", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [0, 7], "venue": [1]}, "seed": 2000440390}
+{"episode_id": "train-000932", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [2, 3], "venue": [7]}, "seed": 942480751}
+{"episode_id": "train-000933", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [2, 4], "venue": [5]}, "seed": 3738897234}
+{"episode_id": "train-000934", "secret": {"helper": "Kabir", "venue": "old cinema hall"}, "anchors": {"helper": [6], "venue": [6]}, "seed": 1900740693}
+{"episode_id": "train-000935", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [5, 6], "venue": [0, 2]}, "seed": 1546024028}
+{"episode_id": "train-000936", "secret": {"helper": "Dev", "venue": "beach shack"}, "anchors": {"helper": [2], "venue": [3, 6]}, "seed": 2826116381}
+{"episode_id": "train-000937", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [5, 6], "venue": [5, 6]}, "seed": 3618045673}
+{"episode_id": "train-000938", "secret": {"helper": "Arjun", "venue": "rooftop cafe"}, "anchors": {"helper": [4], "venue": [2]}, "seed": 1343451250}
+{"episode_id": "train-000939", "secret": {"helper": "Priya", "venue": "karaoke bar"}, "anchors": {"helper": [1, 4], "venue": [1]}, "seed": 2271898417}
+{"episode_id": "train-000940", "secret": {"helper": "Priya", "venue": "bowling alley"}, "anchors": {"helper": [1, 3, 5, 7], "venue": [6]}, "seed": 3887443444}
+{"episode_id": "train-000941", "secret": {"helper": "Ravi", "venue": "rooftop cafe"}, "anchors": {"helper": [6], "venue": [3]}, "seed": 1391305280}
+{"episode_id": "train-000942", "secret": {"helper": "Meera", "venue": "night market"}, "anchors": {"helper": [4, 5], "venue": [6]}, "seed": 269036690}
+{"episode_id": "train-000943", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [4], "venue": [4]}, "seed": 2189916087}
+{"episode_id": "train-000944", "secret": {"helper": "Kabir", "venue": "night market"}, "anchors": {"helper": [5, 7], "venue": [1]}, "seed": 2412757040}
+{"episode_id": "train-000945", "secret": {"helper": "Ravi", "venue": "old cinema hall"}, "anchors": {"helper": [0, 7], "venue": [5]}, "seed": 2264478128}
+{"episode_id": "train-000946", "secret": {"helper": "Rohan", "venue": "rooftop cafe"}, "anchors": {"helper": [1, 4, 5], "venue": [0, 2]}, "seed": 3970305445}
+{"episode_id": "train-000947", "secret": {"helper": "Kabir", "venue": "bowling alley"}, "anchors": {"helper": [4], "venue": [4, 5]}, "seed": 8357730}
+{"episode_id": "train-000948", "secret": {"helper": "Dev", "venue": "karaoke bar"}, "anchors": {"helper": [5, 6], "venue": [6]}, "seed": 767048328}
+{"episode_id": "train-000949", "secret": {"helper": "Sana", "venue": "lakeside park"}, "anchors": {"helper": [5], "venue": [0]}, "seed": 4194432736}
+{"episode_id": "train-000950", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [0, 5, 6, 7], "venue": [4, 6]}, "seed": 2853988321}
+{"episode_id": "train-000951", "secret": {"helper": "Ishita", "venue": "night market"}, "anchors": {"helper": [0, 1, 3, 5, 7], "venue": [1]}, "seed": 2413113826}
+{"episode_id": "train-000952", "secret": {"helper": "Kabir", "venue": "beach shack"}, "anchors": {"helper": [0], "venue": [2, 6]}, "seed": 1221946115}
+{"episode_id": "train-000953", "secret": {"helper": "Kabir", "venue": "karaoke bar"}, "anchors": {"helper": [0, 3], "venue": [5]}, "seed": 3304389825}
+{"episode_id": "train-000954", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [1, 7], "venue": [3]}, "seed": 3045554171}
+{"episode_id": "train-000955", "secret": {"helper": "Ravi", "venue": "botanical garden"}, "anchors": {"helper": [0, 2], "venue": [5]}, "seed": 1011899445}
+{"episode_id": "train-000956", "secret": {"helper": "Dev", "venue": "community hall"}, "anchors": {"helper": [3, 4, 5], "venue": [2]}, "seed": 4024663307}
+{"episode_id": "train-000957", "secret": {"helper": "Kabir", "venue": "rooftop cafe"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 690399528}
+{"episode_id": "train-000958", "secret": {"helper": "Rohan", "venue": "lakeside park"}, "anchors": {"helper": [3, 5], "venue": [1]}, "seed": 2677407545}
+{"episode_id": "train-000959", "secret": {"helper": "Dev", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [7]}, "seed": 1325481888}
+{"episode_id": "train-000960", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [7], "venue": [0, 1, 4]}, "seed": 129838596}
+{"episode_id": "train-000961", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [3, 7], "venue": [0]}, "seed": 2346697720}
+{"episode_id": "train-000962", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [1, 2], "venue": [1]}, "seed": 222747985}
+{"episode_id": "train-000963", "secret": {"helper": "Rohan", "venue": "beach shack"}, "anchors": {"helper": [0, 2], "venue": [0]}, "seed": 2558145333}
+{"episode_id": "train-000964", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [3], "venue": [3]}, "seed": 4218780641}
+{"episode_id": "train-000965", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [1, 5, 6], "venue": [1]}, "seed": 548257799}
+{"episode_id": "train-000966", "secret": {"helper": "Priya", "venue": "botanical garden"}, "anchors": {"helper": [1], "venue": [1]}, "seed": 2170610650}
+{"episode_id": "train-000967", "secret": {"helper": "Meera", "venue": "old cinema hall"}, "anchors": {"helper": [4, 7], "venue": [4, 6]}, "seed": 1732661835}
+{"episode_id": "train-000968", "secret": {"helper": "Kabir", "venue": "botanical garden"}, "anchors": {"helper": [1, 2], "venue": [0]}, "seed": 2894424816}
+{"episode_id": "train-000969", "secret": {"helper": "Kabir", "venue": "lakeside park"}, "anchors": {"helper": [4, 6], "venue": [4]}, "seed": 1080851250}
+{"episode_id": "train-000970", "secret": {"helper": "Ishita", "venue": "beach shack"}, "anchors": {"helper": [3, 6], "venue": [6]}, "seed": 2945560272}
+{"episode_id": "train-000971", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [0], "venue": [4]}, "seed": 1415883546}
+{"episode_id": "train-000972", "secret": {"helper": "Ishita", "venue": "lakeside park"}, "anchors": {"helper": [1, 3, 5, 6, 7], "venue": [6, 7]}, "seed": 2504600088}
+{"episode_id": "train-000973", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 3, 5, 6], "venue": [7]}, "seed": 289138807}
+{"episode_id": "train-000974", "secret": {"helper": "Rohan", "venue": "community hall"}, "anchors": {"helper": [7], "venue": [3]}, "seed": 4287585313}
+{"episode_id": "train-000975", "secret": {"helper": "Priya", "venue": "community hall"}, "anchors": {"helper": [4, 7], "venue": [4]}, "seed": 2193252215}
+{"episode_id": "train-000976", "secret": {"helper": "Ravi", "venue": "karaoke bar"}, "anchors": {"helper": [4, 6], "venue": [3]}, "seed": 3816904368}
+{"episode_id": "train-000977", "secret": {"helper": "Tara", "venue": "community hall"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 1736727986}
+{"episode_id": "train-000978", "secret": {"helper": "Rohan", "venue": "rooftop cafe"}, "anchors": {"helper": [2, 6], "venue": [5, 7]}, "seed": 3914728616}
+{"episode_id": "train-000979", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [0, 3], "venue": [3]}, "seed": 1136914795}
+{"episode_id": "train-000980", "secret": {"helper": "Arjun", "venue": "community hall"}, "anchors": {"helper": [3, 4, 5, 7], "venue": [3]}, "seed": 1055669318}
+{"episode_id": "train-000981", "secret": {"helper": "Tara", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 7], "venue": [2]}, "seed": 1608230581}
+{"episode_id": "train-000982", "secret": {"helper": "Rohan", "venue": "botanical garden"}, "anchors": {"helper": [3, 5], "venue": [4]}, "seed": 4123304588}
+{"episode_id": "train-000983", "secret": {"helper": "Arjun", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [6]}, "seed": 266590125}
+{"episode_id": "train-000984", "secret": {"helper": "Tara", "venue": "night market"}, "anchors": {"helper": [2], "venue": [6]}, "seed": 1530444045}
+{"episode_id": "train-000985", "secret": {"helper": "Tara", "venue": "karaoke bar"}, "anchors": {"helper": [1, 6], "venue": [0]}, "seed": 991454539}
+{"episode_id": "train-000986", "secret": {"helper": "Meera", "venue": "community hall"}, "anchors": {"helper": [7], "venue": [7]}, "seed": 3675677721}
+{"episode_id": "train-000987", "secret": {"helper": "Sana", "venue": "bowling alley"}, "anchors": {"helper": [7], "venue": [2, 5]}, "seed": 717891532}
+{"episode_id": "train-000988", "secret": {"helper": "Sana", "venue": "food court"}, "anchors": {"helper": [4, 5], "venue": [1, 6]}, "seed": 4013701076}
+{"episode_id": "train-000989", "secret": {"helper": "Rohan", "venue": "rooftop cafe"}, "anchors": {"helper": [3], "venue": [0]}, "seed": 1898396678}
+{"episode_id": "train-000990", "secret": {"helper": "Dev", "venue": "bowling alley"}, "anchors": {"helper": [3], "venue": [0, 4]}, "seed": 3912308716}
+{"episode_id": "train-000991", "secret": {"helper": "Dev", "venue": "rooftop cafe"}, "anchors": {"helper": [0, 1, 3, 4, 6], "venue": [6]}, "seed": 864338410}
+{"episode_id": "train-000992", "secret": {"helper": "Ishita", "venue": "botanical garden"}, "anchors": {"helper": [0], "venue": [2]}, "seed": 2292709698}
+{"episode_id": "train-000993", "secret": {"helper": "Tara", "venue": "botanical garden"}, "anchors": {"helper": [1], "venue": [7]}, "seed": 4247992602}
+{"episode_id": "train-000994", "secret": {"helper": "Priya", "venue": "old cinema hall"}, "anchors": {"helper": [2], "venue": [0, 6]}, "seed": 66715271}
+{"episode_id": "train-000995", "secret": {"helper": "Sana", "venue": "botanical garden"}, "anchors": {"helper": [2, 5], "venue": [0, 3]}, "seed": 1988942609}
+{"episode_id": "train-000996", "secret": {"helper": "Dev", "venue": "old cinema hall"}, "anchors": {"helper": [1, 4], "venue": [7]}, "seed": 2603650920}
+{"episode_id": "train-000997", "secret": {"helper": "Meera", "venue": "lakeside park"}, "anchors": {"helper": [3], "venue": [0, 2]}, "seed": 1987684251}
+{"episode_id": "train-000998", "secret": {"helper": "Tara", "venue": "bowling alley"}, "anchors": {"helper": [4, 5], "venue": [2, 4]}, "seed": 3397105891}
+{"episode_id": "train-000999", "secret": {"helper": "Ishita", "venue": "old cinema hall"}, "anchors": {"helper": [0, 2, 5, 6], "venue": [1]}, "seed": 140971043}

@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Replay viewer</title>
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--card:#f4f4f6;--a:#2563eb;--b:#16a34a;--c:#dc2626;--ok:#16a34a}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--mut:#aaa;--card:#1d1d22}}
+body{font:15px/1.4 system-ui,sans-serif;background:var(--bg);color:var(--fg);margin:0;padding:16px;max-width:1100px;margin:auto}
+.row{display:flex;gap:16px;flex-wrap:wrap}.card{background:var(--card);border-radius:10px;padding:12px;flex:1;min-width:300px}
+.bubble{padding:8px 12px;border-radius:14px;margin:6px 0;max-width:85%}.A{background:var(--a);color:#fff}.B{background:var(--card);border:1px solid var(--mut);margin-left:auto}
+.bar{display:flex;align-items:center;gap:6px;font-size:12px}.bar span.l{width:110px;text-align:right}.bar div{height:10px;border-radius:3px}
+.true{font-weight:700;color:var(--ok)}mark{background:#fde68a;color:#000}.hid{filter:blur(8px);cursor:pointer}
+select,input{font:inherit}h3{margin:6px 0}small{color:var(--mut)}
+</style></head><body>
+<h2>Covert dialogue replay</h2>
+<p><small>Load <code>showcase.json</code> (from <code>covert eval report</code>) or <code>showcase.example.json</code> (fake data).</small> <input type="file" id="f" accept=".json"></p>
+<div class="row"><label>Episode <select id="ep"></select></label><label>Condition <select id="cond"></select></label>
+<label><input type="checkbox" id="rev"> reveal memories</label><label><input type="checkbox" id="judge"> judge mode (hide answers)</label></div>
+<div class="row" style="margin-top:12px"><div class="card"><h3>Conversation</h3><div id="chat"></div><small id="cover"></small></div>
+<div class="card"><h3>Memories</h3><div id="mem"></div></div></div>
+<div class="row" style="margin-top:12px"><div class="card"><h3>B listener (has memories)</h3><div id="pb"></div></div><div class="card"><h3>C (chat only)</h3><div id="pc"></div></div></div>
+<script>
+let D=null;const $=id=>document.getElementById(id);
+const STOP=new Set("the a and to of we you i it in on at that was our is for with time his her they their one more still".split(" "));
+const words=t=>(t.toLowerCase().match(/[a-z']+/g)||[]).filter(w=>w.length>3&&!STOP.has(w));
+function load(d){D=d;$("ep").innerHTML=d.episodes.map((e,i)=>`<option value="${i}">${e.episode_id}</option>`).join("");fillConds();render();}
+function fillConds(){const e=D.episodes[$("ep").value];const ks=Object.keys(e.conditions);$("cond").innerHTML=ks.map(k=>`<option>${k}</option>`).join("");}
+function bars(el,probs,names,truth){const hid=$("judge").checked;el.innerHTML="";if(!probs){el.textContent="no data";return}
+ for(const slot of ["helper","venue"]){const nm=names[slot=="helper"?"people":"places"];const p=probs[slot];
+  el.innerHTML+=`<b>${slot}</b>`+p.map((v,i)=>`<div class="bar"><span class="l ${nm[i]==truth[slot]?'true':''}">${hid&&nm[i]==truth[slot]?'?':nm[i]}</span><div style="width:${Math.round(v*220)}px;background:${nm[i]==truth[slot]&&!hid?'var(--ok)':'var(--mut)'}"></div>${(v*100).toFixed(0)}%</div>`).join("");}}
+function render(){if(!D)return;const e=D.episodes[$("ep").value],c=e.conditions[$("cond").value];if(!c)return;
+ $("chat").innerHTML=c.post_switch.map(([s,t])=>`<div class="bubble ${s}"><b>${s}</b> ${t}</div>`).join("");$("cover").textContent="Cover topic: "+e.cover_topic;
+ const cw=new Set(c.post_switch.flatMap(([s,t])=>words(t)));
+ $("mem").innerHTML=e.memories.map((m,i)=>`<p>${i+1}. ${$("rev").checked?m.replace(/[A-Za-z']+/g,w=>cw.has(w.toLowerCase())&&words(w).length?`<mark>${w}</mark>`:w):'<span class="hid">'+m+'</span>'}</p>`).join("");
+ bars($("pb"),c.probsB,D.inventories,e.secret);bars($("pc"),c.probsC,D.inventories,e.secret);}
+$("ep").onchange=()=>{fillConds();render()};["cond","rev","judge"].forEach(i=>$(i).onchange=render);
+$("f").onchange=ev=>{const r=new FileReader();r.onload=()=>load(JSON.parse(r.result));r.readAsText(ev.target.files[0]);};
+$("mem").onclick=()=>{};
+if(window.SHOWCASE_DATA)load(window.SHOWCASE_DATA);
+</script></body></html>

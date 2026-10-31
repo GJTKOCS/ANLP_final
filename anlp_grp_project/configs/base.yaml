@@ -12,6 +12,7 @@ data:
   n_turns: 4                 # 3 or 4
   warm_k_train: 4
   warm_k_dev: 1
+  warm_a_resample: 8         # warm start: re-sample A turns that leak (rejection sampling), up to this many tries
   mem_words: [15, 50]
   jaccard_mem: 0.5
   jaccard_split: 0.6

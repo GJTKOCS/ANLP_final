@@ -1,5 +1,10 @@
-\section{Challenges, Limitations and Future Work}
-This section contains no results from the project. \emph{Scope of the claim.} The channel is described as hidden only relative to the outsiders we train or prompt; we do not claim it is secure.
-\emph{Synthetic setting.} Memories, people, places and topics are fictional and drawn from small inventories (10 people, 10 places), and memories are LLM-written; transfer to open-ended settings is untested.
-\emph{Outsider strength.} Our trained C uses a small backbone with the same data as B; a stronger or differently trained outsider could succeed. \emph{Sense judge.} Coherence is judged by a small model with a calibrated threshold and a small human check; it may accept stilted text.
-\emph{Compute.} One GPU and two days limit the number of rounds, seeds and $\lambda$ values; we did not repeat runs over seeds. \emph{Future work:} larger inventories, free-form secrets, paraphrasing defences, stronger overseers, and multiple seeds.
+\section{Challenges, Limitations and Future Work}\label{sec:limits}
+This section contains no new results. \emph{Fixed listeners.} The listeners are prompted and fixed during training; the speaker never faces an outsider that adapts to it, so we cannot speak to an arms race. The planned design retrained a small outsider each round, but our trained listeners did not learn the task at this data scale.
+\emph{In-loop insider.} The insider listener used for evaluation is also the reward listener; only the outsider has a held-out variant.
+\emph{Data quality.} Many memory slots fell back to a generic template sentence, which makes some memories near-duplicates in style and weakens the shared history that hints can point to.
+\emph{Penalty-dominated reward.} Frequent $-1$ penalties from a strict coherence judge appear to dominate the learning signal; a softer penalty or a better judge may let GRPO improve the hint itself.
+\emph{Scale.} Within our compute budget: one seed, one GRPO round of 100 steps, 200 test episodes, small inventories (10 people, 10 places) and fictional content; baselines such as best-of-$N$ and a larger prompted speaker were not run.
+\emph{Evaluation of coherence.} Coherence is measured only by the automatic judge, whose threshold was set on 100 conversations; we did not collect human ratings (the rating form is released with the code). The S3 checkpoint was selected by dev reward, which uses the same listeners as the test evaluation.
+\emph{B speaker.} The frozen B speaker sometimes names an inventory item (Section~\ref{sec:analysis}); the reward does not penalise this.
+\emph{Speaker prompt.} A is told which memories mention the helper and venue, which makes the task easier for every speaker equally.
+\emph{Future work:} adaptive (retrained) outsiders with more data, multiple-secret episodes to remove label shortcuts, paraphrasing defences, and multiple seeds. We do not claim the channel is secure.

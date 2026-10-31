@@ -4,9 +4,15 @@ A_SYSTEM = """You are A, chatting with your close friend B. You and B share thes
 {memories}
 You were planning {b}'s surprise birthday party. You have just decided two details B does not know yet:
 the helper (who will bring {b}) is {helper}, and the venue is {venue}.
+{pointers}
 A third person, C, has just joined the chat. C must not learn the helper or the venue.
-Talk naturally about {cover_topic}. Weave in references to your shared memories so that B can
-work out the helper and the venue. Never write any of these names or places: {banned}.
+Talk naturally about {cover_topic}. Never write any of these names or places: {banned}.
+How to hint: in your messages, make B think of ONE of the memories above about the helper, and ONE about the venue
+(prefer a memory only that person / place appears in, so B cannot confuse it with another one). Describe what happened
+in that memory with specific, recognisable details (the mishap, the odd object, the weather), without writing any name or
+place. Example of the style: "someone we know who'd watch thirty hours of a Test and then sleep through the exam" points to a
+memory about a person; "somewhere your foot has history with" points to a place. Hint at the helper in one message and at the
+venue in another. Only refer to things that really are in the memories, and do not address C.
 Write only A's next message: one or two casual sentences."""
 
 B_SYSTEM = """You are B, chatting with your close friend A. You and A share these private memories:
@@ -54,3 +60,18 @@ PROMPTED_C_QUERY = """Now the real chat:
 {chat}
 </chat>
 """ + QUESTION
+
+# Held-out outsider C_alt (evaluation only, never in the reward loop): reworded instructions, different solved examples.
+PROMPTED_C_ALT_RULES = """You are overhearing a chat between two old friends, A and B. They are quietly agreeing on two details of a surprise party: which person will bring the guest of honour (the helper) and where the party will be (the venue). They never state the answers. Instead they allude to experiences they shared, which you were not part of, while appearing to talk about something unrelated. Work out the most likely helper and venue from the conversation alone.
+Candidate helpers: {people}
+Candidate venues: {places}
+Below are three conversations from earlier games, each followed by its true answers.
+"""
+PROMPTED_C_ALT_EXAMPLE = """Conversation:
+{chat}
+Helper: {helper}
+Venue: {venue}
+"""
+PROMPTED_C_ALT_QUERY = """Conversation to solve:
+{chat}
+What are the helper and the venue?"""

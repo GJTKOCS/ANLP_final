@@ -42,7 +42,7 @@ def _set(cfg: dict, ov: str) -> None:
     parts = k.split(".")
     for p in parts[:-1]:
         d = d.setdefault(p, {})
-    d[parts[-1]] = yaml.safe_load(v)
+    d[parts[-1]] = _num(yaml.safe_load(v))
 
 
 def _auto_profile(toy: bool) -> str:
@@ -53,6 +53,16 @@ def _auto_profile(toy: bool) -> str:
         raise SystemExit("No CUDA GPU detected. Run on the GPU machine, or use --toy for the CPU smoke test.")
     mem = torch.cuda.get_device_properties(0).total_memory / 2**30
     return "a100" if mem >= 30 else "t4"
+
+
+def _num(v):
+    """YAML 1.1 leaves '2e-4' as a string; turn numeric-looking strings into floats."""
+    if isinstance(v, str):
+        try:
+            return float(v)
+        except ValueError:
+            return v
+    return v
 
 
 def load_config(overrides: Iterable[str] = (), profile: str | None = None, toy: bool = False) -> Cfg:

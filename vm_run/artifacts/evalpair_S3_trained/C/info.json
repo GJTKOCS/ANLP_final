@@ -1,0 +1,50 @@
+{
+  "view": "C",
+  "dev_both": 0.013333333333333334,
+  "history": [
+    {
+      "epoch": 0,
+      "dev_both": 0.006666666666666667,
+      "train_loss": 4.766143325805664,
+      "skipped_steps": 6
+    },
+    {
+      "epoch": 1,
+      "dev_both": 0.006666666666666667,
+      "train_loss": 4.627382701873779,
+      "skipped_steps": 8
+    },
+    {
+      "epoch": 2,
+      "dev_both": 0.013333333333333334,
+      "train_loss": 4.6066602554321285,
+      "skipped_steps": 6
+    },
+    {
+      "epoch": 3,
+      "dev_both": 0.006666666666666667,
+      "train_loss": 4.571587574005127,
+      "skipped_steps": 6
+    },
+    {
+      "epoch": 4,
+      "dev_both": 0.013333333333333334,
+      "train_loss": 4.534654739379882,
+      "skipped_steps": 7
+    }
+  ],
+  "cfg": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "epochs": 5,
+    "lr": 0.0001,
+    "warmup": 0.05,
+    "max_len": 768,
+    "seed": 7,
+    "mode": "trained"
+  },
+  "n_train": 1000,
+  "n_dev": 150
+}

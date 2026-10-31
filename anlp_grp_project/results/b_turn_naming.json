@@ -1,0 +1,26 @@
+{
+  "S0": {
+    "n": 200,
+    "b_names_item": 0.24,
+    "b_names_true_slot": 0.14,
+    "C_both_when_named": 0.3333333333333333,
+    "n_named": 48,
+    "C_both_when_not_named": 0.15789473684210525
+  },
+  "S1": {
+    "n": 200,
+    "b_names_item": 0.19,
+    "b_names_true_slot": 0.085,
+    "C_both_when_named": 0.02631578947368421,
+    "n_named": 38,
+    "C_both_when_not_named": 0.024691358024691357
+  },
+  "S3": {
+    "n": 200,
+    "b_names_item": 0.115,
+    "b_names_true_slot": 0.045,
+    "C_both_when_named": 0.0,
+    "n_named": 23,
+    "C_both_when_not_named": 0.03954802259887006
+  }
+}

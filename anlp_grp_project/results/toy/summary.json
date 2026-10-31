@@ -8,6 +8,92 @@
         "B_helper": {
           "mean": 0.1,
           "lo": 0.0,
+          "hi": 0.27749999999999986
+        },
+        "B_venue": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.27749999999999986
+        },
+        "C_venue": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": null,
+        "C": null
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S0_trained": {
+      "label": "S0_trained",
+      "listener_mode": "trained",
+      "condition": "S0",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
           "hi": 0.3
         },
         "B_venue": {
@@ -87,6 +173,92 @@
     },
     "S1": {
       "label": "S1",
+      "condition": "S1",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.27749999999999986
+        },
+        "B_venue": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.27749999999999986
+        },
+        "C_venue": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": null,
+        "C": null
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S1_trained": {
+      "label": "S1_trained",
+      "listener_mode": "trained",
       "condition": "S1",
       "n_test": 10,
       "metrics": {
@@ -178,12 +350,12 @@
         "B_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "B_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "B_both": {
           "mean": 0.0,
@@ -193,12 +365,12 @@
         "C_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "C_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "C_both": {
           "mean": 0.0,
@@ -247,8 +419,8 @@
         }
       },
       "listener_dev": {
-        "B": 0.0,
-        "C": 0.0
+        "B": null,
+        "C": null
       },
       "chance": {
         "slot": 0.1,
@@ -257,6 +429,92 @@
     },
     "S3": {
       "label": "S3",
+      "condition": "A2",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.27749999999999986
+        },
+        "B_venue": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.27749999999999986
+        },
+        "C_venue": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": null,
+        "C": null
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S3_trained": {
+      "label": "S3_trained",
+      "listener_mode": "trained",
       "condition": "A2",
       "n_test": 10,
       "metrics": {
@@ -348,12 +606,12 @@
         "B_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "B_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "B_both": {
           "mean": 0.0,
@@ -363,12 +621,12 @@
         "C_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "C_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "C_both": {
           "mean": 0.0,
@@ -417,8 +675,8 @@
         }
       },
       "listener_dev": {
-        "B": 0.0,
-        "C": 0.0
+        "B": null,
+        "C": null
       },
       "chance": {
         "slot": 0.1,
@@ -433,12 +691,12 @@
         "B_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "B_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "B_both": {
           "mean": 0.0,
@@ -448,12 +706,12 @@
         "C_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "C_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "C_both": {
           "mean": 0.0,
@@ -502,8 +760,8 @@
         }
       },
       "listener_dev": {
-        "B": 0.0,
-        "C": 0.0
+        "B": null,
+        "C": null
       },
       "chance": {
         "slot": 0.1,
@@ -518,12 +776,12 @@
         "B_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "B_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "B_both": {
           "mean": 0.0,
@@ -533,12 +791,12 @@
         "C_helper": {
           "mean": 0.1,
           "lo": 0.0,
-          "hi": 0.3
+          "hi": 0.27749999999999986
         },
         "C_venue": {
-          "mean": 0.2,
+          "mean": 0.0,
           "lo": 0.0,
-          "hi": 0.4
+          "hi": 0.0
         },
         "C_both": {
           "mean": 0.0,
@@ -587,8 +845,8 @@
         }
       },
       "listener_dev": {
-        "B": 0.0,
-        "C": 0.0
+        "B": null,
+        "C": null
       },
       "chance": {
         "slot": 0.1,
@@ -604,9 +862,9 @@
         "hi": 0.27749999999999986
       },
       "C_venue": {
-        "mean": 0.1,
+        "mean": 0.0,
         "lo": 0.0,
-        "hi": 0.3
+        "hi": 0.0
       },
       "C_both": {
         "mean": 0.0,
@@ -621,9 +879,9 @@
         "hi": 0.27749999999999986
       },
       "C_venue": {
-        "mean": 0.1,
+        "mean": 0.0,
         "lo": 0.0,
-        "hi": 0.3
+        "hi": 0.0
       },
       "C_both": {
         "mean": 0.0,
@@ -638,9 +896,9 @@
         "hi": 0.27749999999999986
       },
       "C_venue": {
-        "mean": 0.1,
+        "mean": 0.0,
         "lo": 0.0,
-        "hi": 0.3
+        "hi": 0.0
       },
       "C_both": {
         "mean": 0.0,
@@ -655,9 +913,9 @@
         "hi": 0.27749999999999986
       },
       "C_venue": {
-        "mean": 0.1,
+        "mean": 0.0,
         "lo": 0.0,
-        "hi": 0.3
+        "hi": 0.0
       },
       "C_both": {
         "mean": 0.0,
@@ -672,9 +930,9 @@
         "hi": 0.27749999999999986
       },
       "C_venue": {
-        "mean": 0.1,
+        "mean": 0.0,
         "lo": 0.0,
-        "hi": 0.3
+        "hi": 0.0
       },
       "C_both": {
         "mean": 0.0,
@@ -683,8 +941,113 @@
       }
     }
   },
+  "c_alt": {
+    "S0": {
+      "condition": "S0",
+      "n": 10,
+      "C_alt_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_alt_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_alt_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "B_mismatch_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "B_mismatch_venue": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "B_mismatch_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    },
+    "S1": {
+      "condition": "S1",
+      "n": 10,
+      "C_alt_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_alt_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_alt_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "B_mismatch_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "B_mismatch_venue": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "B_mismatch_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    },
+    "S3": {
+      "condition": "A2",
+      "n": 10,
+      "C_alt_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_alt_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_alt_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "B_mismatch_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "B_mismatch_venue": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "B_mismatch_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    }
+  },
   "run_ids": [
     "armsrace",
+    "calt",
     "convs_A1",
     "convs_A1_lam0.5",
     "convs_A1_lam2.0",
@@ -695,9 +1058,12 @@
     "convs_S4",
     "episodes",
     "evalpair_S0",
+    "evalpair_S0_trained",
     "evalpair_S1",
+    "evalpair_S1_trained",
     "evalpair_S2",
     "evalpair_S3",
+    "evalpair_S3_trained",
     "evalpair_S3a",
     "evalpair_S3b",
     "evalpair_S4",

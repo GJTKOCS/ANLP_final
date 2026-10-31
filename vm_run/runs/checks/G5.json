@@ -1,0 +1,9 @@
+{
+  "reward_first_third": -0.4165921803226753,
+  "reward_last_third": -0.2859858904839247,
+  "sense_rate": 0.6479166666666668,
+  "leak_rate": 0.052083333333333336,
+  "kl": 0.01942697043220202,
+  "fallback": "Lower the learning rate, raise beta, or reduce G; inspect bloopers.",
+  "status": "FAIL"
+}

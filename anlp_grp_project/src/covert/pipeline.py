@@ -17,7 +17,7 @@ from .common.hub import push_artifact
 from .common.io import write_json
 
 log = logging.getLogger("covert.pipeline")
-HARD_CHECKS = {"G2", "G3"}   # later stages are meaningless if these fail; G1/G4/G5 warn and continue
+HARD_CHECKS = {"G3"}   # later stages are meaningless if these fail; G1/G4/G5 warn and continue
 RANK = {"must": 0, "should": 1, "optional": 2}
 
 

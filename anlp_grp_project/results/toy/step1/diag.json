@@ -1,0 +1,45 @@
+{
+  "max_len": 640,
+  "truncation": {
+    "side": "left",
+    "len_min": 343,
+    "len_median": 365.0,
+    "len_p90": 376.0,
+    "len_max": 387,
+    "frac_over": 0.0
+  },
+  "grad": {
+    "loss": 5.900869369506836,
+    "lora_A": {
+      "n_params_tensors": 14,
+      "n_with_grad": 14,
+      "n_nonzero": 0,
+      "total_norm": 0.0
+    },
+    "lora_B": {
+      "n_params_tensors": 14,
+      "n_with_grad": 14,
+      "n_nonzero": 14,
+      "total_norm": 3.7603127280006623
+    },
+    "head_helper": {
+      "n_params_tensors": 2,
+      "n_with_grad": 2,
+      "n_nonzero": 2,
+      "total_norm": 3.9227932012923667
+    },
+    "head_venue": {
+      "n_params_tensors": 2,
+      "n_with_grad": 2,
+      "n_nonzero": 2,
+      "total_norm": 2.0932734870547187
+    },
+    "other_trainable": {
+      "n_params_tensors": 0,
+      "n_with_grad": 0,
+      "n_nonzero": 0,
+      "total_norm": 0.0
+    }
+  },
+  "elapsed_min": 0.11
+}

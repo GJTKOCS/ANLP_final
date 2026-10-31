@@ -1,26 +1,9 @@
-Agents that share context can talk privately in public: a third party who lacks that context cannot decode what they mean.
-We study whether a small language model can \emph{learn} this skill. Agent A knows a secret (who will bring the birthday person, and where the party is)
-and must convey it to B, who shares eight private memories with A, while chatting about an unrelated topic in front of C, who does not know the memories.
-We train A with multi-turn GRPO against listeners that are retrained every round: the outsider C has the same architecture, data and training as B's listener
-and lacks only the memories, which are freshly generated for every episode before the secret is drawn, so no reusable code exists.
-Reward is high when B's listener is confident in the truth, C's is not, and the chat is coherent and names nothing.
-\TODO{one sentence with the headline result from \texttt{results/results.md}; write only what the logs support}
-\EOF
-cat > paper/sections/intro.tex <<'EOF'
-\section{Introduction}
-People routinely say things in public that only their friends understand. A reference to ``the ER saga'' means nothing to a stranger and everything to
-the person who was in the waiting room with you. Clark and Schaefer showed that speakers shape what they say so that overhearers cannot follow it
-while addressees can~\cite{clark1987concealing}, and Clark and Wilkes-Gibbs framed reference itself as a collaborative process grounded in shared history~\cite{clark1986referring}.
-Language-model agents increasingly share context with each other (memory, tools, earlier turns), so the same phenomenon is a safety concern: a monitor that
-reads only the visible messages may fail to understand a coordinated exchange~\cite{motwani2024secret,mathew2024hidden}.
-
-We ask a concrete question: \emph{can a small model be trained to speak privately in public, using shared history as the key, against an outsider that keeps learning?}
-We build a game (Section~\ref{sec:task}) in which A must convey a two-part secret to B in a short, natural conversation about an unrelated cover topic, in the presence of C.
-The shared history is a bank of eight memories regenerated for every episode and written \emph{before} the secret is drawn from the people and places it mentions.
-Any trick that does not depend on the memories (a reused phrase, a public clue such as ``chai'' suggesting a cafe) is learnable by C,
-because C is trained on exactly the same transcripts as B's listener. Training therefore pushes A toward the one strategy C cannot copy.
-
-\paragraph{Contributions.} (i) A task and data generator for covert dialogue over fresh shared history with strict information boundaries enforced in one module.
-(ii) An adversarial training method: multi-turn GRPO for the speaker, with listeners (insider and outsider) retrained every round on cumulative transcripts,
-following Kerckhoffs's principle~\cite{kerckhoffs1883}. (iii) An evaluation protocol in which only the speaker changes between conditions, and every condition gets a fresh, adapted insider and outsider.
-\TODO{summarise measured findings once results exist; keep claims to what the intervals support}
+Agents that share context can talk privately in public: an overhearer without that context cannot decode what they mean.
+We study whether a small language model can be trained to do this. Agent A knows a two-part secret (who will bring the birthday person, and where the party is)
+and must convey it to B, with whom it shares eight private memories, while chatting about an unrelated topic in front of C, who lacks the memories.
+Memories are generated fresh for every episode before the secret is drawn, so no reusable code exists.
+We warm-start a 3B speaker by supervised fine-tuning on filtered conversations from a 14B model and then train it with multi-turn GRPO.
+The reward favours conversations in which a memory-aware listener is confident in the truth and a memory-blind listener is not, provided the chat is coherent and names nothing.
+Our original design trained 1.5B listeners and retrained the outsider every round; the trained listeners did not exceed a guessing baseline, so both listeners are the same 14B model prompted zero-shot, with a held-out outsider prompt for evaluation. We report the original plan, the failed attempts and the revisions.
+On \x{nTest} held-out test episodes, the warm-start speaker gives the insider an advantage of \res{S1}{insider_adv} points in both-correct accuracy, against \res{S0}{insider_adv} for the untrained speaker, whose turns leak names \res{S0}{leak_rate}\% of the time.
+GRPO raised the coherence pass rate but did not improve the insider advantage (\res{S3}{insider_adv}); the gain is concentrated in the helper slot, and a held-out outsider prompt confirms the outsider's low accuracy.

@@ -1,0 +1,8 @@
+{
+  "prompted_B_both": 0.2,
+  "prompted_C_both": 0.045,
+  "a_leak_rate": 0.022,
+  "n": 3000,
+  "fallback": "More vivid memories; stronger never-name instruction; last resort: venue-only (one slot).",
+  "status": "FAIL"
+}

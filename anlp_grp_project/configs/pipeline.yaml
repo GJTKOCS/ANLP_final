@@ -9,14 +9,14 @@ stages:
   - {name: grpo_r1,       priority: must,     est_h: 3.0,  cmd: "speaker grpo --round 1 --lam 1.0",   out: speaker_r1_lam1.0, check: G5}
   - {name: trans_r1,      priority: must,     est_h: 0.5,  cmd: "transcripts --cond A1",              out: convs_A1}
   - {name: listeners_r1,  priority: must,     est_h: 0.8,  cmd: "listeners train --round 1",          out: listeners_r1}
-  - {name: grpo_r2,       priority: should,   est_h: 3.0,  cmd: "speaker grpo --round 2 --lam 1.0",   out: speaker_r2_lam1.0}
-  - {name: trans_r2,      priority: should,   est_h: 0.5,  cmd: "transcripts --cond A2",              out: convs_A2}
-  - {name: listeners_r2,  priority: should,   est_h: 0.8,  cmd: "listeners train --round 2",          out: listeners_r2}
+  - {name: grpo_r2,       priority: optional,   est_h: 3.0,  cmd: "speaker grpo --round 2 --lam 1.0",   out: speaker_r2_lam1.0}
+  - {name: trans_r2,      priority: optional,   est_h: 0.5,  cmd: "transcripts --cond A2",              out: convs_A2}
+  - {name: listeners_r2,  priority: optional,   est_h: 0.8,  cmd: "listeners train --round 2",          out: listeners_r2}
   - {name: eval_s1,       priority: must,     est_h: 1.0,  cmd: "eval run --cond S1",                 out: evalpair_S1}
   - {name: eval_s0,       priority: must,     est_h: 0.8,  cmd: "eval run --cond S0",                 out: evalpair_S0}
   - {name: eval_s3,       priority: must,     est_h: 0.8,  cmd: "eval run --cond S3",                 out: evalpair_S3}
-  - {name: s2,            priority: should,   est_h: 1.5,  cmd: "transcripts --cond S2",              out: convs_S2}
-  - {name: eval_s2,       priority: should,   est_h: 0.8,  cmd: "eval run --cond S2",                 out: evalpair_S2}
+  - {name: s2,            priority: optional,   est_h: 1.5,  cmd: "transcripts --cond S2",              out: convs_S2}
+  - {name: eval_s2,       priority: optional,   est_h: 0.8,  cmd: "eval run --cond S2",                 out: evalpair_S2}
   - {name: armsrace,      priority: should,   est_h: 0.3,  cmd: "eval armsrace",                      out: armsrace}
   - {name: s4,            priority: optional, est_h: 2.0,  cmd: "transcripts --cond S4",              out: convs_S4}
   - {name: eval_s4,       priority: optional, est_h: 0.8,  cmd: "eval run --cond S4",                 out: evalpair_S4}

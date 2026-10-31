@@ -51,7 +51,10 @@ def predict_probs(model, tok, device, view: str, items: list[dict], cfg, bs: int
         V.append(torch.softmax(v, -1).cpu().numpy())
     if not H:
         return np.zeros((0, 10)), np.zeros((0, 10))
-    return np.concatenate(H), np.concatenate(V)
+    H, V = np.concatenate(H), np.concatenate(V)
+    if not (np.isfinite(H).all() and np.isfinite(V).all()):
+        raise RuntimeError(f"listener {view} produced non-finite probabilities (diverged training)")
+    return H, V
 
 
 def both_correct(model, tok, device, view, items, cfg) -> float:
@@ -80,6 +83,7 @@ def train_listener(cfg, view: str, train_items: list[dict], dev_items: list[dict
     rng = random.Random(seed)
     for ep in range(lc["epochs"]):
         model.train()
+        ep_loss, skipped = [], 0
         order = list(range(len(texts)))
         rng.shuffle(order)
         for s in range(0, len(order), mb * ga):
@@ -91,16 +95,22 @@ def train_listener(cfg, view: str, train_items: list[dict], dev_items: list[dict
                 h, v = model(ids, att)
                 loss = (F.cross_entropy(h, ys_h[idx].to(device)) + F.cross_entropy(v, ys_v[idx].to(device))) * (len(idx) / len(big))
                 (scaler.scale(loss) if scaler else loss).backward()
+                ep_loss.append(float(loss.detach()) * len(big) / max(1, len(idx)))
             if scaler:
                 scaler.unscale_(opt)
-            torch.nn.utils.clip_grad_norm_(params, 1.0)
+            gn = torch.nn.utils.clip_grad_norm_(params, 1.0)
+            if not torch.isfinite(gn):                           # never apply a NaN/inf update
+                opt.zero_grad()
+                skipped += 1
+                continue
             scaler.step(opt) if scaler else opt.step()
             if scaler:
                 scaler.update()
             sched.step()
         acc = both_correct(model, tok, device, view, dev_items, cfg) if dev_items else 0.0
-        hist.append({"epoch": ep, "dev_both": acc})
-        log.info("listener %s epoch %d dev both-correct %.3f", view, ep, acc)
+        hist.append({"epoch": ep, "dev_both": acc, "train_loss": float(np.mean(ep_loss)) if ep_loss else None, "skipped_steps": skipped})
+        log.info("listener %s epoch %d train loss %.3f dev both-correct %.3f (skipped non-finite steps: %d)", view, ep,
+                 float(np.mean(ep_loss)) if ep_loss else float("nan"), acc, skipped)
         if acc > best:
             best, best_state = acc, model.trainable_state()
     model.load_state_dict(best_state, strict=False)

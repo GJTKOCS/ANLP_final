@@ -1,0 +1,92 @@
+{
+  "data": {
+    "status": "skipped (complete)"
+  },
+  "warmstart": {
+    "status": "skipped (complete)"
+  },
+  "judge": {
+    "status": "skipped (complete)"
+  },
+  "listeners_r0": {
+    "status": "skipped (complete)"
+  },
+  "sft": {
+    "status": "complete",
+    "hours": 0.037
+  },
+  "s0": {
+    "status": "complete",
+    "hours": 0.088,
+    "check": "G4: PASS"
+  },
+  "grpo_r1": {
+    "status": "complete",
+    "hours": 1.245,
+    "check": "G5: FAIL"
+  },
+  "trans_r1": {
+    "status": "complete",
+    "hours": 0.126
+  },
+  "listeners_r1": {
+    "status": "complete",
+    "hours": 0.011
+  },
+  "grpo_r2": {
+    "status": "skipped (--skip-optional)"
+  },
+  "trans_r2": {
+    "status": "skipped (--skip-optional)"
+  },
+  "listeners_r2": {
+    "status": "skipped (--skip-optional)"
+  },
+  "eval_s1": {
+    "status": "complete",
+    "hours": 0.147
+  },
+  "eval_s0": {
+    "status": "complete",
+    "hours": 0.017
+  },
+  "eval_s3": {
+    "status": "complete",
+    "hours": 0.019
+  },
+  "s2": {
+    "status": "skipped (--skip-optional)"
+  },
+  "eval_s2": {
+    "status": "skipped (--skip-optional)"
+  },
+  "armsrace": {
+    "status": "complete",
+    "hours": 0.001
+  },
+  "s4": {
+    "status": "skipped (--skip-optional)"
+  },
+  "eval_s4": {
+    "status": "skipped (--skip-optional)"
+  },
+  "lam05": {
+    "status": "skipped (--skip-optional)"
+  },
+  "lam2": {
+    "status": "skipped (--skip-optional)"
+  },
+  "strongc": {
+    "status": "skipped (--skip-optional)"
+  },
+  "eval_s3a": {
+    "status": "skipped (--skip-optional)"
+  },
+  "eval_s3b": {
+    "status": "skipped (--skip-optional)"
+  },
+  "report": {
+    "status": "complete",
+    "hours": 0.001
+  }
+}

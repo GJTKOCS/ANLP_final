@@ -1,0 +1,52 @@
+22:40:35 covert profile=a100 toy=False
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+22:41:22 covert.listeners listener B epoch 0 train loss 4.736 dev both-correct 0.013 (skipped non-finite steps: 1)
+22:41:58 covert.listeners listener B epoch 1 train loss 4.594 dev both-correct 0.020 (skipped non-finite steps: 1)
+22:42:35 covert.listeners listener B epoch 2 train loss 4.444 dev both-correct 0.047 (skipped non-finite steps: 1)
+22:43:11 covert.listeners listener B epoch 3 train loss 4.116 dev both-correct 0.047 (skipped non-finite steps: 0)
+22:43:47 covert.listeners listener B epoch 4 train loss 3.874 dev both-correct 0.033 (skipped non-finite steps: 0)
+22:44:27 covert.listeners listener C epoch 0 train loss 4.745 dev both-correct 0.013 (skipped non-finite steps: 0)
+22:44:54 covert.listeners listener C epoch 1 train loss 4.595 dev both-correct 0.027 (skipped non-finite steps: 0)
+22:45:20 covert.listeners listener C epoch 2 train loss 4.466 dev both-correct 0.053 (skipped non-finite steps: 0)
+22:45:46 covert.listeners listener C epoch 3 train loss 4.214 dev both-correct 0.033 (skipped non-finite steps: 0)
+22:46:12 covert.listeners listener C epoch 4 train loss 4.046 dev both-correct 0.060 (skipped non-finite steps: 0)
+22:46:18 covert profile=a100 toy=False
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+22:47:09 covert.listeners listener B epoch 0 train loss 4.736 dev both-correct 0.013 (skipped non-finite steps: 0)
+22:47:50 covert.listeners listener B epoch 1 train loss 4.610 dev both-correct 0.007 (skipped non-finite steps: 0)
+22:48:30 covert.listeners listener B epoch 2 train loss 4.528 dev both-correct 0.033 (skipped non-finite steps: 0)
+22:49:10 covert.listeners listener B epoch 3 train loss 4.392 dev both-correct 0.027 (skipped non-finite steps: 0)
+22:49:50 covert.listeners listener B epoch 4 train loss 4.314 dev both-correct 0.020 (skipped non-finite steps: 0)
+22:50:31 covert.listeners listener C epoch 0 train loss 4.767 dev both-correct 0.013 (skipped non-finite steps: 4)
+22:50:58 covert.listeners listener C epoch 1 train loss 4.625 dev both-correct 0.013 (skipped non-finite steps: 6)
+22:51:25 covert.listeners listener C epoch 2 train loss 4.604 dev both-correct 0.027 (skipped non-finite steps: 1)
+22:51:51 covert.listeners listener C epoch 3 train loss 4.553 dev both-correct 0.027 (skipped non-finite steps: 4)
+22:52:17 covert.listeners listener C epoch 4 train loss 4.514 dev both-correct 0.027 (skipped non-finite steps: 2)
+22:52:23 covert profile=a100 toy=False
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+22:53:14 covert.listeners listener B epoch 0 train loss 4.736 dev both-correct 0.007 (skipped non-finite steps: 0)
+22:53:54 covert.listeners listener B epoch 1 train loss 4.608 dev both-correct 0.013 (skipped non-finite steps: 0)
+22:54:35 covert.listeners listener B epoch 2 train loss 4.527 dev both-correct 0.027 (skipped non-finite steps: 0)
+22:55:15 covert.listeners listener B epoch 3 train loss 4.390 dev both-correct 0.027 (skipped non-finite steps: 0)
+22:55:55 covert.listeners listener B epoch 4 train loss 4.301 dev both-correct 0.040 (skipped non-finite steps: 0)
+22:56:36 covert.listeners listener C epoch 0 train loss 4.766 dev both-correct 0.007 (skipped non-finite steps: 6)
+22:57:03 covert.listeners listener C epoch 1 train loss 4.627 dev both-correct 0.007 (skipped non-finite steps: 8)
+22:57:29 covert.listeners listener C epoch 2 train loss 4.607 dev both-correct 0.013 (skipped non-finite steps: 6)
+22:57:56 covert.listeners listener C epoch 3 train loss 4.572 dev both-correct 0.007 (skipped non-finite steps: 6)
+22:58:22 covert.listeners listener C epoch 4 train loss 4.535 dev both-correct 0.013 (skipped non-finite steps: 7)
+22:58:28 covert profile=a100 toy=False
+Values in % with 95% bootstrap CI (1000 resamples over test episodes); chance: 10% per slot, 1% both. Reward is in [-1,1] (mean).
+
+| Cond | B both | C both | Insider adv | Joint succ | Leak | Sense pass | Reward | strong-C both | C_alt both (held-out) |
+|---|---|---|---|---|---|---|---|---|---|
+| S0 | 17.5 [12.5, 23.5] | 20.0 [15.0, 25.5] | -2.5 [-7.0, 2.0] | 3.5 [1.0, 6.0] | 60.5 [54.0, 67.0] | 41.5 [34.5, 48.5] | -0.794 | TODO | 19.0 [14.0, 25.0] |
+| S0_trained | 4.0 [1.5, 7.0] | 5.0 [2.5, 8.5] | -1.0 [-5.0, 3.0] | 4.0 [1.5, 7.0] | 60.5 [54.0, 67.0] | 41.5 [34.5, 48.5] | -0.798 | TODO | TODO |
+| S1 | 13.5 [9.0, 18.0] | 2.5 [0.5, 5.0] | 11.0 [5.5, 16.5] | 13.5 [9.0, 18.0] | 6.5 [3.5, 10.0] | 51.5 [44.5, 58.0] | -0.429 | TODO | 2.5 [0.5, 5.0] |
+| S1_trained | 2.0 [0.5, 4.0] | 1.0 [0.0, 2.5] | 1.0 [-1.0, 3.5] | 2.0 [0.5, 4.0] | 6.5 [3.5, 10.0] | 51.5 [44.5, 58.0] | -0.507 | TODO | TODO |
+| S3 | 10.5 [6.5, 14.5] | 3.5 [1.0, 6.0] | 7.0 [2.0, 12.0] | 10.5 [6.5, 14.5] | 6.5 [3.5, 10.0] | 59.0 [52.0, 65.5] | -0.381 | TODO | 4.5 [2.0, 7.5] |
+| S3_trained | 1.5 [0.0, 3.5] | 1.0 [0.0, 2.5] | 0.5 [-1.5, 2.5] | 1.5 [0.0, 3.5] | 6.5 [3.5, 10.0] | 59.0 [52.0, 65.5] | -0.448 | TODO | TODO |
+
+22:58:32 covert profile=a100 toy=False
+AUDIT
+  PASS
+STEP3 took 18 min

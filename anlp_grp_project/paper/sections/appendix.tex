@@ -1,4 +1,8 @@
 \section{Appendix}
-\paragraph{Prompts.} A and B speaker system prompts and the judge prompt are given verbatim in \texttt{src/covert/common/prompts.py} (identical across conditions).
-\paragraph{Hyperparameters.} Listeners: 2 epochs, LR $10^{-4}$, cosine with 5\% warmup, max length 768, LoRA $r{=}16$. Speaker SFT: 2 epochs, LR $10^{-4}$. GRPO: $P{=}8$, $G{=}6$, 150 steps per round, LR $10^{-5}$, $\beta{=}0.04$, clip 0.2, temperatures 0.9 (A) and 0.7 (B). \TODO{confirm against the manifest of the run used}
-\paragraph{Sanity checks and extra examples.} \TODO{table of sanity checks; extra showcase examples}
+\subsection{Trained listeners (negative result)}\label{app:trained}
+Our first listeners were Qwen2.5-1.5B with LoRA, last-token pooling and two 10-way heads, trained on all warm-start conversations. B's dev both-correct stayed at \x{trainedLzeroB}\% at every epoch (C: \x{trainedLzeroC}\%).
+Diagnosis showed that B's training had diverged to non-finite outputs: every dev prediction collapsed to the same class (\x{collapseDistinct} distinct prediction), and the initial loss was \x{initLoss} versus 4.6 for uniform predictions, indicating a very large scale of the pooled features. Truncation was not involved (longest B input \x{bViewMaxTok} tokens, limit \x{maxLen}).
+After adding a LayerNorm on the pooled features and skipping non-finite updates, training losses decreased, but evaluation-only listeners trained on each condition's \x{nTrain} training transcripts still reached at most \x{trainedEvalBestDevBS0}\% / \x{trainedEvalBestDevBS1}\% / \x{trainedEvalBestDevBS3}\% B dev both-correct for S0 / S1 / S3, no better than guessing among the names in the memory bank, and test both-correct of \res{S0_trained}{B_both}, \res{S1_trained}{B_both} and \res{S3_trained}{B_both}. We therefore report prompted listeners.
+For comparison, the prompted pair scores \x{promptedDevB}\% (B) and \x{promptedDevC}\% (C) both-correct on the dev transcripts of S3.
+\subsection{Prompts and hyperparameters}
+All prompts are in \texttt{src/covert/common/prompts.py}; all hyperparameters are recorded in each artifact's manifest. Total recorded wall time across artifacts: \x{gpuHoursArtifacts}\,h.

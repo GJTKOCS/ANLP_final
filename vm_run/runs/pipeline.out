@@ -1,0 +1,652 @@
+09:22:40 covert profile=a100 toy=False
+[pipeline] data (must) est 1.2h; remaining plan ~28.2h
+09:22:43 covert profile=a100 toy=False
+09:22:45 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+09:22:45 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+09:22:45 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+09:22:45 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer_config.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+09:22:46 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer_config.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+09:22:46 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+09:22:46 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+09:22:46 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/vocab.json "HTTP/1.1 307 Temporary Redirect"
+09:22:47 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/vocab.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+09:22:47 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/vocab.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+09:22:47 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/merges.txt "HTTP/1.1 307 Temporary Redirect"
+09:22:47 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/merges.txt?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+09:22:48 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/merges.txt?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+09:22:48 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+09:22:48 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+09:22:48 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/tokenizer.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+09:22:49 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/added_tokens.json "HTTP/1.1 404 Not Found"
+09:22:49 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/special_tokens_map.json "HTTP/1.1 404 Not Found"
+09:22:49 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/chat_template.jinja "HTTP/1.1 404 Not Found"
+09:22:50 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+09:22:50 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+09:22:50 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/adapter_config.json "HTTP/1.1 404 Not Found"
+09:22:51 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/model.safetensors "HTTP/1.1 404 Not Found"
+09:22:51 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+09:22:51 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/model.safetensors.index.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fmodel.safetensors.index.json=&etag=%2276830d05f05b79fd413acb4a718b32bb68d96211%22 "HTTP/1.1 200 OK"
+09:22:51 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/model.safetensors.index.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fmodel.safetensors.index.json=&etag=%2276830d05f05b79fd413acb4a718b32bb68d96211%22 "HTTP/1.1 200 OK"
+09:22:52 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8?recursive=true&expand=false "HTTP/1.1 200 OK"
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]09:22:52 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/xet-read-token/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8 "HTTP/1.1 200 OK"
+Fetching 8 files:  12%|█▎        | 1/8 [00:54<06:18, 54.03s/it]Fetching 8 files:  25%|██▌       | 2/8 [01:08<03:05, 30.93s/it]Fetching 8 files:  38%|███▊      | 3/8 [01:12<01:31, 18.39s/it]Fetching 8 files:  50%|█████     | 4/8 [01:29<01:11, 18.00s/it]Fetching 8 files:  62%|██████▎   | 5/8 [01:33<00:38, 12.96s/it]Fetching 8 files:  75%|███████▌  | 6/8 [01:48<00:27, 13.58s/it]Fetching 8 files:  88%|████████▊ | 7/8 [01:53<00:10, 10.79s/it]Fetching 8 files: 100%|██████████| 8/8 [18:23<00:00, 322.64s/it]Fetching 8 files: 100%|██████████| 8/8 [18:23<00:00, 137.98s/it]
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 9441.23it/s]
+09:41:16 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+09:41:16 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/generation_config.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22 "HTTP/1.1 200 OK"
+09:41:16 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/generation_config.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fcf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22 "HTTP/1.1 200 OK"
+10:04:51 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 200 OK"
+10:04:51 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+10:05:22 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+10:05:22 covert.hub pushed episodes -> GJTKOCS/covert-data
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/cli.py", line 111, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/cli.py", line 61, in main
+    cfg = load_config(a.overrides, a.profile, a.toy)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/common/config.py", line 66, in load_config
+    raise ValueError(f"Override '{ov}' must look like section.key=value")
+ValueError: Override 'G1' must look like section.key=value
+[pipeline] warmstart (must) est 0.8h; remaining plan ~27.0h
+10:05:23 covert profile=a100 toy=False
+10:05:25 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+10:05:25 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+10:05:25 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+10:05:26 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+10:05:26 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+10:05:26 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10452.77it/s]
+[W1029 10:36:09.977871148 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1073741824 bytes (free: 308477952, total: 85017493504).
+10:52:35 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+10:52:35 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+10:52:35 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+10:52:35 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+10:52:36 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+10:52:36 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+10:52:36 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/vocab.json "HTTP/1.1 307 Temporary Redirect"
+10:52:36 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/vocab.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+10:52:37 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/vocab.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+10:52:37 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/merges.txt "HTTP/1.1 307 Temporary Redirect"
+10:52:37 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/merges.txt?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+10:52:38 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/merges.txt?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+10:52:38 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+10:52:39 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+10:52:39 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+10:52:40 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/added_tokens.json "HTTP/1.1 404 Not Found"
+10:52:40 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/special_tokens_map.json "HTTP/1.1 404 Not Found"
+10:52:40 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/chat_template.jinja "HTTP/1.1 404 Not Found"
+10:52:41 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+10:52:41 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+10:52:41 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/adapter_config.json "HTTP/1.1 404 Not Found"
+10:52:41 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors "HTTP/1.1 404 Not Found"
+10:52:42 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+10:52:42 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmodel.safetensors.index.json=&etag=%2238047c6284a25427043f0ab040f623a2a20dd093%22 "HTTP/1.1 200 OK"
+10:52:42 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmodel.safetensors.index.json=&etag=%2238047c6284a25427043f0ab040f623a2a20dd093%22 "HTTP/1.1 200 OK"
+10:52:42 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/aa8e72537993ba99e69dfaafa59ed015b17504d1?recursive=true&expand=false "HTTP/1.1 200 OK"
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]10:52:42 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/xet-read-token/aa8e72537993ba99e69dfaafa59ed015b17504d1 "HTTP/1.1 200 OK"
+Fetching 2 files:  50%|█████     | 1/2 [00:26<00:26, 26.01s/it]Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 14.35s/it]Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.10s/it]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 10762.57it/s]
+10:53:15 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+10:53:15 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22 "HTTP/1.1 200 OK"
+10:53:15 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22 "HTTP/1.1 200 OK"
+10:53:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+10:53:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+10:53:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+10:53:33 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+10:53:33 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10780.79it/s]
+11:04:44 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+11:04:44 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+11:04:46 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+11:04:46 covert.hub pushed warmstart_convs -> GJTKOCS/covert-data
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/cli.py", line 111, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/cli.py", line 61, in main
+    cfg = load_config(a.overrides, a.profile, a.toy)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/common/config.py", line 66, in load_config
+    raise ValueError(f"Override '{ov}' must look like section.key=value")
+ValueError: Override 'G2' must look like section.key=value
+[pipeline] go/no-go G2 FAILED; see runs/checks/G2.json for the fallback. Re-run with --continue-on-fail to proceed anyway.
+11:04:48 covert profile=a100 toy=False
+AUDIT
+  PASS
+12:27:02 covert profile=a100 toy=False
+[pipeline] warmstart (must) est 1.5h; remaining plan ~27.0h
+12:27:05 covert profile=a100 toy=False
+12:27:07 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+12:27:07 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+12:27:07 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+12:27:07 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+12:27:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+12:27:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10998.80it/s]
+13:26:00 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:26:00 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:26:00 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:26:01 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:26:01 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 10541.50it/s]
+13:26:18 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+13:26:19 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:26:19 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:26:19 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+13:26:20 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10259.31it/s]
+13:37:22 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+13:37:23 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+13:37:25 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+13:37:25 covert.hub pushed warmstart_convs -> GJTKOCS/covert-data
+13:37:26 covert profile=a100 toy=False
+G2: FAIL  {"prompted_B_both": 0.095, "prompted_C_both": 0.046, "a_leak_rate": 0.058, "n": 3000, "fallback": "More vivid memories; stronger never-name instruction; last resort: venue-only (one slot)."}
+[pipeline] judge (must) est 0.2h; remaining plan ~25.5h
+13:37:29 covert profile=a100 toy=False
+13:37:31 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:37:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:37:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:37:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:37:33 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 11303.37it/s]
+13:37:36 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+13:37:36 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+13:37:37 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+13:37:37 covert.hub pushed judge_calibration -> GJTKOCS/covert-data
+[pipeline] listeners_r0 (must) est 0.6h; remaining plan ~25.3h
+13:37:38 covert profile=a100 toy=False
+13:37:40 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+13:37:40 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/adapter_config.json "HTTP/1.1 404 Not Found"
+13:37:41 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/model.safetensors "HTTP/1.1 302 Found"
+13:37:41 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/xet-read-token/8faed761d45a263340a0528343f099c05c9a4323 "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 10808.17it/s]
+13:38:07 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+13:38:07 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+13:38:07 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/tokenizer_config.json?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Ftokenizer_config.json=&etag=%22ba7e4c5637b9732dadcd66286ce48334e8b31e9e%22 "HTTP/1.1 200 OK"
+13:38:08 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/tokenizer_config.json?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Ftokenizer_config.json=&etag=%22ba7e4c5637b9732dadcd66286ce48334e8b31e9e%22 "HTTP/1.1 200 OK"
+13:38:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:38:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:38:08 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/vocab.json "HTTP/1.1 307 Temporary Redirect"
+13:38:09 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/vocab.json?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+13:38:09 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/vocab.json?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+13:38:09 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/merges.txt "HTTP/1.1 307 Temporary Redirect"
+13:38:10 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/merges.txt?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+13:38:10 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/merges.txt?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+13:38:10 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+13:38:11 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/tokenizer.json?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+13:38:11 httpx2 HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B/8faed761d45a263340a0528343f099c05c9a4323/tokenizer.json?%2FQwen%2FQwen2.5-1.5B%2Fresolve%2F8faed761d45a263340a0528343f099c05c9a4323%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+13:38:11 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/added_tokens.json "HTTP/1.1 404 Not Found"
+13:38:12 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/special_tokens_map.json "HTTP/1.1 404 Not Found"
+13:38:12 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/chat_template.jinja "HTTP/1.1 404 Not Found"
+13:38:12 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+13:40:25 covert.listeners listener B epoch 0 dev both-correct 0.027
+13:42:25 covert.listeners listener B epoch 1 dev both-correct 0.027
+13:42:25 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 10334.26it/s]
+13:42:26 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+13:42:26 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:42:27 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:42:27 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+13:43:26 covert.listeners listener C epoch 0 dev both-correct 0.007
+13:44:21 covert.listeners listener C epoch 1 dev both-correct 0.020
+13:44:23 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 200 OK"
+13:44:23 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-listeners/preupload/main "HTTP/1.1 200 OK"
+13:44:32 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-listeners/commit/main "HTTP/1.1 200 OK"
+13:44:32 covert.hub pushed listeners_r0 -> GJTKOCS/covert-listeners
+13:44:33 covert profile=a100 toy=False
+G3: FAIL  {"B": 0.027, "C": 0.02, "fallback": "Larger listener backbone, more epochs, or one slot."}
+[pipeline] sft (must) est 0.2h; remaining plan ~24.5h
+13:44:37 covert profile=a100 toy=False
+13:44:39 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:44:39 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:44:39 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:44:40 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:44:40 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 10820.99it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+13:45:12 covert.sft sft epoch 0 loss 2.0832
+13:45:41 covert.sft sft epoch 1 loss 1.8880
+13:45:42 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+13:45:42 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+13:45:42 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+13:45:44 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 200 OK"
+13:45:44 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-speaker/preupload/main "HTTP/1.1 200 OK"
+13:45:53 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-speaker/commit/main "HTTP/1.1 200 OK"
+13:45:53 covert.hub pushed speaker_sft -> GJTKOCS/covert-speaker
+[pipeline] s0 (must) est 0.2h; remaining plan ~24.0h
+13:45:54 covert profile=a100 toy=False
+13:45:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:45:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:45:57 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:45:57 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+13:45:58 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 11902.31it/s]
+13:56:03 covert profile=a100 toy=False
+[pipeline] warmstart (must) est 1.5h; remaining plan ~27.0h
+13:56:05 covert profile=a100 toy=False
+13:56:07 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+13:56:07 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+13:56:07 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+13:56:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+13:56:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+13:56:08 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10981.14it/s]
+14:48:21 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+14:48:22 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+14:48:22 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+14:48:22 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+14:48:23 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9559.14it/s]
+14:48:39 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+14:48:40 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+14:48:40 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+14:48:40 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+14:48:41 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10042.93it/s]
+14:59:56 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 401 Unauthorized"
+14:59:56 httpx2 HTTP Request: GET https://huggingface.co/api/datasets/GJTKOCS/covert-data "HTTP/1.1 401 Unauthorized"
+14:59:56 covert.pipeline hub push of warmstart_convs failed (continuing): Client error '401 Unauthorized' for url 'https://huggingface.co/api/repos/create' (Request ID: Root=1-6ae35f6c-7815962a6f2412247322a922;f98c3edf-d56b-478d-bd83-38973694955e)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+Invalid username or password.
+14:59:57 covert profile=a100 toy=False
+G2: FAIL  {"prompted_B_both": 0.2, "prompted_C_both": 0.045, "a_leak_rate": 0.022, "n": 3000, "fallback": "More vivid memories; stronger never-name instruction; last resort: venue-only (one slot)."}
+[pipeline] judge (must) est 0.1h; remaining plan ~25.5h
+15:00:00 covert profile=a100 toy=False
+15:00:02 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+15:00:02 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:00:02 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:00:03 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+15:00:03 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 11261.48it/s]
+15:00:06 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 401 Unauthorized"
+15:00:06 httpx2 HTTP Request: GET https://huggingface.co/api/datasets/GJTKOCS/covert-data "HTTP/1.1 401 Unauthorized"
+15:00:06 covert.pipeline hub push of judge_calibration failed (continuing): Client error '401 Unauthorized' for url 'https://huggingface.co/api/repos/create' (Request ID: Root=1-6ae35f76-3cd6e5c05af66f0a560a0791;5e9bb633-3b4a-4eb5-b4c9-e4734fdf7a8d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+Invalid username or password.
+[pipeline] listeners_r0 (must) est 0.6h; remaining plan ~25.3h
+15:00:07 covert profile=a100 toy=False
+15:00:09 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 11129.67it/s]
+15:00:11 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+15:00:11 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:00:11 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:00:12 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/cli.py", line 115, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/cli.py", line 79, in main
+    ST.stage_listeners(cfg, a.round)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/stages.py", line 164, in stage_listeners
+    res[view] = train_listener(cfg, view, tr, dv, art.dir / view)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/src/covert/listeners/train.py", line 71, in train_listener
+    opt = torch.optim.AdamW(params, lr=lc["lr"], weight_decay=0.0)
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/.venv/lib/python3.10/site-packages/torch/optim/adamw.py", line 35, in __init__
+    super().__init__(
+  File "/home/ubuntu/ANLP_final/anlp_grp_project/.venv/lib/python3.10/site-packages/torch/optim/adam.py", line 58, in __init__
+    if not 0.0 <= lr:
+TypeError: '<=' not supported between instances of 'float' and 'str'
+[pipeline] must-stage 'listeners_r0' failed. Fix and re-run `covert pipeline run` (it resumes).
+15:00:14 covert profile=a100 toy=False
+AUDIT
+  PASS
+18:12:22 covert profile=a100 toy=False
+[pipeline] listeners_r0 (must) est 0.8h; remaining plan ~25.3h
+18:12:24 covert profile=a100 toy=False
+18:12:26 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 10825.75it/s]
+18:12:27 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+18:12:28 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+18:12:28 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+18:12:28 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+18:14:35 covert.listeners listener B epoch 0 dev both-correct 0.027
+18:16:35 covert.listeners listener B epoch 1 dev both-correct 0.027
+18:18:34 covert.listeners listener B epoch 2 dev both-correct 0.027
+18:20:33 covert.listeners listener B epoch 3 dev both-correct 0.027
+18:22:32 covert.listeners listener B epoch 4 dev both-correct 0.027
+18:22:32 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 10535.40it/s]
+18:22:33 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+18:22:33 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+18:22:34 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+18:22:34 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B "HTTP/1.1 200 OK"
+18:23:32 covert.listeners listener C epoch 0 dev both-correct 0.007
+18:24:27 covert.listeners listener C epoch 1 dev both-correct 0.007
+18:25:21 covert.listeners listener C epoch 2 dev both-correct 0.053
+18:26:15 covert.listeners listener C epoch 3 dev both-correct 0.027
+18:27:10 covert.listeners listener C epoch 4 dev both-correct 0.033
+18:27:11 covert profile=a100 toy=False
+G3: FAIL  {"B": 0.027, "C": 0.053, "fallback": "Larger listener backbone, more epochs, or one slot."}
+[pipeline] go/no-go G3 FAILED; see runs/checks/G3.json for the fallback. Re-run with --continue-on-fail to proceed anyway.
+18:27:15 covert profile=a100 toy=False
+AUDIT
+  PASS
+20:21:26 covert profile=a100 toy=False
+[pipeline] sft (must) est 0.5h; remaining plan ~24.5h
+20:21:28 covert profile=a100 toy=False
+20:21:30 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+20:21:31 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+20:21:31 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+20:21:31 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+20:21:31 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 14625.69it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+20:22:38 covert.sft sft epoch 0 loss 1.9811
+20:23:41 covert.sft sft epoch 1 loss 1.7169
+20:23:41 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+20:23:41 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+20:23:41 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+20:23:42 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+20:23:42 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-speaker/preupload/main "HTTP/1.1 200 OK"
+20:23:52 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-speaker/commit/main "HTTP/1.1 200 OK"
+20:23:52 covert.hub pushed speaker_sft -> GJTKOCS/covert-speaker
+[pipeline] s0 (must) est 0.5h; remaining plan ~24.0h
+20:23:53 covert profile=a100 toy=False
+20:23:55 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+20:23:55 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+20:23:55 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+20:23:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+20:23:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 11441.91it/s]
+20:29:08 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+20:29:08 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+20:29:10 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+20:29:10 covert.hub pushed convs_S0 -> GJTKOCS/covert-data
+20:29:11 covert profile=a100 toy=False
+20:29:12 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+20:29:13 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+20:29:13 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+20:29:13 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+20:29:14 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+20:29:14 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 11214.20it/s]
+G4: PASS  {"reward_S0_dev": -0.759, "reward_good_warmstart_dev": 0.56, "fallback": "Add more confusable memory pairs so the task is harder."}
+[pipeline] grpo_r1 (must) est 3.0h; remaining plan ~23.5h
+20:29:51 covert profile=a100 toy=False
+20:29:53 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+20:29:53 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+20:29:53 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+20:29:54 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+20:29:54 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 10882.51it/s]
+20:29:55 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+20:29:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+20:29:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+20:29:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+20:29:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+20:29:57 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10504.17it/s]
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from WANDB_API_KEY.
+wandb: Currently logged in as: gjai2006 (gjai2006-iiit-hyderabad) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run otqruoj8
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in /home/ubuntu/ANLP_final/anlp_grp_project/wandb/run-20261029_203002-otqruoj8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run speaker_r1_lam1.0
+wandb: ⭐️ View project at https://forge.coreweave.com/wandb/gjai2006-iiit-hyderabad/ANLP_final
+wandb: 🚀 View run at https://forge.coreweave.com/wandb/gjai2006-iiit-hyderabad/ANLP_final/runs/otqruoj8
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+20:30:57 covert.grpo step 1 reward -0.259 pB 0.465 pC 0.200 leak 0.04 sense 0.62 kl 0.0000
+20:31:45 covert.grpo step 2 reward -0.510 pB 0.343 pC 0.211 leak 0.08 sense 0.50 kl 0.0013
+20:32:36 covert.grpo step 3 reward -0.391 pB 0.328 pC 0.142 leak 0.02 sense 0.54 kl 0.0018
+[W1029 20:33:03.777590412 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 4469030912 bytes (free: 1615003648, total: 85017493504).
+20:33:25 covert.grpo step 4 reward -0.495 pB 0.555 pC 0.236 leak 0.06 sense 0.42 kl 0.0021
+20:34:12 covert.grpo step 5 reward -0.450 pB 0.490 pC 0.271 leak 0.08 sense 0.48 kl 0.0030
+20:34:59 covert.grpo step 6 reward -0.386 pB 0.500 pC 0.294 leak 0.06 sense 0.52 kl 0.0033
+20:35:46 covert.grpo step 7 reward -0.222 pB 0.449 pC 0.245 leak 0.08 sense 0.67 kl 0.0038
+20:36:31 covert.grpo step 8 reward -0.394 pB 0.370 pC 0.188 leak 0.06 sense 0.52 kl 0.0045
+20:37:17 covert.grpo step 9 reward -0.534 pB 0.285 pC 0.231 leak 0.02 sense 0.46 kl 0.0049
+20:38:05 covert.grpo step 10 reward -0.309 pB 0.411 pC 0.194 leak 0.00 sense 0.58 kl 0.0060
+[W1029 20:38:45.636800953 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 4538236928 bytes (free: 1843593216, total: 85017493504).
+20:38:51 covert.grpo step 11 reward -0.482 pB 0.447 pC 0.268 leak 0.17 sense 0.52 kl 0.0054
+20:39:36 covert.grpo step 12 reward -0.432 pB 0.251 pC 0.169 leak 0.06 sense 0.56 kl 0.0058
+20:40:21 covert.grpo step 13 reward -0.524 pB 0.440 pC 0.165 leak 0.12 sense 0.40 kl 0.0061
+20:41:03 covert.grpo step 14 reward -0.402 pB 0.300 pC 0.273 leak 0.06 sense 0.58 kl 0.0072
+20:41:51 covert.grpo step 15 reward -0.476 pB 0.304 pC 0.213 leak 0.10 sense 0.46 kl 0.0065
+20:42:38 covert.grpo step 16 reward -0.398 pB 0.330 pC 0.155 leak 0.06 sense 0.56 kl 0.0065
+20:43:22 covert.grpo step 17 reward -0.305 pB 0.418 pC 0.231 leak 0.08 sense 0.67 kl 0.0071
+20:44:07 covert.grpo step 18 reward -0.394 pB 0.481 pC 0.270 leak 0.04 sense 0.54 kl 0.0074
+20:44:50 covert.grpo step 19 reward -0.420 pB 0.350 pC 0.208 leak 0.06 sense 0.54 kl 0.0078
+20:45:33 covert.grpo step 20 reward -0.132 pB 0.336 pC 0.119 leak 0.04 sense 0.71 kl 0.0079
+20:46:18 covert.grpo step 21 reward -0.384 pB 0.400 pC 0.215 leak 0.00 sense 0.50 kl 0.0076
+20:47:00 covert.grpo step 22 reward -0.334 pB 0.432 pC 0.166 leak 0.06 sense 0.62 kl 0.0081
+20:47:43 covert.grpo step 23 reward -0.420 pB 0.389 pC 0.182 leak 0.02 sense 0.50 kl 0.0081
+20:48:26 covert.grpo step 24 reward -0.318 pB 0.382 pC 0.228 leak 0.04 sense 0.62 kl 0.0087
+20:49:12 covert.grpo step 25 reward -0.305 pB 0.429 pC 0.204 leak 0.04 sense 0.58 kl 0.0086
+20:49:53 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+20:49:53 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+20:49:53 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+20:49:53 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+20:49:53 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+20:49:54 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+20:50:37 covert.grpo step 26 reward -0.461 pB 0.427 pC 0.211 leak 0.08 sense 0.48 kl 0.0084
+20:51:18 covert.grpo step 27 reward -0.110 pB 0.450 pC 0.253 leak 0.02 sense 0.75 kl 0.0094
+20:52:01 covert.grpo step 28 reward -0.461 pB 0.392 pC 0.205 leak 0.08 sense 0.54 kl 0.0094
+20:52:45 covert.grpo step 29 reward -0.416 pB 0.347 pC 0.299 leak 0.06 sense 0.54 kl 0.0096
+20:53:29 covert.grpo step 30 reward -0.273 pB 0.350 pC 0.248 leak 0.10 sense 0.69 kl 0.0106
+20:54:12 covert.grpo step 31 reward -0.481 pB 0.362 pC 0.270 leak 0.06 sense 0.50 kl 0.0110
+20:54:56 covert.grpo step 32 reward -0.493 pB 0.239 pC 0.114 leak 0.12 sense 0.54 kl 0.0116
+20:55:38 covert.grpo step 33 reward -0.165 pB 0.621 pC 0.237 leak 0.02 sense 0.60 kl 0.0148
+20:56:19 covert.grpo step 34 reward -0.268 pB 0.334 pC 0.223 leak 0.10 sense 0.75 kl 0.0122
+20:57:01 covert.grpo step 35 reward -0.305 pB 0.513 pC 0.218 leak 0.06 sense 0.54 kl 0.0149
+20:57:48 covert.grpo step 36 reward -0.482 pB 0.253 pC 0.250 leak 0.08 sense 0.56 kl 0.0141
+20:58:31 covert.grpo step 37 reward -0.439 pB 0.391 pC 0.146 leak 0.08 sense 0.50 kl 0.0156
+20:59:12 covert.grpo step 38 reward -0.280 pB 0.452 pC 0.188 leak 0.02 sense 0.58 kl 0.0146
+20:59:54 covert.grpo step 39 reward -0.170 pB 0.365 pC 0.121 leak 0.06 sense 0.73 kl 0.0163
+21:00:37 covert.grpo step 40 reward -0.077 pB 0.466 pC 0.188 leak 0.02 sense 0.73 kl 0.0147
+21:01:21 covert.grpo step 41 reward -0.213 pB 0.372 pC 0.187 leak 0.10 sense 0.73 kl 0.0183
+21:02:05 covert.grpo step 42 reward -0.282 pB 0.320 pC 0.194 leak 0.00 sense 0.65 kl 0.0174
+21:02:51 covert.grpo step 43 reward -0.406 pB 0.250 pC 0.157 leak 0.00 sense 0.56 kl 0.0188
+21:03:34 covert.grpo step 44 reward -0.317 pB 0.307 pC 0.190 leak 0.04 sense 0.62 kl 0.0205
+21:04:17 covert.grpo step 45 reward -0.197 pB 0.398 pC 0.209 leak 0.04 sense 0.71 kl 0.0185
+21:04:59 covert.grpo step 46 reward -0.273 pB 0.556 pC 0.207 leak 0.08 sense 0.60 kl 0.0185
+21:05:40 covert.grpo step 47 reward -0.398 pB 0.297 pC 0.225 leak 0.12 sense 0.65 kl 0.0203
+21:06:22 covert.grpo step 48 reward -0.221 pB 0.337 pC 0.161 leak 0.04 sense 0.69 kl 0.0203
+21:07:04 covert.grpo step 49 reward -0.197 pB 0.447 pC 0.162 leak 0.04 sense 0.67 kl 0.0208
+21:07:48 covert.grpo step 50 reward -0.319 pB 0.279 pC 0.135 leak 0.04 sense 0.60 kl 0.0209
+21:08:24 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:08:24 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+21:08:24 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+21:08:25 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:08:25 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+21:08:25 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+21:09:08 covert.grpo step 51 reward -0.368 pB 0.321 pC 0.147 leak 0.08 sense 0.56 kl 0.0215
+21:09:50 covert.grpo step 52 reward -0.351 pB 0.337 pC 0.205 leak 0.08 sense 0.67 kl 0.0214
+21:10:33 covert.grpo step 53 reward -0.180 pB 0.449 pC 0.250 leak 0.02 sense 0.73 kl 0.0226
+21:11:14 covert.grpo step 54 reward -0.188 pB 0.367 pC 0.131 leak 0.00 sense 0.67 kl 0.0238
+21:11:56 covert.grpo step 55 reward -0.350 pB 0.324 pC 0.160 leak 0.02 sense 0.58 kl 0.0239
+21:12:38 covert.grpo step 56 reward -0.414 pB 0.373 pC 0.232 leak 0.04 sense 0.56 kl 0.0235
+21:13:20 covert.grpo step 57 reward -0.243 pB 0.389 pC 0.154 leak 0.06 sense 0.65 kl 0.0273
+21:14:02 covert.grpo step 58 reward -0.306 pB 0.337 pC 0.162 leak 0.08 sense 0.65 kl 0.0255
+21:14:45 covert.grpo step 59 reward -0.078 pB 0.333 pC 0.189 leak 0.04 sense 0.85 kl 0.0241
+21:15:26 covert.grpo step 60 reward -0.235 pB 0.345 pC 0.111 leak 0.08 sense 0.67 kl 0.0237
+21:16:08 covert.grpo step 61 reward -0.191 pB 0.350 pC 0.189 leak 0.06 sense 0.73 kl 0.0290
+21:16:50 covert.grpo step 62 reward -0.343 pB 0.325 pC 0.164 leak 0.08 sense 0.52 kl 0.0296
+21:17:32 covert.grpo step 63 reward -0.204 pB 0.245 pC 0.148 leak 0.04 sense 0.77 kl 0.0266
+21:18:15 covert.grpo step 64 reward -0.095 pB 0.391 pC 0.217 leak 0.02 sense 0.77 kl 0.0274
+21:18:58 covert.grpo step 65 reward -0.107 pB 0.304 pC 0.124 leak 0.04 sense 0.79 kl 0.0295
+21:19:40 covert.grpo step 66 reward -0.145 pB 0.487 pC 0.229 leak 0.06 sense 0.69 kl 0.0312
+21:20:22 covert.grpo step 67 reward -0.103 pB 0.359 pC 0.157 leak 0.06 sense 0.79 kl 0.0313
+21:21:04 covert.grpo step 68 reward -0.079 pB 0.246 pC 0.186 leak 0.02 sense 0.88 kl 0.0294
+21:21:46 covert.grpo step 69 reward -0.151 pB 0.373 pC 0.184 leak 0.08 sense 0.77 kl 0.0296
+21:22:27 covert.grpo step 70 reward -0.081 pB 0.295 pC 0.169 leak 0.04 sense 0.85 kl 0.0281
+21:23:08 covert.grpo step 71 reward 0.046 pB 0.420 pC 0.106 leak 0.04 sense 0.81 kl 0.0350
+21:23:50 covert.grpo step 72 reward -0.337 pB 0.268 pC 0.251 leak 0.02 sense 0.67 kl 0.0337
+21:24:33 covert.grpo step 73 reward -0.091 pB 0.446 pC 0.135 leak 0.04 sense 0.75 kl 0.0350
+21:25:13 covert.grpo step 74 reward -0.300 pB 0.298 pC 0.170 leak 0.08 sense 0.69 kl 0.0331
+21:25:55 covert.grpo step 75 reward 0.033 pB 0.429 pC 0.155 leak 0.02 sense 0.81 kl 0.0321
+21:26:29 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:26:29 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+21:26:30 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+21:27:14 covert.grpo step 76 reward -0.384 pB 0.306 pC 0.197 leak 0.06 sense 0.60 kl 0.0373
+21:27:56 covert.grpo step 77 reward -0.009 pB 0.507 pC 0.205 leak 0.02 sense 0.79 kl 0.0388
+21:28:37 covert.grpo step 78 reward -0.104 pB 0.404 pC 0.158 leak 0.02 sense 0.75 kl 0.0372
+21:29:17 covert.grpo step 79 reward -0.406 pB 0.240 pC 0.141 leak 0.06 sense 0.54 kl 0.0345
+21:29:59 covert.grpo step 80 reward -0.195 pB 0.289 pC 0.261 leak 0.02 sense 0.75 kl 0.0386
+21:30:42 covert.grpo step 81 reward -0.150 pB 0.301 pC 0.167 leak 0.04 sense 0.75 kl 0.0390
+21:31:23 covert.grpo step 82 reward -0.104 pB 0.317 pC 0.105 leak 0.00 sense 0.73 kl 0.0367
+21:32:04 covert.grpo step 83 reward -0.124 pB 0.299 pC 0.174 leak 0.02 sense 0.79 kl 0.0440
+21:32:46 covert.grpo step 84 reward 0.013 pB 0.278 pC 0.124 leak 0.06 sense 0.90 kl 0.0370
+21:33:27 covert.grpo step 85 reward -0.231 pB 0.318 pC 0.206 leak 0.06 sense 0.75 kl 0.0425
+21:34:08 covert.grpo step 86 reward 0.006 pB 0.387 pC 0.157 leak 0.08 sense 0.88 kl 0.0358
+21:34:49 covert.grpo step 87 reward -0.277 pB 0.340 pC 0.165 leak 0.06 sense 0.69 kl 0.0392
+21:35:31 covert.grpo step 88 reward -0.113 pB 0.406 pC 0.199 leak 0.06 sense 0.77 kl 0.0408
+21:36:13 covert.grpo step 89 reward -0.160 pB 0.324 pC 0.126 leak 0.06 sense 0.73 kl 0.0430
+21:36:55 covert.grpo step 90 reward -0.030 pB 0.442 pC 0.137 leak 0.04 sense 0.75 kl 0.0407
+21:37:37 covert.grpo step 91 reward -0.080 pB 0.321 pC 0.147 leak 0.04 sense 0.81 kl 0.0385
+21:38:18 covert.grpo step 92 reward -0.260 pB 0.292 pC 0.075 leak 0.04 sense 0.62 kl 0.0397
+21:38:59 covert.grpo step 93 reward -0.228 pB 0.340 pC 0.255 leak 0.02 sense 0.75 kl 0.0466
+21:39:40 covert.grpo step 94 reward -0.191 pB 0.346 pC 0.157 leak 0.08 sense 0.75 kl 0.0470
+21:40:23 covert.grpo step 95 reward -0.356 pB 0.285 pC 0.135 leak 0.08 sense 0.58 kl 0.0447
+21:41:05 covert.grpo step 96 reward -0.173 pB 0.373 pC 0.193 leak 0.00 sense 0.71 kl 0.0445
+21:41:46 covert.grpo step 97 reward -0.115 pB 0.387 pC 0.157 leak 0.02 sense 0.75 kl 0.0439
+21:42:28 covert.grpo step 98 reward -0.009 pB 0.411 pC 0.186 leak 0.00 sense 0.79 kl 0.0389
+21:43:08 covert.grpo step 99 reward -0.001 pB 0.314 pC 0.168 leak 0.04 sense 0.90 kl 0.0425
+21:43:50 covert.grpo step 100 reward -0.166 pB 0.365 pC 0.188 leak 0.00 sense 0.71 kl 0.0460
+21:44:25 httpx2 HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+21:44:25 httpx2 HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+21:44:25 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+wandb: updating run metadata
+wandb: uploading output.log; uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:            kl ▁▁▁▁▁▂▂▂▂▂▂▂▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▆▇▇▇▇▇▇█
+wandb:           lam ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     leak_rate ▃▅▂▅▅█▄▅▅▃▄▃▅▂▄▂▂▅▁▃▃▃▅▂▅▅▃▃▄▅▃▂▄▂▄▄▃▃▁▁
+wandb:            pB ▆█▇▇▆▂▅▂▃▆▃▅▄▄▅▆▃▃▆▃█▆▃▃▄▃▁▂▁▂▇▃▂▃▄▅▃▅▂▂
+wandb:            pC ▃▆▆▅▄▅▄▆▇▅▄▄▇▅█▅▆▅▅▄▅▆▄▃▆▄▄▅▄▄▅▄▃▄▄▅▃▁▇▄
+wandb:        reward ▁▁▂▅▃▂▃▃▃▄▂▂▄▁▁▁▂▄▇▅▅▅▄▃▂▃▅▇▆▃▂▅▆█▄█▄▆█▆
+wandb:    sense_rate ▂▃▁▃▂▃▃▂▃▅▃▅▂▃▆▃▆▄▃▄▅▃▅▄▄▅▆▆▆▆▆▆▃▆██▆▇▆▅
+wandb:          step ▁▁▁▁▂▂▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇███
+wandb:     tok_per_s ▁▂▂▄▅▄▆▇▇▇▇▇▅▆▇▇▇█▆▇▅▇▇█▇▆▆▆█▆▆▅▇▆█▇█▆▇▆
+wandb: zero_var_frac ▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:            kl 0.04599
+wandb:           lam 1
+wandb:     leak_rate 0
+wandb:            pB 0.36494
+wandb:            pC 0.18807
+wandb:        reward -0.16638
+wandb:    sense_rate 0.70833
+wandb:          step 100
+wandb:     tok_per_s 115.96148
+wandb: zero_var_frac 0
+wandb: 
+wandb: 🚀 View run speaker_r1_lam1.0 at: https://forge.coreweave.com/wandb/gjai2006-iiit-hyderabad/ANLP_final/runs/otqruoj8
+wandb: ⭐️ View project at: https://forge.coreweave.com/wandb/gjai2006-iiit-hyderabad/ANLP_final
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20261029_203002-otqruoj8/logs
+21:44:31 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+21:44:31 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-speaker/preupload/main "HTTP/1.1 200 OK"
+21:44:43 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-speaker/commit/main "HTTP/1.1 200 OK"
+21:44:43 covert.hub pushed speaker_r1_lam1.0 -> GJTKOCS/covert-speaker
+21:44:44 covert profile=a100 toy=False
+G5: FAIL  {"reward_first_third": -0.417, "reward_last_third": -0.286, "sense_rate": 0.648, "leak_rate": 0.052, "kl": 0.019, "fallback": "Lower the learning rate, raise beta, or reduce G; inspect bloopers."}
+[pipeline] trans_r1 (must) est 0.2h; remaining plan ~20.5h
+21:44:47 covert profile=a100 toy=False
+21:44:48 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+21:44:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+21:44:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+21:44:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+21:44:50 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 11127.38it/s]
+21:52:18 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+21:52:18 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+21:52:20 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+21:52:20 covert.hub pushed convs_A1 -> GJTKOCS/covert-data
+[pipeline] listeners_r1 (must) est 0.3h; remaining plan ~20.0h
+21:52:21 covert profile=a100 toy=False
+21:52:23 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+21:52:23 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+21:52:23 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+21:52:24 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+21:52:24 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+21:52:24 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 11072.92it/s]
+21:53:01 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+21:53:01 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-listeners/preupload/main "HTTP/1.1 200 OK"
+21:53:01 httpx2 HTTP Request: POST https://huggingface.co/api/models/GJTKOCS/covert-listeners/commit/main "HTTP/1.1 200 OK"
+21:53:01 covert.hub pushed listeners_r1 -> GJTKOCS/covert-listeners
+[pipeline] eval_s1 (must) est 0.2h; remaining plan ~14.8h
+21:53:02 covert profile=a100 toy=False
+21:53:04 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+21:53:04 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+21:53:04 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+21:53:05 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+21:53:05 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 11699.37it/s]
+22:00:48 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+22:00:48 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+22:00:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+22:00:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+22:00:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+22:00:49 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 14399.23it/s]
+22:01:52 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+22:01:52 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+22:01:54 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+22:01:54 covert.hub pushed evalpair_S1 -> GJTKOCS/covert-data
+[pipeline] eval_s0 (must) est 0.2h; remaining plan ~13.9h
+22:01:54 covert profile=a100 toy=False
+22:01:56 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+22:01:56 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+22:01:57 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+22:01:57 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+22:01:57 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+22:01:58 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 10378.04it/s]
+22:02:56 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+22:02:56 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+22:02:58 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+22:02:58 covert.hub pushed evalpair_S0 -> GJTKOCS/covert-data
+[pipeline] eval_s3 (must) est 0.1h; remaining plan ~13.0h
+22:02:59 covert profile=a100 toy=False
+22:03:01 covert.stages big_gen model: Qwen/Qwen2.5-14B-Instruct
+22:03:01 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+22:03:01 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+22:03:01 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+22:03:02 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+22:03:02 httpx2 HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-14B-Instruct "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 12644.50it/s]
+22:04:05 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+22:04:05 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+22:04:08 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+22:04:08 covert.hub pushed evalpair_S3 -> GJTKOCS/covert-data
+[pipeline] armsrace (should) est 0.0h; remaining plan ~9.9h
+22:04:09 covert profile=a100 toy=False
+22:04:11 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+22:04:11 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+22:04:12 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+22:04:12 covert.hub pushed armsrace -> GJTKOCS/covert-data
+[pipeline] report (must) est 0.0h; remaining plan ~0.2h
+22:04:13 covert profile=a100 toy=False
+22:04:15 matplotlib.font_manager generated new fontManager
+Values in % with 95% bootstrap CI (1000 resamples over test episodes); chance: 10% per slot, 1% both. Reward is in [-1,1] (mean).
+
+| Cond | B both | C both | Insider adv | Joint succ | Leak | Sense pass | Reward | strong-C both |
+|---|---|---|---|---|---|---|---|---|
+| S0 | 17.5 [12.5, 23.5] | 20.0 [15.0, 25.5] | -2.5 [-7.0, 2.0] | 3.5 [1.0, 6.0] | 60.5 [54.0, 67.0] | 41.5 [34.5, 48.5] | -0.794 | TODO |
+| S1 | 13.5 [9.0, 18.0] | 2.5 [0.5, 5.0] | 11.0 [5.5, 16.5] | 13.5 [9.0, 18.0] | 6.5 [3.5, 10.0] | 51.5 [44.5, 58.0] | -0.429 | TODO |
+| S3 | 10.5 [6.5, 14.5] | 3.5 [1.0, 6.0] | 7.0 [2.0, 12.0] | 10.5 [6.5, 14.5] | 6.5 [3.5, 10.0] | 59.0 [52.0, 65.5] | -0.381 | TODO |
+
+22:04:17 httpx2 HTTP Request: POST https://huggingface.co/api/repos/create "HTTP/1.1 409 Conflict"
+22:04:17 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/preupload/main "HTTP/1.1 200 OK"
+22:04:17 httpx2 HTTP Request: POST https://huggingface.co/api/datasets/GJTKOCS/covert-data/commit/main "HTTP/1.1 200 OK"
+22:04:17 covert.hub pushed results -> GJTKOCS/covert-data
+[pipeline] finished. If on Jarvislabs: STOP THE INSTANCE now to stop billing.
+22:04:19 covert profile=a100 toy=False
+AUDIT
+  PASS

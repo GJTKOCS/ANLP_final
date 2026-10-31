@@ -1,0 +1,39 @@
+{
+  "view": "C",
+  "dev_both": 0.05333333333333334,
+  "history": [
+    {
+      "epoch": 0,
+      "dev_both": 0.006666666666666667
+    },
+    {
+      "epoch": 1,
+      "dev_both": 0.006666666666666667
+    },
+    {
+      "epoch": 2,
+      "dev_both": 0.05333333333333334
+    },
+    {
+      "epoch": 3,
+      "dev_both": 0.02666666666666667
+    },
+    {
+      "epoch": 4,
+      "dev_both": 0.03333333333333333
+    }
+  ],
+  "cfg": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "epochs": 5,
+    "lr": 0.0002,
+    "warmup": 0.05,
+    "max_len": 768,
+    "seed": 7
+  },
+  "n_train": 3000,
+  "n_dev": 150
+}

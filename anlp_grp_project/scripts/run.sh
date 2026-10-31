@@ -6,6 +6,7 @@
 set -uo pipefail
 export TOKENIZERS_PARALLELISM=false
 cd "$(dirname "$0")/.."
+[ -f .venv/bin/activate ] && source .venv/bin/activate
 if [[ "${1:-}" != "--inner" ]]; then
   ARGS="$*"
   if command -v tmux >/dev/null 2>&1; then

@@ -1,0 +1,20 @@
+{
+  "problems": [],
+  "counts": {
+    "convs_A1": {
+      "n": 200,
+      "a_leak": 13,
+      "b_resamples": 203
+    },
+    "convs_S0": {
+      "n": 200,
+      "a_leak": 121,
+      "b_resamples": 319
+    },
+    "convs_S1": {
+      "n": 200,
+      "a_leak": 13,
+      "b_resamples": 346
+    }
+  }
+}

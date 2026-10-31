@@ -157,6 +157,16 @@ def stage_listeners(cfg, rnd: int) -> None:
     if rnd >= 1:
         dev_convs = load_convs(cfg, f"convs_A{rnd}", "dev")
     tr, dv = make_items(convs, train), make_items(dev_convs, dev)
+    if prompted_mode(cfg):                                      # nothing to train: record dev accuracy of the prompted pair
+        with Artifact(cfg, f"listeners_r{rnd}", "listeners", f"listeners train --round {rnd} (prompted)", inputs=inputs) as art:
+            B, C, name = prompted_pair(cfg)
+            art.man["models"] = {"listener": name}
+            acc = {}
+            for v, L in (("B", B), ("C", C)):
+                h, vv = L.probs(dv)
+                acc[v] = float(np.mean((h.argmax(1) == np.array([i["helper"] for i in dv])) & (vv.argmax(1) == np.array([i["venue"] for i in dv]))))
+            art.man["extra"] = {"mode": "prompted", "dev_both": acc, "n_dev": len(dv)}
+        return
     with Artifact(cfg, f"listeners_r{rnd}", "listeners", f"listeners train --round {rnd}", inputs=inputs,
                   models={"listener": cfg.hw["listener_model"]}) as art:
         res = {}
@@ -167,7 +177,27 @@ def stage_listeners(cfg, rnd: int) -> None:
         assert art.man["extra"]["listener_cfg_B"] == art.man["extra"]["listener_cfg_C"]
 
 
+_PAIR: dict = {}
+
+
+def prompted_mode(cfg) -> bool:
+    return cfg.listeners.get("mode", "trained") == "prompted"
+
+
+def prompted_pair(cfg):
+    """(B, C) prompted listeners sharing one big_gen model; C's 3 examples come from the warm-start train transcripts."""
+    if "pair" not in _PAIR:
+        from .listeners.prompted import PromptedListener
+        ex, _ = W.pick_examples(load_convs(cfg, "warmstart_convs", "train"), eps_map(cfg, "train"), cfg["seed"])
+        lm, name = big_lm(cfg)
+        _PAIR["pair"] = (PromptedListener(lm, "B", bs=cfg.hw["score_bs"]), PromptedListener(lm, "C", ex, cfg.hw["score_bs"]), name)
+    return _PAIR["pair"]
+
+
 def load_reward_listeners(cfg, rnd: int):
+    if prompted_mode(cfg):
+        B, C, _ = prompted_pair(cfg)
+        return B, C
     if cfg.toy and os.environ.get("COVERT_MOCK_LISTENERS") == "1":
         return MockListener("B"), MockListener("C")
     d = require(cfg, f"listeners_r{rnd}", f"listeners_r{rnd}")

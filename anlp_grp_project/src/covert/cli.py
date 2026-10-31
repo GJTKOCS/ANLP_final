@@ -8,16 +8,18 @@ import sys
 from .common.config import load_config
 
 
-def _common() -> argparse.ArgumentParser:
+def _common(overrides: bool = True) -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(add_help=False)
     p.add_argument("--toy", action="store_true", help="toy data + tiny CPU model")
     p.add_argument("--profile", default=None, help="hardware profile (a100|t4|cpu_debug)")
-    p.add_argument("overrides", nargs="*", help="key=value config overrides")
+    if overrides:
+        p.add_argument("overrides", nargs="*", help="key=value config overrides")
     return p
 
 
-def main(argv: list[str] | None = None) -> int:
+def build_parser() -> argparse.ArgumentParser:
     c = _common()
+    c0 = _common(overrides=False)             # commands with their own positional: it must come BEFORE the overrides
     ap = argparse.ArgumentParser(prog="covert")
     sub = ap.add_subparsers(dest="cmd", required=True)
     d = sub.add_parser("data").add_subparsers(dest="sub", required=True)
@@ -39,13 +41,15 @@ def main(argv: list[str] | None = None) -> int:
     e = sub.add_parser("eval").add_subparsers(dest="sub", required=True)
     er = e.add_parser("run", parents=[c])
     er.add_argument("--cond", required=True)
-    for n in ("armsrace", "strongc", "report", "human-form"):
+    for n in ("armsrace", "strongc", "report", "human-form", "calt"):
         e.add_parser(n, parents=[c])
-    hs = e.add_parser("human-score", parents=[c])
+    hs = e.add_parser("human-score", parents=[c0])
     hs.add_argument("csv")
+    hs.add_argument("overrides", nargs="*")
     sub.add_parser("preflight", parents=[c])
-    ck = sub.add_parser("check", parents=[c])
+    ck = sub.add_parser("check", parents=[c0])
     ck.add_argument("which")
+    ck.add_argument("overrides", nargs="*")
     sub.add_parser("audit", parents=[c])
     sub.add_parser("status", parents=[c])
     pl = sub.add_parser("pipeline").add_subparsers(dest="sub", required=True)
@@ -56,7 +60,11 @@ def main(argv: list[str] | None = None) -> int:
     pr.add_argument("--skip-optional", action="store_true")
     pr.add_argument("--deadline", default="2026-10-31T06:00+05:30")
     pr.add_argument("--continue-on-fail", action="store_true")
-    a = ap.parse_args(argv)
+    return ap
+
+
+def main(argv: list[str] | None = None) -> int:
+    a = build_parser().parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s", datefmt="%H:%M:%S")
     cfg = load_config(a.overrides, a.profile, a.toy)
     logging.getLogger("covert").info("profile=%s toy=%s", cfg["profile"], cfg["toy"])
@@ -83,6 +91,8 @@ def main(argv: list[str] | None = None) -> int:
         ES.stage_eval(cfg, a.cond)
     elif key == ("eval", "armsrace"):
         ES.stage_armsrace(cfg)
+    elif key == ("eval", "calt"):
+        ES.stage_calt(cfg)
     elif key == ("eval", "strongc"):
         ES.stage_strongc(cfg)
     elif key == ("eval", "report"):

@@ -1,0 +1,6 @@
+{
+  "reward_S0_dev": -0.7589207574306056,
+  "reward_good_warmstart_dev": 0.5598709980646769,
+  "fallback": "Add more confusable memory pairs so the task is harder.",
+  "status": "PASS"
+}

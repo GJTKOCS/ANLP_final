@@ -1,0 +1,717 @@
+{
+  "conditions": {
+    "S0": {
+      "label": "S0",
+      "condition": "S0",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S1": {
+      "label": "S1",
+      "condition": "S1",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S2": {
+      "label": "S2",
+      "condition": "S2",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S3": {
+      "label": "S3",
+      "condition": "A2",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S3a": {
+      "label": "S3a",
+      "condition": "A1_lam0.5",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S3b": {
+      "label": "S3b",
+      "condition": "A1_lam2.0",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    },
+    "S4": {
+      "label": "S4",
+      "condition": "S4",
+      "n_test": 10,
+      "metrics": {
+        "B_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "B_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "B_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "C_helper": {
+          "mean": 0.1,
+          "lo": 0.0,
+          "hi": 0.3
+        },
+        "C_venue": {
+          "mean": 0.2,
+          "lo": 0.0,
+          "hi": 0.4
+        },
+        "C_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "insider_adv": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_success": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "joint_strict": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "leak_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "sense_pass": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "b_resample_rate": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "reward": {
+          "mean": -1.0,
+          "lo": -1.0,
+          "hi": -1.0
+        },
+        "sanity_B_wrong_memories_both": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "listener_dev": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "chance": {
+        "slot": 0.1,
+        "both": 0.01
+      }
+    }
+  },
+  "strong_c": {
+    "S0": {
+      "C_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    },
+    "S1": {
+      "C_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    },
+    "S2": {
+      "C_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    },
+    "S3": {
+      "C_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    },
+    "S4": {
+      "C_helper": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.27749999999999986
+      },
+      "C_venue": {
+        "mean": 0.1,
+        "lo": 0.0,
+        "hi": 0.3
+      },
+      "C_both": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    }
+  },
+  "run_ids": [
+    "armsrace",
+    "convs_A1",
+    "convs_A1_lam0.5",
+    "convs_A1_lam2.0",
+    "convs_A2",
+    "convs_S0",
+    "convs_S1",
+    "convs_S2",
+    "convs_S4",
+    "episodes",
+    "evalpair_S0",
+    "evalpair_S1",
+    "evalpair_S2",
+    "evalpair_S3",
+    "evalpair_S3a",
+    "evalpair_S3b",
+    "evalpair_S4",
+    "judge_calibration",
+    "listeners_r0",
+    "listeners_r1",
+    "listeners_r2",
+    "results",
+    "speaker_r1_lam0.5",
+    "speaker_r1_lam1.0",
+    "speaker_r1_lam2.0",
+    "speaker_r2_lam1.0",
+    "speaker_sft",
+    "strongc",
+    "warmstart_convs"
+  ]
+}

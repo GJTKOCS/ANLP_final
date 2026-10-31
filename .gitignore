@@ -1,0 +1,8 @@
+# model weights: speaker adapters stay on private HF repos only
+*.pt
+*.safetensors
+*.bin
+# human-rating answer key: never share with raters
+**/key_DO_NOT_SHARE.json
+.DS_Store
+.env

@@ -1,0 +1,10 @@
+\section{Analysis}
+\paragraph{Arms race.} Table~\ref{tab:arms} reports, for each round $r$, C$_{r-1}$ on the transcripts of A$_r$ (before C adapts), C$_r$ on the same held-out transcripts (after C adapts) and B.
+\begin{table}[t]\centering\small\begin{tabular}{lllll}\toprule Round & C$_{r-1}$ & C$_r$ & B$_{r-1}$ & B$_r$\\\midrule
+1 & \arms{1}{C_prev}{both} & \arms{1}{C_cur}{both} & \arms{1}{B_prev}{both} & \arms{1}{B_cur}{both}\\
+2 & \arms{2}{C_prev}{both} & \arms{2}{C_cur}{both} & \arms{2}{B_prev}{both} & \arms{2}{B_cur}{both}\\\bottomrule\end{tabular}
+\caption{Arms race (both-correct, \%).}\label{tab:arms}\end{table}
+\paragraph{Public clues over rounds.} \TODO{from \texttt{results/public\_clues.json}: top clues per value by round (smoothed log-odds); describe any clue that rises then vanishes; present as a training diagnostic, not an interpretability claim}
+\paragraph{Showcase and bloopers.} Examples are drawn only from the 20 showcase episodes fixed before training and from the tagged bloopers in each run. \TODO{one showcase episode across rounds; two bloopers}
+\paragraph{Sanity checks.} B given memories from a different test episode: \res{S3}{sanity_B_wrong_memories_both}. \TODO{C trained with 3x data}
+\paragraph{Human check.} \TODO{human ratings from \texttt{covert eval human-score}; raters were team members or classmates}

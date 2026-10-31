@@ -1,0 +1,140 @@
+{
+  "run_id": "speaker_r1_lam1.0",
+  "stage": "grpo",
+  "command": "speaker grpo --round 1 --lam 1.0",
+  "inputs": [
+    "speaker_sft",
+    "listeners_r0"
+  ],
+  "models": {
+    "policy": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  "outputs": [
+    "speaker_r1_lam1.0"
+  ],
+  "seeds": {
+    "seed": 1234
+  },
+  "extra": {
+    "best_dev_reward": -0.03382276929027284,
+    "steps": 100,
+    "tau": 0.5,
+    "base_checksum_before": 139716.7466968298,
+    "base_checksum_after": 139716.7466968298,
+    "base_frozen": true
+  },
+  "status": "complete",
+  "created_at": "2026-10-29T21:44:29.484792+00:00",
+  "git_commit": "5bb3682",
+  "config_hash": "146afd6de2",
+  "profile": "a100",
+  "gpu_type": "NVIDIA H100 80GB HBM3",
+  "gpu_hours": 1.2435,
+  "wall_hours": 1.2435,
+  "config": {
+    "seed": 1234,
+    "profile": "a100",
+    "team_name": "5MinsBoss",
+    "paths": {
+      "artifacts": "/home/ubuntu/ANLP_final/anlp_grp_project/artifacts",
+      "runs": "/home/ubuntu/ANLP_final/anlp_grp_project/runs",
+      "results": "/home/ubuntu/ANLP_final/anlp_grp_project/results",
+      "data": "/home/ubuntu/ANLP_final/anlp_grp_project/data"
+    },
+    "hub": {
+      "push": true,
+      "org": "GJTKOCS"
+    },
+    "wandb": {
+      "enabled": true,
+      "entity": "gjai2006-iiit-hyderabad",
+      "project": "ANLP_final"
+    },
+    "data": {
+      "n_train": 1000,
+      "n_dev": 150,
+      "n_test": 200,
+      "n_showcase": 20,
+      "n_turns": 4,
+      "warm_k_train": 3,
+      "warm_k_dev": 1,
+      "warm_a_resample": 8,
+      "mem_words": [
+        15,
+        50
+      ],
+      "jaccard_mem": 0.5,
+      "jaccard_split": 0.6,
+      "writer_retries": 3
+    },
+    "listeners": {
+      "lora_r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "epochs": 2,
+      "lr": 0.0001,
+      "warmup": 0.05,
+      "max_len": 768,
+      "seed": 7,
+      "mode": "prompted"
+    },
+    "speaker": {
+      "sft_epochs": 2,
+      "sft_lr": 0.0001,
+      "rounds": 2,
+      "lam": 1.0,
+      "tau": 0.5,
+      "reward_mode": "prob",
+      "temp_a": 0.9,
+      "top_p": 0.95,
+      "temp_b": 0.7,
+      "max_new_tokens": 60,
+      "b_resample": 3,
+      "clip_eps": 0.2,
+      "beta": 0.04,
+      "lr": 1e-05,
+      "inner_epochs": 1,
+      "save_every": 25,
+      "dev_every": 25,
+      "transcript_temp": 0.8,
+      "init": "sft"
+    },
+    "eval": {
+      "bootstrap": 1000,
+      "best_of_n": 8,
+      "strong_c": true
+    },
+    "hw": {
+      "name": "a100",
+      "policy_model": "Qwen/Qwen2.5-3B-Instruct",
+      "listener_model": "Qwen/Qwen2.5-1.5B",
+      "dtype": "bfloat16",
+      "big_gen_models": [
+        [
+          38,
+          "Qwen/Qwen2.5-14B-Instruct"
+        ],
+        [
+          0,
+          "Qwen/Qwen2.5-7B-Instruct"
+        ]
+      ],
+      "big_gen_bs": 48,
+      "use_vllm": false,
+      "grad_ckpt": true,
+      "gen_bs": 48,
+      "score_bs": 16,
+      "listener_mb": 8,
+      "listener_ga": 4,
+      "sft_mb": 16,
+      "grpo_mb": 16,
+      "grpo": {
+        "P": 8,
+        "G": 6,
+        "steps": 100,
+        "dev_n": 50
+      }
+    },
+    "toy": false
+  }
+}

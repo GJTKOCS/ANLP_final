@@ -16,6 +16,7 @@ class OptionScorer:
         self.lm, self.bs = lm, bs
 
     def probs(self, prompts: list[str], options: list[str], adapter: str | None = None) -> np.ndarray:
+        options = [o[0].upper() + o[1:] for o in options]       # models write 'Bowling alley', not 'bowling alley'
         tok = self.lm.tok
         opt_ids = [tok(" " + o, add_special_tokens=False)["input_ids"] for o in options]
         firsts = [o[0] for o in opt_ids]

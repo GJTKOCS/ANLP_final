@@ -61,7 +61,7 @@ def headroom(convs: list[dict]) -> dict:
 
 
 def generate_convs(cfg, lm, episodes: list[dict], K: int, split: str, model_name: str) -> list[dict]:
-    ro = rollout(lm, lm, episodes, K, cfg, None, None)
+    ro = rollout(lm, lm, episodes, K, cfg, None, None, a_resample=int(cfg.data.get("warm_a_resample", 8)))
     convs = []
     for r in ro:
         convs.append({"episode_id": r["episode_id"], "condition": "warmstart", "round": 0, "lam": None,
