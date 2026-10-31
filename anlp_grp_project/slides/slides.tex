@@ -1,6 +1,6 @@
 \documentclass[aspectratio=169,10pt]{beamer}
 \usetheme{default}\setbeamertemplate{navigation symbols}{}
-\usepackage{graphicx,xcolor,booktabs}
+\usepackage{graphicx,xcolor,booktabs,url}
 % numbers are read from the paper's generated macros, never typed by hand
 \newcommand{\TODO}[1]{\textcolor{red}{\textbf{TODO} #1}}
 \newcommand{\res}[2]{\ifcsname res:#1:#2\endcsname\csname res:#1:#2\endcsname\else\TODO{}\fi}
@@ -143,6 +143,9 @@ A jumps between a cat story, a football match and ``aloe vera at a noisy spot'';
 \begin{frame}
 \Large Shared history works as a key: after warm-start training, the insider decodes what the outsider cannot.\\[10pt]
 \normalsize Reinforcement learning against a strict coherence judge mostly taught the speaker to avoid penalties. The next step is a reward that pays for better hints.\\[16pt]
-\small Code, data generator, viewer: \texttt{viewer/replay.html} \quad Thank you!
+\footnotesize Code: \url{https://github.com/GJTKOCS/ANLP_final}\\
+W\&B: \url{https://forge.coreweave.com/wandb/gjai2006-iiit-hyderabad/ANLP_final/runs/otqruoj8}\\
+Hugging Face (private, on request): \url{https://huggingface.co/datasets/GJTKOCS/covert-data}, \url{https://huggingface.co/GJTKOCS/covert-speaker}\\[6pt]
+\small Thank you!
 \end{frame}
 \end{document}
